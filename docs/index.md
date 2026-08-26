@@ -149,28 +149,16 @@ Business Analysis · AI Opportunity Analysis · BRD · FRD · AI Requirements ·
 I approach a healthcare product problem through a structured BA lifecycle:
 
 
-Business Problem
-       ↓
-Stakeholder Identification
-       ↓
-Requirement Elicitation
-       ↓
-AS-IS Process Analysis
-       ↓
-Gap Analysis
-       ↓
-TO-BE Process
-       ↓
-Business Requirements
-       ↓
-Functional / Non-Functional Requirements
-       ↓
-User Stories & Acceptance Criteria
-       ↓
-Product Backlog / Jira
-       ↓
-UAT & Validation
-       ↓
-RTM
-       ↓
-Feedback & Continuous Improvement
+* **1. Business Problem** $\downarrow$
+* **2. Stakeholder Identification** $\downarrow$
+* **3. Requirement Elicitation** $\downarrow$
+* **4. AS-IS Process Analysis** $\downarrow$
+* **5. Gap Analysis** $\downarrow$
+* **6. TO-BE Process** $\downarrow$
+* **7. Business Requirements** $\downarrow$
+* **8. Functional / Non-Functional Requirements** $\downarrow$
+* **9. User Stories & Acceptance Criteria** $\downarrow$
+* **10. Product Backlog / Jira** $\downarrow$
+* **11. UAT & Validation** $\downarrow$
+* **12. RTM** $\downarrow$
+* **13. Feedback & Continuous Improvement**

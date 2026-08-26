@@ -10,7 +10,7 @@ hide:
 
 Ahmedabad, India · +91-9001430601 · Tsrajpurohit322@gmail.com  
 [LinkedIn](https://linkedin.com/in/tej-singh-rajpurohit-39071694) · [GitHub](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies) · [Portfolio Site](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/)
-
+[Download PDF](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
 ---
 
 ## Professional Summary

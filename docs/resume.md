@@ -4,17 +4,12 @@ hide:
   - toc
 ---
 
-# Resume
+# TEJ SINGH RAJPUROHIT
 
-**Tej Singh Rajpurohit**  
-Healthcare Business Analyst | Healthcare Technology | AI Product Analyst
+**Healthcare Business Analyst | Healthcare Technology | AI Product Analyst**
 
-Ahmedabad, India · +91-9001430601 · Tsrajpurohit322@gmail.com
-
-[Download PDF](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
-[LinkedIn](https://linkedin.com/in/tej-singh-rajpurohit-39071694){ .md-button }
-[GitHub](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button }
-[Portfolio Site](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/){ .md-button }
+Ahmedabad, India · +91-9001430601 · Tsrajpurohit322@gmail.com  
+[LinkedIn](https://linkedin.com/in/tej-singh-rajpurohit-39071694) · [GitHub](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies) · [Portfolio Site](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/)
 
 ---
 
@@ -24,69 +19,78 @@ Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and
 
 ---
 
-## Core Skills
+## Core Skills & Competencies
 
-**Business Analysis** — Requirements Elicitation & Analysis · Stakeholder Management · BRD · FRD · Functional & Non-Functional Requirements · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT
-
-**Agile & Product** — Agile · Scrum · User Stories · Acceptance Criteria · Product Backlog · Backlog Refinement · Sprint Planning · Jira · Product Requirements
-
-**Process & UX** — BPMN · UML · AS-IS / TO-BE · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping
-
-**Technical & Data** — REST API Concepts · Postman · SQL · MySQL · Power BI · Data Analysis · Data Visualization
-
-**Healthcare** — Pharmaceuticals · Regulatory Affairs · Healthcare Workflows · Clinical Research · Pharmacovigilance · Healthcare Analytics · Healthcare AI
+| Area | Skills |
+|------|--------|
+| **Business Analysis** | Requirements Elicitation & Analysis · Stakeholder Management · BRD · FRD · Functional & Non-Functional Requirements · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT |
+| **Agile & Product** | Agile · Scrum · User Stories · Acceptance Criteria · Product Backlog · Backlog Refinement · Sprint Planning · Jira · Product Requirements |
+| **Process & UX** | BPMN · UML · AS-IS / TO-BE Analysis · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping |
+| **Technical & Data** | REST API Concepts · API Testing · Postman · SQL · MySQL · Power BI · Data Analysis · Data Visualization |
+| **Healthcare** | Pharmaceuticals · Regulatory Affairs · Healthcare Workflows · Clinical Research · Pharmacovigilance · Healthcare Analytics · Healthcare AI |
 
 ---
 
 ## Professional Experience
 
 ### Assistant Manager – Business Development  
-**Espee Drugs & Finechem Co.** — Ahmedabad, India · *July 2019 – September 2020*
+**Espee Drugs & Finechem Co.** — Ahmedabad, India  
+*July 2019 – September 2020*
 
-- Coordinated new pharmaceutical product development activities by identifying and resolving technical and documentation-related issues
-- Acted as a liaison between buyers and suppliers to understand requirements and coordinate solutions
-- Coordinated QA, QC, and regulatory requirements between internal and external stakeholders
-- Analyzed technical and documentation requirements and communicated relevant information between stakeholders
-- Supported resolution of cross-functional issues related to product development, quality, and regulatory requirements
+- Coordinated new pharmaceutical product development activities by identifying and resolving technical and documentation-related issues.
+- Acted as a liaison between buyers and suppliers to understand requirements and coordinate appropriate solutions.
+- Coordinated QA, QC, and regulatory requirements between internal and external stakeholders.
+- Analyzed technical and documentation requirements and communicated relevant information between stakeholders.
+- Supported resolution of cross-functional issues related to product development, quality, and regulatory requirements.
 
 ### Junior Executive – Regulatory Affairs  
-**Lyka Labs Limited** — Ankleshwar, Gujarat · *November 2018 – June 2019*
+**Lyka Labs Limited** — Ankleshwar, Gujarat  
+*November 2018 – June 2019*
 
-- Prepared regulatory documentation for pharmaceutical manufacturing and export, including COPP, product permissions, and FDCA-related documentation
-- Reviewed regulatory requirements and coordinated required information and documentation for pharmaceutical products
-- Supported regulatory documentation activities for tablet and injectable pharmaceutical products
-- Collaborated with cross-functional teams to ensure documentation was complete, accurate, and aligned with statutory requirements
+- Prepared regulatory documentation for pharmaceutical manufacturing and export activities, including COPP, product permissions, and FDCA-related documentation.
+- Reviewed regulatory requirements and coordinated required information and documentation for pharmaceutical products.
+- Supported regulatory documentation activities for tablet and injectable pharmaceutical products.
+- Collaborated with cross-functional teams to ensure documentation was complete, accurate, and aligned with statutory requirements.
 
 ---
 
 ## Healthcare Technology Portfolio
 
-Simulated BA case studies for demonstration — [view live portfolio](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/).
+**[Portfolio website](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/)** · Business Analysis portfolio case studies / simulations — *not commercial employment projects*.
 
-| Project | Type | Focus |
-|---------|------|--------|
-| [Hospital Management System](hms/index.md) | BA Case Study | Registration, appointments, billing · BRD/FRD · stories · UAT |
-| [Clinical Trial Management System](ctms/index.md) | BA Case Study | Trial setup, sites, subjects · process · NFR · UAT |
-| [AI Healthcare RCM](rcm/index.md) | AI Product / BA | Claims, denials, coding · AI opportunity · HITL |
-| [Healthcare Analytics Dashboard](analytics/index.md) | BA / Product | KPIs, dashboard requirements, validation |
+### Hospital Management System | Business Analysis Case Study
+Analyzed hospital workflows and elicited functional requirements for patient registration, scheduling, appointments, and billing. Created stakeholder analysis, BRD/FRD, AS-IS/TO-BE models, user stories, acceptance criteria, Jira backlog items, and UAT scenarios.
+
+### Clinical Trial Management System | Business Analysis Case Study
+Analyzed clinical trial workflows and stakeholder requirements covering trial setup, patient enrollment, site activities, documentation, and protocol compliance. Developed process models, requirements, user stories, acceptance criteria, and UAT scenarios.
+
+### AI Healthcare Revenue Cycle Management Platform | AI Product / BA Case Study
+Analyzed healthcare RCM workflows and identified AI automation opportunities. Defined requirements and business rules for claim validation, document processing, denial management, and revenue analytics, supported by workflows, user stories, and acceptance criteria.
+
+### Healthcare Analytics Dashboard | Business Analysis / Product Case Study
+Defined healthcare analytics and reporting requirements, including KPI definitions, dashboard requirements, user stories, acceptance criteria, and validation scenarios for operational decision-making.
 
 ---
 
 ## Education
 
-**Master of Pharmacy (M.Pharm) – Pharmacology** · *March 2014 – July 2015*  
-Lachoo Memorial College of Science & Technology, Rajasthan University of Health Sciences, Jaipur
+**Master of Pharmacy (M.Pharm) – Pharmacology**  
+Lachoo Memorial College of Science & Technology, Rajasthan University of Health Sciences, Jaipur  
+*March 2014 – July 2015*
 
-**Bachelor's Degree – Pharmacy** · *September 2010 – July 2013*  
-Rajasthan University of Health Sciences, Jaipur
-
----
-
-## Tools
-
-Jira · Confluence · Postman · SQL · MySQL · Power BI · Excel · Figma · Whimsical · Draw.io
+**Bachelor's Degree – Pharmacy**  
+Rajasthan University of Health Sciences, Jaipur  
+*September 2010 – July 2013*
 
 ---
 
-!!! note "Portfolio transparency"
-    Portfolio projects are simulated case studies for learning and demonstration. Business Development and Regulatory Affairs roles above are real professional experience.
+## Technical Tools & Technologies
+
+| Category | Tools |
+|----------|--------|
+| **Project & Collaboration** | Jira · Confluence |
+| **API & Database** | Postman · REST API Concepts · SQL · MySQL |
+| **Data & Visualization** | Power BI · Excel |
+| **Diagramming & Prototyping** | Figma · Whimsical · Draw.io |
+
+---

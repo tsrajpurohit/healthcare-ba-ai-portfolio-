@@ -1,0 +1,17 @@
+Issue Type,Issue Key,Summary,Epic Link,Priority,Story Points,Labels,Description
+Epic,HADA-100,Executive Dashboard,,Highest,,executive,"Institutional performance overview"
+Story,HADA-101,Executive KPI cards and trends,HADA-100,Highest,8,executive,"As Executive I want institutional KPIs at a glance"
+Epic,HADA-200,Patient Flow & Capacity Dashboard,,Highest,,operations,"ED and Inpatient operational views"
+Story,HADA-201,ED wait time, LOS, LWBS visuals,HADA-200,Highest,8,operations,"As ED Director I want daily ED performance metrics"
+Story,HADA-202,Inpatient occupancy, ALOS, bed turnaround,HADA-200,Highest,5,operations,"As Bed Manager I want capacity metrics"
+Epic,HADA-300,Quality & Finance Snapshots,,High,,quality,finance
+Story,HADA-301,Quality KPI snapshot with trends,HADA-300,High,5,quality,"As Quality Leader I want key quality indicators"
+Story,HADA-302,RCM / Finance KPI snapshot,HADA-300,Highest,5,finance,"As Finance Leader I want AR, clean claim, denial metrics"
+Epic,HADA-400,Governance, Trust & Access,,Highest,,governance,security
+Story,HADA-401,KPI definition accessibility,HADA-400,High,3,governance,"Users can view metric definitions"
+Story,HADA-402,Role-based dashboard access,HADA-400,Highest,5,security,"Restrict access by role"
+Story,HADA-403,Data validation support views,HADA-400,Highest,5,validation,"Enable reconciliation against source"
+Task,HADA-501,Finalize KPI Dictionary sign-off,,Highest,5,governance,"Business owner approval of definitions"
+Task,HADA-502,Build Power BI semantic model measures,,Highest,13,powerbi,"Centralized DAX measures"
+Task,HADA-503,Implement row-level security (if required),,High,8,security,"Facility/unit level restrictions"
+Task,HADA-504,Create sample validation scripts / extracts,,High,5,validation,"Support UAT reconciliation"

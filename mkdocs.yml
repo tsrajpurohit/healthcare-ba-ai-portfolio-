@@ -73,6 +73,7 @@ extra:
       link: https://linkedin.com/in/yourprofile
 
 # Navigation – adjust per repo or use a hub repo that links all five projects
+# Navigation – updated with full RCM folder structure
 nav:
   - Home: index.md
   - Portfolio Overview: overview.md
@@ -85,9 +86,40 @@ nav:
       - User Stories & UAT: hms/stories-uat.md
   - AI Healthcare RCM:
       - Overview: rcm/index.md
-      - AI Opportunity Analysis: rcm/ai-opportunity.md
-      - Requirements: rcm/requirements.md
-      - User Stories & UAT: rcm/stories-uat.md
+      - 1. Project Overview:
+          - Project Charter: rcm/01-Project-Overview/Project-Charter.md
+          - Business Case: rcm/01-Project-Overview/Business-Case.md
+          - Scope Statement: rcm/01-Project-Overview/Scope-Statement.md
+      - 2. Stakeholder Analysis:
+          - Stakeholder Register: rcm/02-Stakeholder-Analysis/Stakeholder-Register.md
+          - Power-Interest Grid: rcm/02-Stakeholder-Analysis/Power-Interest-Grid.md
+          - RACI Matrix: rcm/02-Stakeholder-Analysis/RACI-Matrix.md
+      - 3. Process Models:
+          - AS-IS Workflows: rcm/03-Process-Models/AS-IS-RCM-Workflows.md
+          - TO-BE AI Workflows: rcm/03-Process-Models/TO-BE-AI-Enabled-Workflows.md
+          - Gap Analysis: rcm/03-Process-Models/Gap-Analysis.md
+      - 4. AI Opportunity Analysis:
+          - Automation Opportunity Map: rcm/04-AI-Opportunity-Analysis/Automation-Opportunity-Map.md
+          - AI Use Case Prioritization: rcm/04-AI-Opportunity-Analysis/AI-Use-Case-Prioritization.md
+          - Business Rules & AI Logic: rcm/04-AI-Opportunity-Analysis/Business-Rules-AI-Logic.md
+      - 5. BRD:
+          - Business Requirements Document: rcm/05-BRD/Business-Requirements-Document.md
+      - 6. FRD & AI Requirements:
+          - Functional AI Requirements: rcm/06-FRD-AI-Requirements/Functional-AI-Requirements.md
+      - 7. User Stories & Backlog:
+          - User Stories: rcm/07-User-Stories-Backlog/User-Stories.md
+          - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
+          - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
+      - 8. UAT Scenarios:
+          - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
+      - 9. Dashboards & Metrics:
+          - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
+          - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
+          - Dashboard Mockup Description: rcm/09-Dashboards-Metrics/Dashboard-Mockup-Description.md
+      - 10. Traceability & Risks:
+          - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md
+          - Risk Register: rcm/10-Traceability-Risks/Risk-Register.md
+          - Assumptions & Constraints: rcm/10-Traceability-Risks/Assumptions-Constraints.md
   - Clinical Trial Management:
       - Overview: ctms/index.md
       - Process Models: ctms/processes.md

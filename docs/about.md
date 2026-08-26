@@ -4,7 +4,7 @@
 Healthcare Business Analyst · Healthcare Technology · AI Product · Pharma Domain
 ***
 
-[View Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
+[View Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button }
 [LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button } 
 [GitHub Repository](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button } 
 [How I approach BA](ba-approach.md){ .md-button }

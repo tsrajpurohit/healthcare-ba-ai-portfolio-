@@ -90,6 +90,31 @@ Adverse event case processing · Literature monitoring · Signal detection · AI
 [Explore VigilAI →](pv/index.md)
 
 ---
+---
+
+## 📁 What You Will Find in This Portfolio
+Each case study follows a structured Business Analysis approach and may include:
+
+* Project Charter
+* Business Case
+* Stakeholder Register
+* RACI
+* Requirement Elicitation
+* BRD
+* FRD
+* AS-IS / TO-BE Processes
+* Gap Analysis
+* User Stories
+* Acceptance Criteria
+* Product Backlog
+* Jira Artifacts
+* UAT
+* RTM
+* Risk & Issue Analysis
+* AI Opportunity Analysis
+* Product / Dashboard Requirements
+
+---
 
 ## 🧩 My Business Analysis Approach
 I focus on translating a business problem into a structured, testable solution.
@@ -102,6 +127,38 @@ I focus on translating a business problem into a structured, testable solution.
 * **06 — Improve**: Production feedback · Process improvement · Requirement refinement · Product enhancement
 
 ---
+
+## 🔄 My Business Analysis Approach
+
+I approach a healthcare product problem through a structured BA lifecycle:
+
+<div align="centerr">
+Business Problem<br>
+        ↓<br>
+Stakeholder Identification<br>
+        ↓<br>
+Requirement Elicitation<br>
+        ↓<br>
+AS-IS Process Analysis<br>
+        ↓<br>
+Gap Analysis<br>
+        ↓<br>
+TO-BE Process<br>
+       ↓<br>
+Business Requirements<br>
+      ↓<br>
+Functional / Non-Functional Requirements<br>
+       ↓<br>
+User Stories & Acceptance Criteria<br>
+       ↓<br>
+Product Backlog / Jira<br>
+       ↓<br>
+UAT & Validation<br>
+       ↓<br>
+RTM<br>
+       ↓<br>
+Feedback & Continuous Improvement
+</div>
 
 ## 🛠️ Skills & Tools
 

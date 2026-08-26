@@ -57,6 +57,9 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      note: fontawesome/solid/note-sticky
+      tip: fontawesome/solid/lightbulb
 
 plugins:
   - search

@@ -4,227 +4,286 @@ hide:
   - toc
 ---
 
+<div class="hero" markdown>
+
+<div class="hero-content" markdown>
+
+<span class="eyebrow">Healthcare Business Analyst · Healthcare Technology · AI Product Analyst</span>
+
 # Tej Singh Rajpurohit
 
-### Healthcare Business Analyst · Healthcare Technology · AI Product Analyst
+I turn healthcare business problems into structured, testable solutions — bridging **pharmaceutical domain expertise** with modern **Business Analysis, Agile, and AI product practice**.
 
-Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and real-world pharmaceutical experience in **Business Development and Regulatory Affairs**.
+Trained as a **Master of Pharmacy (Pharmacology)** with real-world experience in Business Development and Regulatory Affairs, I'm now applying that clinical and regulatory grounding to healthcare BA and HealthTech roles — where domain fluency actually matters.
 
-I am transitioning into **Healthcare Business Analysis and Healthcare Technology**, combining pharmaceutical domain knowledge with practical Business Analysis, Agile, product, data, and technical skills.
-
-I build structured requirements and solution documentation across the healthcare product lifecycle—from **business problem and stakeholder analysis to requirements, process models, user stories, backlog, UAT, and traceability**.
-
-[LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button .md-button--primary }
-[View Resume (PDF)](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
-[GitHub Repository](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
-
----
-
-### Target Roles
-
-**Healthcare Business Analyst · Business Systems Analyst · Healthcare Product Analyst · AI Business Analyst**
-
----
-
-## 🎯 Career Focus
-
-| Area | What I can contribute |
-| :--- | :--- |
-| **Business Analysis** | Requirements elicitation, BRD/FRD, stakeholder analysis, process modeling, user stories, UAT, RTM |
-| **Healthcare Technology** | Healthcare workflows, clinical processes, RCM, hospital operations, healthcare analytics |
-| **AI Product** | AI opportunity analysis, use-case prioritization, business rules, human-in-the-loop workflows, explainability |
-| **Agile / Product** | User stories, acceptance criteria, backlog, Jira, sprint support, product requirements |
-| **Data & Integration** | SQL/MySQL, Power BI, REST API concepts, Postman |
-| **UX / Process Design** | BPMN, UML, Figma, Whimsical, workflow and user journey modeling |
-
----
-
-## 🚀 Featured Healthcare Projects
-
-### 🏥 Hospital Management System
-*Business Analysis Case Study*  
-A healthcare workflow analysis covering hospital operations such as registration, appointments, patient management, and billing.
-
-**Key BA artifacts:**  
-Project Charter · Business Case · Stakeholder Register · Requirement Elicitation · BRD / FRD · AS-IS / TO-BE Processes · BPMN / Process Models · User Stories · Acceptance Criteria · Jira Backlog · UAT · RTM · Risk & Issue Analysis  
-[Explore Hospital Management System →](hms/index.md)
-
----
-
-### 🤖 AI Healthcare Revenue Cycle Management
-*AI Product / Business Analysis Case Study*  
-An AI-enabled healthcare RCM concept focused on improving revenue cycle workflows through automation and intelligent decision support.
-
-**Key areas:**  
-Claims processing · Denial management · Coding assistance · Document processing · AI opportunity analysis · Human-in-the-loop design · Business rules · AI use-case prioritization · User stories · Product backlog · UAT  
-[Explore AI Healthcare RCM →](rcm/index.md)
-
----
-
-### 🧪 Clinical Trial Management System
-*Business Analysis Case Study*  
-A clinical trial management solution covering trial setup, sites, subjects, visits, documentation, and compliance workflows.
-
-**Key BA areas:**  
-Stakeholder requirements · Clinical workflows · Process modeling · Functional requirements · Non-functional requirements · User stories · Acceptance criteria · Validation · UAT · RTM  
-[Explore Clinical Trial Management →](ctms/index.md)
-
----
-
-### 📊 Healthcare Analytics Dashboard
-*Business Analysis / Product Case Study*  
-A healthcare analytics solution focused on converting operational requirements into KPI-driven dashboards and reporting.
-
-**Key areas:**  
-Business requirements · KPI definition · KPI dictionary · Dashboard requirements · Operational reporting · Executive reporting · Power BI requirements · User stories · Acceptance criteria · Validation  
-[Explore Healthcare Analytics →](analytics/index.md)
-
----
-
-### 💊 AI Pharmacovigilance — VigilAI
-*AI Healthcare / Pharmacovigilance Case Study*  
-An AI-enabled pharmacovigilance concept connecting my pharmacology background with healthcare AI and Business Analysis.
-
-**Key areas:**  
-Adverse event case processing · Literature monitoring · Signal detection · AI opportunity analysis · AI requirements · Auditability · Human oversight · Dashboards · BRD / FRD · User stories · UAT · RTM  
-[Explore VigilAI →](pv/index.md)
-
----
----
-
-## 📁 What You Will Find in This Portfolio
-Each case study follows a structured Business Analysis approach and may include:
-
-* Project Charter
-* Business Case
-* Stakeholder Register
-* RACI
-* Requirement Elicitation
-* BRD
-* FRD
-* AS-IS / TO-BE Processes
-* Gap Analysis
-* User Stories
-* Acceptance Criteria
-* Product Backlog
-* Jira Artifacts
-* UAT
-* RTM
-* Risk & Issue Analysis
-* AI Opportunity Analysis
-* Product / Dashboard Requirements
-
----
-
-## 🧩 My Business Analysis Approach
-I focus on translating a business problem into a structured, testable solution.
-
-* **01 — Understand**: Business problem · Stakeholders · Objectives · Business context
-* **02 — Analyze**: Requirements · AS-IS process · Pain points · Gap analysis · Business rules
-* **03 — Design**: TO-BE process · BRD / FRD · User journeys · Functional requirements
-* **04 — Deliver**: User stories · Acceptance criteria · Jira backlog · Sprint support
-* **05 — Validate**: UAT · RTM · Defect / issue analysis · Business validation
-* **06 — Improve**: Production feedback · Process improvement · Requirement refinement · Product enhancement
-
----
-
-## 🔄 My Business Analysis Approach
-
-I approach a healthcare product problem through a structured BA lifecycle:
-
-<div align="centerr">
-Business Problem<br>
-        ↓<br>
-Stakeholder Identification<br>
-        ↓<br>
-Requirement Elicitation<br>
-        ↓<br>
-AS-IS Process Analysis<br>
-        ↓<br>
-Gap Analysis<br>
-        ↓<br>
-TO-BE Process<br>
-       ↓<br>
-Business Requirements<br>
-      ↓<br>
-Functional / Non-Functional Requirements<br>
-       ↓<br>
-User Stories & Acceptance Criteria<br>
-       ↓<br>
-Product Backlog / Jira<br>
-       ↓<br>
-UAT & Validation<br>
-       ↓<br>
-RTM<br>
-       ↓<br>
-Feedback & Continuous Improvement
+<div class="hero-actions" markdown>
+[:material-linkedin: LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button .md-button--primary }
+[:material-file-pdf-box: View Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
+[:material-github: GitHub Portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
 </div>
 
-## 🛠️ Skills & Tools
+</div>
 
-**Business Analysis**  
-Requirements Elicitation · Requirements Analysis · Stakeholder Management · BRD · FRD · Functional Requirements · Non-Functional Requirements · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT · RTM
+</div>
 
-**Agile & Product**  
-Agile · Scrum · User Stories · Acceptance Criteria · Product Backlog · Backlog Refinement · Sprint Planning · Jira · Product Requirements
-
-**Process & Modeling**  
-BPMN · UML · AS-IS / TO-BE · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping
-
-**Technical & Data**  
-REST API Concepts · API Testing · Postman · SQL · MySQL · Power BI · Data Analysis · Data Visualization
-
-**Design & Collaboration**  
-Figma · Whimsical · Draw.io · GitHub · MkDocs
+<div class="target-roles" markdown>
+**Target roles:** Healthcare Business Analyst&nbsp;·&nbsp;Business Systems Analyst&nbsp;·&nbsp;Healthcare Product Analyst&nbsp;·&nbsp;AI Business Analyst
+</div>
 
 ---
 
-## 💼 Professional Experience
+## Where I Add Value
 
-### Espee Drugs & Finechem Co.
-**Assistant Manager – Business Development**  
-*July 2019 – September 2020*  
-Experience included:
-* Buyer and supplier requirement coordination
-* Technical issue resolution
-* New product development support
-* QA / QC coordination
-* Regulatory requirement coordination
-* Cross-functional stakeholder communication
+<div class="value-grid" markdown>
 
-### Lyka Labs Limited
-**Junior Executive – Regulatory Affairs**  
-*November 2018 – June 2019*  
-Experience included:
-* Regulatory documentation
-* COPP documentation
-* Product permissions
-* FDCA-related documentation
-* Pharmaceutical manufacturing documentation
-* Export-related regulatory requirements
+<div class="value-card" markdown>
+#### :material-clipboard-text-outline: Business Analysis
+Requirements elicitation, BRD/FRD, stakeholder analysis, process modeling, user stories, UAT, RTM.
+</div>
+
+<div class="value-card" markdown>
+#### :material-hospital-box-outline: Healthcare Technology
+Clinical workflows, revenue cycle management, hospital operations, healthcare analytics.
+</div>
+
+<div class="value-card" markdown>
+#### :material-robot-outline: AI Product
+AI opportunity analysis, use-case prioritization, business rules, human-in-the-loop design, explainability.
+</div>
+
+<div class="value-card" markdown>
+#### :material-run-fast: Agile / Product
+User stories, acceptance criteria, backlog grooming, Jira, sprint support, product requirements.
+</div>
+
+<div class="value-card" markdown>
+#### :material-database-outline: Data & Integration
+SQL/MySQL, Power BI, REST API concepts, Postman.
+</div>
+
+<div class="value-card" markdown>
+#### :material-sitemap-outline: UX / Process Design
+BPMN, UML, Figma, Whimsical, workflow and user-journey modeling.
+</div>
+
+</div>
+
+---
+
+## Featured Healthcare Projects
+
+<div class="project-grid" markdown>
+
+<div class="project-card" markdown>
+### :material-hospital-building: Hospital Management System
+<span class="tag">Business Analysis Case Study</span>
+
+A full workflow analysis of hospital operations — registration, appointments, patient management, and billing.
+
+**Artifacts:** Project Charter · Business Case · Stakeholder Register · BRD/FRD · AS-IS/TO-BE · BPMN · User Stories · Jira Backlog · UAT · RTM · Risk Analysis
+
+[Explore →](hms/index.md){ .card-link }
+</div>
+
+<div class="project-card" markdown>
+### :material-robot: AI Healthcare Revenue Cycle Management
+<span class="tag">AI Product Case Study</span>
+
+An AI-enabled RCM concept improving claims and denial workflows through automation and decision support.
+
+**Artifacts:** Claims Processing · Denial Management · Coding Assistance · AI Opportunity Analysis · Human-in-the-Loop Design · Product Backlog · UAT
+
+[Explore →](rcm/index.md){ .card-link }
+</div>
+
+<div class="project-card" markdown>
+### :material-flask-outline: Clinical Trial Management System
+<span class="tag">Business Analysis Case Study</span>
+
+A CTMS covering trial setup, sites, subjects, visits, documentation, and compliance workflows.
+
+**Artifacts:** Stakeholder Requirements · Process Modeling · FRD/NFR · User Stories · Validation · UAT · RTM
+
+[Explore →](ctms/index.md){ .card-link }
+</div>
+
+<div class="project-card" markdown>
+### :material-chart-bar: Healthcare Analytics Dashboard
+<span class="tag">Product Case Study</span>
+
+Converting operational requirements into KPI-driven dashboards for operational and executive reporting.
+
+**Artifacts:** KPI Dictionary · Dashboard Requirements · Power BI Requirements · User Stories · Validation
+
+[Explore →](analytics/index.md){ .card-link }
+</div>
+
+<div class="project-card" markdown>
+### :material-pill: AI Pharmacovigilance — VigilAI
+<span class="tag">AI Healthcare Case Study</span>
+
+An AI-enabled pharmacovigilance concept linking my pharmacology background to healthcare AI and BA practice.
+
+**Artifacts:** Case Processing · Signal Detection · AI Requirements · Auditability · Dashboards · BRD/FRD · UAT · RTM
+
+[Explore →](pv/index.md){ .card-link }
+</div>
+
+</div>
 
 ---
 
-## 🎓 Education
+## My Business Analysis Approach
 
-* **Master of Pharmacy — Pharmacology**  
-  Lachoo Memorial College of Science & Technology, Rajasthan University of Health Sciences, Jaipur  
-  *March 2014 – July 2015*
+I focus on translating a business problem into a structured, testable solution.
 
-* **Bachelor's Degree — Pharmacy**  
-  Rajasthan University of Health Sciences, Jaipur  
-  *September 2010 – July 2013*
+<div class="process-flow" markdown>
+
+<div class="process-step" markdown>
+<span class="step-num">01</span>
+
+**Understand**
+Business problem · Stakeholders · Objectives · Context
+</div>
+
+<div class="process-step" markdown>
+<span class="step-num">02</span>
+
+**Analyze**
+Requirements · AS-IS process · Pain points · Gap analysis
+</div>
+
+<div class="process-step" markdown>
+<span class="step-num">03</span>
+
+**Design**
+TO-BE process · BRD/FRD · User journeys · Functional requirements
+</div>
+
+<div class="process-step" markdown>
+<span class="step-num">04</span>
+
+**Deliver**
+User stories · Acceptance criteria · Jira backlog · Sprint support
+</div>
+
+<div class="process-step" markdown>
+<span class="step-num">05</span>
+
+**Validate**
+UAT · RTM · Defect analysis · Business validation
+</div>
+
+<div class="process-step" markdown>
+<span class="step-num">06</span>
+
+**Improve**
+Production feedback · Process refinement · Enhancement
+</div>
+
+</div>
 
 ---
 
-## 📄 Resume & Professional Profile
+## Skills & Tools
 
-[Download Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }  
-[Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }  
-[View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
+<div class="skills-section" markdown>
+
+**Business Analysis**
+<div class="pill-group" markdown>
+`Requirements Elicitation` `Requirements Analysis` `Stakeholder Management` `BRD` `FRD` `Functional Requirements` `Non-Functional Requirements` `Gap Analysis` `Root Cause Analysis` `Impact Analysis` `UAT` `RTM`
+</div>
+
+**Agile & Product**
+<div class="pill-group" markdown>
+`Agile` `Scrum` `User Stories` `Acceptance Criteria` `Product Backlog` `Backlog Refinement` `Sprint Planning` `Jira` `Product Requirements`
+</div>
+
+**Process & Modeling**
+<div class="pill-group" markdown>
+`BPMN` `UML` `AS-IS / TO-BE` `Process Mapping` `Workflow Design` `User Journey Mapping` `Wireframing` `Prototyping`
+</div>
+
+**Technical & Data**
+<div class="pill-group" markdown>
+`REST API` `API Testing` `Postman` `SQL` `MySQL` `Power BI` `Data Analysis` `Data Visualization`
+</div>
+
+**Design & Collaboration**
+<div class="pill-group" markdown>
+`Figma` `Whimsical` `Draw.io` `GitHub` `MkDocs`
+</div>
+
+</div>
 
 ---
+
+## Professional Experience
+
+<div class="timeline" markdown>
+
+<div class="timeline-item" markdown>
+<span class="timeline-date">Jul 2019 – Sep 2020</span>
+
+#### Assistant Manager – Business Development
+**Espee Drugs & Finechem Co.**
+
+- Coordinated buyer and supplier requirements
+- Resolved technical and product issues cross-functionally
+- Supported new product development
+- Coordinated QA/QC and regulatory requirements
+- Managed cross-functional stakeholder communication
+</div>
+
+<div class="timeline-item" markdown>
+<span class="timeline-date">Nov 2018 – Jun 2019</span>
+
+#### Junior Executive – Regulatory Affairs
+**Lyka Labs Limited**
+
+- Prepared regulatory and COPP documentation
+- Managed product permissions and FDCA-related filings
+- Handled pharmaceutical manufacturing documentation
+- Supported export-related regulatory requirements
+</div>
+
+</div>
+
+---
+
+## Education
+
+<div class="timeline" markdown>
+
+<div class="timeline-item" markdown>
+<span class="timeline-date">Mar 2014 – Jul 2015</span>
+
+#### Master of Pharmacy — Pharmacology
+Lachoo Memorial College of Science & Technology, Rajasthan University of Health Sciences, Jaipur
+</div>
+
+<div class="timeline-item" markdown>
+<span class="timeline-date">Sep 2010 – Jul 2013</span>
+
+#### Bachelor's Degree — Pharmacy
+Rajasthan University of Health Sciences, Jaipur
+</div>
+
+</div>
+
+---
+
+## Let's Connect
+
+<div class="cta-band" markdown>
+Open to Healthcare Business Analyst, Business Systems Analyst, and AI Product Analyst opportunities.
+
+[:material-file-pdf-box: Download Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
+[:material-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
+[:material-github: View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
+</div>
 
 !!! note "Portfolio Transparency"
-    The healthcare technology projects presented in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.  
+    The healthcare technology projects presented in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.
+
     My pharmaceutical Business Development and Regulatory Affairs experience described above is **real professional experience**.

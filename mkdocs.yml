@@ -119,7 +119,7 @@ nav:
       - About Me: about.md
       - BA Approach: ba-approach.md
       - Portfolio Overview: overview.md
-    - Projects:
+  - Projects:
       - Projects overview: projects.md
       - Hospital Management System: hms/index.md
       - AI Healthcare RCM: rcm/index.md

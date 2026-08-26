@@ -42,17 +42,19 @@ theme:
     code: Roboto Mono
 
   features:
-    - navigation.instant
-    - navigation.tracking
+    - navigation.indexes   # optional: section Overview as tab landing page
+    - navigation.tabs          # top bar sections
+    - navigation.tabs.sticky   # tabs stay visible on scroll
     - navigation.sections
     - navigation.expand
+    - navigation.instant
+    - navigation.tracking
     - navigation.top
     - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
     - content.code.copy
-    - content.tabs.link
     - toc.follow
 
   icon:
@@ -121,7 +123,11 @@ extra_css:
 # Navigation – updated with full RCM folder structure
 nav:
   - Home: index.md
-  - Portfolio Overview: overview.md
+
+  - About:
+      - About Me: about.md
+      - Portfolio Overview: overview.md
+      
   - Hospital Management System:
       - Overview: hms/index.md
       - 1. Project Overview:
@@ -154,6 +160,7 @@ nav:
           - Assumptions & Constraints: hms/09-Traceability-Risks/Assumptions-Constraints.md
           - Requirements Traceability Matrix: hms/09-Traceability-Risks/Requirements-Traceability-Matrix.md
           - Risk Register: hms/09-Traceability-Risks/Risk-Register.md
+          
   - AI Healthcare RCM:
       - Overview: rcm/index.md
       - 1. Project Overview:
@@ -190,6 +197,7 @@ nav:
           - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md
           - Risk Register: rcm/10-Traceability-Risks/Risk-Register.md
           - Assumptions & Constraints: rcm/10-Traceability-Risks/Assumptions-Constraints.md
+          
   - Clinical Trial Management:
       - Overview: ctms/index.md
       - 1. Project Overview:
@@ -219,6 +227,7 @@ nav:
           - Assumptions & Constraints: ctms/08-Traceability-Risks/Assumptions-Constraints.md
           - Requirements Traceability Matrix: ctms/08-Traceability-Risks/Requirements-Traceability-Matrix.md
           - Risk Register: ctms/08-Traceability-Risks/Risk-Register.md
+          
   - Healthcare Analytics Dashboard:
       - Overview: analytics/index.md
       - 1. Project Overview:
@@ -250,6 +259,7 @@ nav:
       - 8. Sample Data & Power BI:
           - Power BI Implementation Notes: analytics/08-Sample-Data-PowerBI/PowerBI-Implementation-Notes.md
           - Sample KPI Data: analytics/08-Sample-Data-PowerBI/Sample-KPI-Data.csv
+          
   - AI Pharmacovigilance (VigilAI):
       - Overview: pv/index.md
       - 1. Project Initiation:
@@ -285,4 +295,4 @@ nav:
           - Assumptions & Constraints: pv/10-Traceability-Risks/Assumptions-Constraints.md
           - Requirements Traceability Matrix: pv/10-Traceability-Risks/Requirements-Traceability-Matrix.md
           - Risk Register: pv/10-Traceability-Risks/Risk-Register.md
-  - About / Skills: about.md
+        

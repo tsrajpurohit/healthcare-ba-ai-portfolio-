@@ -9,8 +9,8 @@ site_author: Tej Singh
 # site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
 
 site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
-repo_name: tsrajpurohit/healthcare-ba-ai-portfolio-
-repo_url: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
+repo_name: Healthcare-BA-Case-studies
+repo_url: https://github.com/tsrajpurohit/Healthcare-BA-Case-studies/
 edit_uri: edit/main/docs/
     
 theme:

@@ -176,9 +176,3 @@ RTM<br>
 ↓<br>
 Feedback & Continuous Improvement
 </div>
-   ↓
-11. **UAT & Validation**  
-   ↓
-12. **RTM**  
-   ↓
-13. **Feedback & Continuous Improvement**

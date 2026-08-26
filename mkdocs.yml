@@ -1,0 +1,104 @@
+# MkDocs configuration for BA / AI Portfolio repositories
+# Docs: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: Healthcare BA & AI Portfolio
+site_description: Business Analysis and AI Product portfolio case studies in Healthcare & Life Sciences
+site_author: Your Name
+
+# Update after enabling GitHub Pages
+# site_url: https://<username>.github.io/<repo-name>/
+
+repo_name: your-username/your-portfolio-repo
+repo_url: https://github.com/your-username/your-portfolio-repo
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mermaid2   # Renders ```mermaid code blocks (install mkdocs-mermaid2-plugin)
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+
+# Navigation – adjust per repo or use a hub repo that links all five projects
+nav:
+  - Home: index.md
+  - Portfolio Overview: overview.md
+  - Hospital Management System:
+      - Overview: hms/index.md
+      - Project Charter: hms/charter.md
+      - Stakeholder Analysis: hms/stakeholders.md
+      - Process Models: hms/processes.md
+      - Requirements: hms/requirements.md
+      - User Stories & UAT: hms/stories-uat.md
+  - AI Healthcare RCM:
+      - Overview: rcm/index.md
+      - AI Opportunity Analysis: rcm/ai-opportunity.md
+      - Requirements: rcm/requirements.md
+      - User Stories & UAT: rcm/stories-uat.md
+  - Clinical Trial Management:
+      - Overview: ctms/index.md
+      - Process Models: ctms/processes.md
+      - Requirements: ctms/requirements.md
+  - Healthcare Analytics Dashboard:
+      - Overview: analytics/index.md
+      - KPI Framework: analytics/kpi.md
+      - Dashboard Requirements: analytics/dashboards.md
+  - AI Pharmacovigilance (VigilAI):
+      - Overview: pv/index.md
+      - Day 0 Request Analysis: pv/day0.md
+      - AI Opportunity & Rules: pv/ai-opportunity.md
+      - Requirements: pv/requirements.md
+  - About / Skills: about.md

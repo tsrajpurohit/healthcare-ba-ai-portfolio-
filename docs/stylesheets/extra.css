@@ -1,87 +1,17 @@
-/* Slightly wider reading column */
-.md-grid {
-  max-width: 64rem;
-}
-
-/* Softer header contrast in light mode */
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #1a237e;
-  --md-accent-fg-color: #00897b;
-}
-/* Brand tweaks */
-:root {
-  --md-primary-fg-color: #1a237e;
-  --md-accent-fg-color: #00897b;
-}
-
-/* Slightly wider content */
-.md-grid {
-  max-width: 64rem;
-}
-
-/* Card-style homepage links (optional) */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-.portfolio-card {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.5rem;
-  padding: 1rem 1.25rem;
-  transition: box-shadow 0.2s;
-}
-.portfolio-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.md-grid {
-  max-width: 68rem;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-  margin: 1.25rem 0 2rem;
-}
-
-.portfolio-card {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.6rem;
-  padding: 1.1rem 1.25rem;
-  background: var(--md-default-bg-color);
-  transition: box-shadow 0.2s, border-color 0.2s;
-}
-
-.portfolio-card:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  border-color: var(--md-accent-fg-color);
-}
-
-.portfolio-card h3 {
-  margin-top: 0.2rem;
-}
-
-
-
 /* =========================================================
    Tej Singh Rajpurohit — Portfolio Custom Styles
-   Drop this file at: docs/stylesheets/extra.css
-   Reference it in mkdocs.yml under:
+   Location: docs/stylesheets/extra.css
+   Reference in mkdocs.yml:
      extra_css:
        - stylesheets/extra.css
-   Also enable these markdown_extensions in mkdocs.yml:
-     - attr_list
-     - md_in_html
-     - admonition
-     - pymdownx.emoji:
-         emoji_index: !!python/name:material.extensions.emoji.twemoji
-         emoji_generator: !!python/name:material.extensions.emoji.to_svg
+   Requires (already in your mkdocs.yml): attr_list, md_in_html, admonition
    ========================================================= */
 
+/* ---------- Brand & layout ---------- */
 :root {
+  --md-primary-fg-color: #1a237e;
+  --md-accent-fg-color: #00897b;
+
   --tsr-accent: #0e7c86;
   --tsr-accent-dark: #095c63;
   --tsr-accent-soft: #e6f3f3;
@@ -90,6 +20,11 @@
 
 [data-md-color-scheme="slate"] {
   --tsr-accent-soft: rgba(14, 124, 134, 0.15);
+}
+
+/* Wider reading column */
+.md-grid {
+  max-width: 68rem;
 }
 
 /* ---------- Hero ---------- */
@@ -158,9 +93,10 @@
   font-size: 0.95rem;
 }
 
-/* ---------- Value grid ---------- */
+/* ---------- Value / project grid ---------- */
 .value-grid,
-.project-grid {
+.project-grid,
+.portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
@@ -168,7 +104,8 @@
 }
 
 .value-card,
-.project-card {
+.project-card,
+.portfolio-card {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: var(--tsr-radius);
   padding: 1.25rem 1.4rem;
@@ -177,15 +114,17 @@
 }
 
 .value-card:hover,
-.project-card:hover {
+.project-card:hover,
+.portfolio-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
   border-color: var(--tsr-accent);
 }
 
 .value-card h4,
-.project-card h3 {
-  margin-top: 0;
+.project-card h3,
+.portfolio-card h3 {
+  margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
 

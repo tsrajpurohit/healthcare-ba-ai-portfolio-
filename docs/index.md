@@ -149,7 +149,7 @@ Business Analysis · AI Opportunity Analysis · BRD · FRD · AI Requirements ·
 I approach a healthcare product problem through a structured BA lifecycle:
 
 
-<div align="center">
+<div align="centerr">
 Business Problem<br>
 ↓<br>
 Stakeholder Identification<br>

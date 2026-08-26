@@ -120,9 +120,11 @@ nav:
       - About Me: about.md
       - Portfolio Overview: overview.md
       - BA Approach: ba-approach.md
+
   - Projects:
-      - Projects overview: projects.md          # optional landing page
-        - Hospital Management System:
+      - Projects overview: projects.md
+
+      - Hospital Management System:
           - Overview: hms/index.md
           - 1. Project Overview:
               - Business Case: hms/01-Project-Overview/Business-Case.md
@@ -141,20 +143,18 @@ nav:
           - 5. FRD:
               - Functional Requirements Document: hms/05-FRD/Functional-Requirements-Document.md
           - 6. User Stories & Backlog:
-              - Acceptance Criteria: hms/06-User-Stories-Backlog/Acceptance-Criteria.md
-              - Sample Jira Backlog: hms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
               - User Stories: hms/06-User-Stories-Backlog/User-Stories.md
+              - Acceptance Criteria: hms/06-User-Stories-Backlog/Acceptance-Criteria.md
           - 7. UAT Scenarios:
               - UAT Test Scenarios: hms/07-UAT-Scenarios/UAT-Test-Scenarios.md
           - 8. Dashboards & Metrics:
               - Dashboard Mockup Description: hms/08-Dashboards-Metrics/Dashboard-Mockup-Description.md
               - KPI Dashboard Definition: hms/08-Dashboards-Metrics/KPI-Dashboard-Definition.md
-              - Sample Metrics Data: hms/08-Dashboards-Metrics/Sample-Metrics-Data.csv
           - 9. Traceability & Risks:
               - Assumptions & Constraints: hms/09-Traceability-Risks/Assumptions-Constraints.md
               - Requirements Traceability Matrix: hms/09-Traceability-Risks/Requirements-Traceability-Matrix.md
               - Risk Register: hms/09-Traceability-Risks/Risk-Register.md
-          
+
       - AI Healthcare RCM:
           - Overview: rcm/index.md
           - 1. Project Overview:
@@ -180,18 +180,16 @@ nav:
           - 7. User Stories & Backlog:
               - User Stories: rcm/07-User-Stories-Backlog/User-Stories.md
               - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
-              - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
           - 8. UAT Scenarios:
               - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
           - 9. Dashboards & Metrics:
               - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
-              - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
               - Dashboard Mockup Description: rcm/09-Dashboards-Metrics/Dashboard-Mockup-Description.md
           - 10. Traceability & Risks:
               - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md
               - Risk Register: rcm/10-Traceability-Risks/Risk-Register.md
               - Assumptions & Constraints: rcm/10-Traceability-Risks/Assumptions-Constraints.md
-          
+
       - Clinical Trial Management:
           - Overview: ctms/index.md
           - 1. Project Overview:
@@ -212,16 +210,15 @@ nav:
               - Functional Requirements: ctms/05-FRD-NFR/Functional-Requirements.md
               - Non-Functional Requirements: ctms/05-FRD-NFR/Non-Functional-Requirements.md
           - 6. User Stories & Backlog:
-              - Acceptance Criteria: ctms/06-User-Stories-Backlog/Acceptance-Criteria.md
-              - Sample Jira Backlog: ctms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
               - User Stories: ctms/06-User-Stories-Backlog/User-Stories.md
+              - Acceptance Criteria: ctms/06-User-Stories-Backlog/Acceptance-Criteria.md
           - 7. UAT Scenarios:
               - UAT Test Scenarios: ctms/07-UAT-Scenarios/UAT-Test-Scenarios.md
           - 8. Traceability & Risks:
               - Assumptions & Constraints: ctms/08-Traceability-Risks/Assumptions-Constraints.md
               - Requirements Traceability Matrix: ctms/08-Traceability-Risks/Requirements-Traceability-Matrix.md
               - Risk Register: ctms/08-Traceability-Risks/Risk-Register.md
-              
+
       - Healthcare Analytics Dashboard:
           - Overview: analytics/index.md
           - 1. Project Overview:
@@ -241,9 +238,8 @@ nav:
               - Dashboard Requirements: analytics/04-Requirements/Dashboard-Requirements.md
               - Non-Functional Requirements: analytics/04-Requirements/Non-Functional-Requirements.md
           - 5. User Stories & Backlog:
-              - Acceptance Criteria: analytics/05-User-Stories-Backlog/Acceptance-Criteria.md
-              - Sample Jira Backlog: analytics/05-User-Stories-Backlog/Sample-Jira-Backlog.csv
               - User Stories: analytics/05-User-Stories-Backlog/User-Stories.md
+              - Acceptance Criteria: analytics/05-User-Stories-Backlog/Acceptance-Criteria.md
           - 6. UAT Validation:
               - Validation Scenarios: analytics/06-UAT-Validation/Validation-Scenarios.md
           - 7. Traceability & Risks:
@@ -252,8 +248,7 @@ nav:
               - Risk Register: analytics/07-Traceability-Risks/Risk-Register.md
           - 8. Sample Data & Power BI:
               - Power BI Implementation Notes: analytics/08-Sample-Data-PowerBI/PowerBI-Implementation-Notes.md
-              - Sample KPI Data: analytics/08-Sample-Data-PowerBI/Sample-KPI-Data.csv
-              
+
       - AI Pharmacovigilance (VigilAI):
           - Overview: pv/index.md
           - 1. Project Initiation:
@@ -278,9 +273,8 @@ nav:
           - 6. FRD & AI Requirements:
               - Functional AI Requirements: pv/06-FRD-AI-Requirements/Functional-AI-Requirements.md
           - 7. User Stories & Backlog:
-              - Acceptance Criteria: pv/07-User-Stories-Backlog/Acceptance-Criteria.md
-              - Sample Jira Backlog: pv/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
               - User Stories: pv/07-User-Stories-Backlog/User-Stories.md
+              - Acceptance Criteria: pv/07-User-Stories-Backlog/Acceptance-Criteria.md
           - 8. UAT Scenarios:
               - UAT Test Scenarios: pv/08-UAT-Scenarios/UAT-Test-Scenarios.md
           - 9. Dashboards & Metrics:
@@ -289,5 +283,6 @@ nav:
               - Assumptions & Constraints: pv/10-Traceability-Risks/Assumptions-Constraints.md
               - Requirements Traceability Matrix: pv/10-Traceability-Risks/Requirements-Traceability-Matrix.md
               - Risk Register: pv/10-Traceability-Risks/Risk-Register.md
+
 
   #- Resume: resume.md

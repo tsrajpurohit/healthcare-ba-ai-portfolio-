@@ -1,0 +1,20 @@
+Issue Type,Issue Key,Summary,Epic Link,Priority,Story Points,Labels,Description
+Epic,PVAI-100,Intelligent Case Intake & Triage,,Highest,,intake,triage
+Story,PVAI-101,AI-assisted data extraction from source reports,PVAI-100,Highest,8,intake,"As Case Processor I want extraction support"
+Story,PVAI-102,Ranked duplicate detection with reasons,PVAI-100,Highest,5,intake,"As Case Processor I want duplicate ranking"
+Story,PVAI-103,AI priority scoring and intelligent workqueue,PVAI-100,Highest,5,triage,"As Processor/Supervisor I want prioritized work"
+Epic,PVAI-200,Coding & Processing Support,,Highest,,coding,qc
+Story,PVAI-201,MedDRA coding suggestions with confidence,PVAI-200,Highest,8,coding,"As Coder I want AI MedDRA suggestions"
+Story,PVAI-202,Automated QC rule checks,PVAI-200,High,5,qc,"Flag completeness and consistency issues"
+Epic,PVAI-300,Literature Intelligence,,High,,literature
+Story,PVAI-301,AI relevance ranking for literature,PVAI-300,Highest,8,literature,"As Literature Specialist I want ranked screening"
+Epic,PVAI-400,Signal Support & Visibility,,High,,signal,dashboard
+Story,PVAI-401,Signal prioritization workqueue,PVAI-400,High,5,signal,"Prioritize potential signals for review"
+Story,PVAI-402,PV operations dashboard,PVAI-400,Highest,8,dashboard,"Volumes, timelines, quality, backlog"
+Epic,PVAI-500,Governance & Integration,,Highest,,governance,api
+Story,PVAI-501,Full audit trail of AI and human decisions,PVAI-500,Highest,5,governance,"Inspection-ready logging"
+Story,PVAI-502,Explainability at point of decision,PVAI-500,Highest,5,governance,"Users see why AI suggested something"
+Story,PVAI-503,Safety database controlled integration,PVAI-500,Highest,13,api,"Bi-directional case data exchange"
+Task,PVAI-601,Historical case data preparation for training,,Highest,8,data,"Clean and label training sets"
+Task,PVAI-602,Define model performance acceptance criteria,,High,3,ml,"Precision/recall thresholds for pilot"
+Task,PVAI-603,Validation strategy for AI components,,Highest,5,compliance,"Align with QA/GVP expectations"

@@ -180,7 +180,7 @@ nav:
               - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
               - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
           - "8. UAT Scenarios":
-              - Test Scenarios: rcm/08-UAT-Scenarios/Test-Scenarios.md
+              - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
           - "9. Dashboards & Metrics":
               - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
               - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv

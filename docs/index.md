@@ -151,25 +151,25 @@ I approach a healthcare product problem through a structured BA lifecycle:
 
 <div align="centerr">
 Business Problem<br>
-↓<br>
+        ↓<br>
 Stakeholder Identification<br>
-↓<br>
+        ↓<br>
 Requirement Elicitation<br>
-↓<br>
+        ↓<br>
 AS-IS Process Analysis<br>
-↓<br>
+        ↓<br>
 Gap Analysis<br>
-↓<br>
+        ↓<br>
 TO-BE Process<br>
-↓<br>
+        ↓<br>
 Business Requirements<br>
-↓<br>
+        ↓<br>
 Functional / Non-Functional Requirements<br>
-↓<br>
+        ↓<br>
 User Stories & Acceptance Criteria<br>
-↓<br>
+        ↓<br>
 Product Backlog / Jira<br>
-↓<br>
+        ↓<br>
 
 ## 🧩 BA Skills
 

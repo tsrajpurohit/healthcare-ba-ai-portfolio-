@@ -20,242 +20,154 @@ I build structured requirements and solution documentation across the healthcare
 
 ---
 
-## 🎯 Career Focus
-
-| Area | Focus |
-|------|-------|
-| **Business Analysis** | Requirements elicitation, BRD/FRD, stakeholder analysis, process modelling, user stories, acceptance criteria, UAT, RTM |
-| **Agile & Product** | Agile/Scrum, product backlog, backlog refinement, Jira, product requirements |
-| **Healthcare Technology** | Hospital management, clinical trials, healthcare RCM, analytics, pharmacovigilance |
-| **AI Healthcare** | AI opportunity analysis, AI-enabled workflows, human-in-the-loop, explainability, governance |
-| **Technical BA** | REST API concepts, Postman, SQL/MySQL, Power BI, Figma, Whimsical |
-
 ### Target Roles
 
 **Healthcare Business Analyst · Business Systems Analyst · Healthcare Product Analyst · AI Business Analyst**
 
 ---
 
-## 💼 Professional Background
+## 🎯 Career Focus
 
-### Espee Drugs & Finechem Co.
-**Assistant Manager – Business Development**  
-*July 2019 – September 2020*
-
-Worked on pharmaceutical product development and cross-functional coordination involving:
-
-- Buyer and supplier requirements
-- Technical issue resolution
-- QA/QC requirements
-- Regulatory requirements
-- Technical and documentation coordination
-
-### Lyka Labs Limited
-**Junior Executive – Regulatory Affairs**  
-*November 2018 – June 2019*
-
-Worked on pharmaceutical regulatory documentation including:
-
-- COPP
-- Product permissions
-- FDCA-related documentation
-- Manufacturing and export documentation
-- Tablet and injectable pharmaceutical products
-
-These experiences provide the **pharmaceutical domain foundation** behind my transition into Healthcare Business Analysis.
+| Area | What I can contribute |
+| :--- | :--- |
+| **Business Analysis** | Requirements elicitation, BRD/FRD, stakeholder analysis, process modeling, user stories, UAT, RTM |
+| **Healthcare Technology** | Healthcare workflows, clinical processes, RCM, hospital operations, healthcare analytics |
+| **AI Product** | AI opportunity analysis, use-case prioritization, business rules, human-in-the-loop workflows, explainability |
+| **Agile / Product** | User stories, acceptance criteria, backlog, Jira, sprint support, product requirements |
+| **Data & Integration** | SQL/MySQL, Power BI, REST API concepts, Postman |
+| **UX / Process Design** | BPMN, UML, Figma, Whimsical, workflow and user journey modeling |
 
 ---
 
-## 🚀 Featured Healthcare BA Portfolio
+## 🚀 Featured Healthcare Projects
 
-<div class="portfolio-grid" markdown>
+### 🏥 Hospital Management System
+*Business Analysis Case Study*  
+A healthcare workflow analysis covering hospital operations such as registration, appointments, patient management, and billing.
 
-<div class="portfolio-card" markdown>
-
-### [🏥 Hospital Management System](hms/index.md)
-
-**Healthcare Operations**
-
-Patient registration · Appointments · Billing
-
-**BA Deliverables**
-
-Project Charter · Business Case · Stakeholder Analysis · BRD/FRD · AS-IS/TO-BE · BPMN · User Stories · Jira Backlog · UAT · RTM
-
-</div>
-
-<div class="portfolio-card" markdown>
-
-### [🤖 AI Healthcare RCM](rcm/index.md)
-
-**AI Healthcare Product**
-
-Claims · Denials · Coding Assistance · Smart Workqueues
-
-**BA / AI Deliverables**
-
-Problem Analysis · AI Opportunity Mapping · AI Use Cases · Human-in-the-Loop · Requirements · Business Rules · Backlog · UAT
-
-</div>
-
-<div class="portfolio-card" markdown>
-
-### [🧪 Clinical Trial Management System](ctms/index.md)
-
-**Clinical Research**
-
-Sites · Subjects · Visits · Trial Operations · Compliance
-
-**BA Deliverables**
-
-Stakeholder Analysis · Requirements · BPMN-style Processes · BRD/FRD · NFR · User Stories · Validation · UAT · RTM
-
-</div>
-
-<div class="portfolio-card" markdown>
-
-### [📊 Healthcare Analytics Dashboard](analytics/index.md)
-
-**Healthcare Analytics**
-
-Operational KPIs · Executive Reporting · Dashboard Requirements
-
-**BA / Data Deliverables**
-
-Business Requirements · KPI Dictionary · Dashboard Requirements · User Stories · Power BI Notes · Validation
-
-</div>
-
-<div class="portfolio-card" markdown>
-
-### [💊 AI Pharmacovigilance – VigilAI](pv/index.md)
-
-**AI + Pharmacovigilance**
-
-Case Processing · Literature Monitoring · Signal Detection
-
-**BA / AI Deliverables**
-
-Business Analysis · AI Opportunity Analysis · BRD · FRD · AI Requirements · Backlog · UAT · RTM · Auditability
-
-</div>
-
-</div>
+**Key BA artifacts:**  
+Project Charter · Business Case · Stakeholder Register · Requirement Elicitation · BRD / FRD · AS-IS / TO-BE Processes · BPMN / Process Models · User Stories · Acceptance Criteria · Jira Backlog · UAT · RTM · Risk & Issue Analysis  
+[Explore Hospital Management System →](hms/index.md)
 
 ---
 
-## 🔄 My Business Analysis Approach
+### 🤖 AI Healthcare Revenue Cycle Management
+*AI Product / Business Analysis Case Study*  
+An AI-enabled healthcare RCM concept focused on improving revenue cycle workflows through automation and intelligent decision support.
 
-I approach a healthcare product problem through a structured BA lifecycle:
-
-
-<div align="centerr">
-Business Problem<br>
-        ↓<br>
-Stakeholder Identification<br>
-        ↓<br>
-Requirement Elicitation<br>
-        ↓<br>
-AS-IS Process Analysis<br>
-        ↓<br>
-Gap Analysis<br>
-        ↓<br>
-TO-BE Process<br>
-        ↓<br>
-Business Requirements<br>
-        ↓<br>
-Functional / Non-Functional Requirements<br>
-        ↓<br>
-User Stories & Acceptance Criteria<br>
-        ↓<br>
-Product Backlog / Jira<br>
-        ↓<br>
-UAT & Validation<br>
-       ↓<br>
-RTM<br>
-       ↓<br>
-Feedback & Continuous Improvement
-</div>
+**Key areas:**  
+Claims processing · Denial management · Coding assistance · Document processing · AI opportunity analysis · Human-in-the-loop design · Business rules · AI use-case prioritization · User stories · Product backlog · UAT  
+[Explore AI Healthcare RCM →](rcm/index.md)
 
 ---
-## 🧩 BA Skills
+
+### 🧪 Clinical Trial Management System
+*Business Analysis Case Study*  
+A clinical trial management solution covering trial setup, sites, subjects, visits, documentation, and compliance workflows.
+
+**Key BA areas:**  
+Stakeholder requirements · Clinical workflows · Process modeling · Functional requirements · Non-functional requirements · User stories · Acceptance criteria · Validation · UAT · RTM  
+[Explore Clinical Trial Management →](ctms/index.md)
+
+---
+
+### 📊 Healthcare Analytics Dashboard
+*Business Analysis / Product Case Study*  
+A healthcare analytics solution focused on converting operational requirements into KPI-driven dashboards and reporting.
+
+**Key areas:**  
+Business requirements · KPI definition · KPI dictionary · Dashboard requirements · Operational reporting · Executive reporting · Power BI requirements · User stories · Acceptance criteria · Validation  
+[Explore Healthcare Analytics →](analytics/index.md)
+
+---
+
+### 💊 AI Pharmacovigilance — VigilAI
+*AI Healthcare / Pharmacovigilance Case Study*  
+An AI-enabled pharmacovigilance concept connecting my pharmacology background with healthcare AI and Business Analysis.
+
+**Key areas:**  
+Adverse event case processing · Literature monitoring · Signal detection · AI opportunity analysis · AI requirements · Auditability · Human oversight · Dashboards · BRD / FRD · User stories · UAT · RTM  
+[Explore VigilAI →](pv/index.md)
+
+---
+
+## 🧩 My Business Analysis Approach
+I focus on translating a business problem into a structured, testable solution.
+
+* **01 — Understand**: Business problem · Stakeholders · Objectives · Business context
+* **02 — Analyze**: Requirements · AS-IS process · Pain points · Gap analysis · Business rules
+* **03 — Design**: TO-BE process · BRD / FRD · User journeys · Functional requirements
+* **04 — Deliver**: User stories · Acceptance criteria · Jira backlog · Sprint support
+* **05 — Validate**: UAT · RTM · Defect / issue analysis · Business validation
+* **06 — Improve**: Production feedback · Process improvement · Requirement refinement · Product enhancement
+
+---
+
+## 🛠️ Skills & Tools
 
 **Business Analysis**  
-Requirements Elicitation · Requirements Analysis · Stakeholder Management · BRD · FRD · Functional Requirements · Non-Functional Requirements · Business Rules · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT · RTM
+Requirements Elicitation · Requirements Analysis · Stakeholder Management · BRD · FRD · Functional Requirements · Non-Functional Requirements · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT · RTM
 
 **Agile & Product**  
 Agile · Scrum · User Stories · Acceptance Criteria · Product Backlog · Backlog Refinement · Sprint Planning · Jira · Product Requirements
 
 **Process & Modeling**  
-BPMN · UML · AS-IS / TO-BE Analysis · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping
+BPMN · UML · AS-IS / TO-BE · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping
 
 **Technical & Data**  
 REST API Concepts · API Testing · Postman · SQL · MySQL · Power BI · Data Analysis · Data Visualization
 
-**Healthcare**  
-Pharmaceuticals · Regulatory Affairs · Healthcare Workflows · Clinical Research · Pharmacovigilance · Healthcare Analytics · Healthcare AI
+**Design & Collaboration**  
+Figma · Whimsical · Draw.io · GitHub · MkDocs
 
 ---
 
-## 🛠️ Tools
-Jira · Confluence · Postman · MySQL · SQL · Power BI · Excel · Figma · Whimsical · Draw.io · GitHub · MkDocs
+## 💼 Professional Experience
 
----
+### Espee Drugs & Finechem Co.
+**Assistant Manager – Business Development**  
+*July 2019 – September 2020*  
+Experience included:
+* Buyer and supplier requirement coordination
+* Technical issue resolution
+* New product development support
+* QA / QC coordination
+* Regulatory requirement coordination
+* Cross-functional stakeholder communication
 
-## 📁 What You Will Find in This Portfolio
-Each case study follows a structured Business Analysis approach and may include:
-
-* Project Charter
-* Business Case
-* Stakeholder Register
-* RACI
-* Requirement Elicitation
-* BRD
-* FRD
-* AS-IS / TO-BE Processes
-* Gap Analysis
-* User Stories
-* Acceptance Criteria
-* Product Backlog
-* Jira Artifacts
-* UAT
-* RTM
-* Risk & Issue Analysis
-* AI Opportunity Analysis
-* Product / Dashboard Requirements
+### Lyka Labs Limited
+**Junior Executive – Regulatory Affairs**  
+*November 2018 – June 2019*  
+Experience included:
+* Regulatory documentation
+* COPP documentation
+* Product permissions
+* FDCA-related documentation
+* Pharmaceutical manufacturing documentation
+* Export-related regulatory requirements
 
 ---
 
 ## 🎓 Education
 
-* **Master of Pharmacy (M.Pharm) – Pharmacology**  
-  Lachoo Memorial College of Science & Technology  
-  Rajasthan University of Health Sciences, Jaipur  
+* **Master of Pharmacy — Pharmacology**  
+  Lachoo Memorial College of Science & Technology, Rajasthan University of Health Sciences, Jaipur  
   *March 2014 – July 2015*
 
-* **Bachelor's Degree – Pharmacy**  
+* **Bachelor's Degree — Pharmacy**  
   Rajasthan University of Health Sciences, Jaipur  
   *September 2010 – July 2013*
 
 ---
 
-## 📄 Resume
-My resume provides a concise overview of my professional experience, Business Analysis capabilities, healthcare domain knowledge, and portfolio work.
+## 📄 Resume & Professional Profile
 
-[Download Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
-
----
-
-## 🤝 Connect
-If you are looking for a Healthcare Business Analyst, Business Systems Analyst, Healthcare Product Analyst, or AI Business Analyst, I'd be happy to connect.
-
-* **LinkedIn**: [Tej Singh Rajpurohit](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/)
-* **GitHub**: [Healthcare BA & AI Portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-)
+[Download Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }  
+[Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }  
+[View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
 
 ---
 
-!!! note "Portfolio Disclaimer"
-    All healthcare technology projects in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.
-
-  
-
+!!! note "Portfolio Transparency"
+    The healthcare technology projects presented in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.  
+    My pharmaceutical Business Development and Regulatory Affairs experience described above is **real professional experience**.

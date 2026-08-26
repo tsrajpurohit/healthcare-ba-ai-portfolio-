@@ -76,7 +76,7 @@ plugins:
       minify_css: true
   - redirects:
       redirect_maps:
-        old-page.md: new-page.md
+        #old-page.md: new-page.md
   - awesome-pages
   - print-site
 

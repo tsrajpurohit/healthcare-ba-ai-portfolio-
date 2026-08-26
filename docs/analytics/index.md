@@ -38,46 +38,6 @@
 
 ---
 
-### Repository Structure
-
-```
-Healthcare-Analytics-Dashboard-BA-Portfolio/
-├── 01-Project-Overview/
-│   ├── Project-Charter.md
-│   ├── Business-Case.md
-│   └── Scope-Statement.md
-├── 02-Stakeholder-Analysis/
-│   ├── Stakeholder-Register.md
-│   ├── Power-Interest-Grid.md
-│   └── RACI-Matrix.md
-├── 03-KPI-Framework/
-│   ├── KPI-Dictionary.md
-│   ├── KPI-Prioritization.md
-│   └── Metric-Calculation-Rules.md
-├── 04-Requirements/
-│   ├── Business-Requirements.md
-│   ├── Dashboard-Requirements.md
-│   └── Non-Functional-Requirements.md
-├── 05-User-Stories-Backlog/
-│   ├── User-Stories.md
-│   ├── Acceptance-Criteria.md
-│   └── Sample-Jira-Backlog.csv
-├── 06-UAT-Validation/
-│   └── Validation-Scenarios.md
-├── 07-Traceability-Risks/
-│   ├── Requirements-Traceability-Matrix.md
-│   ├── Risk-Register.md
-│   └── Assumptions-Constraints.md
-├── 08-Sample-Data-PowerBI/
-│   ├── Sample-KPI-Data.csv
-│   └── PowerBI-Implementation-Notes.md
-├── assets/
-│   ├── diagrams/
-│   └── samples/
-└── README.md
-```
-
----
 
 ### Skills Demonstrated
 
@@ -90,20 +50,6 @@ Healthcare-Analytics-Dashboard-BA-Portfolio/
 | User Stories & AC | Complete backlog with acceptance criteria |
 | UAT / Validation | Data validation & dashboard acceptance scenarios |
 | Healthcare Domain | Patient flow, quality, workforce, revenue cycle metrics |
-
----
-
-### How to Use This Portfolio
-
-1. Clone or download the repository.
-2. Read the README, then follow folders 01 → 08.
-3. Use `Sample-KPI-Data.csv` to build a demo Power BI dashboard.
-4. Add screenshots of your Power BI visuals into `assets/samples/`.
-5. Pair this with the other three healthcare portfolios for a complete narrative:
-   - Hospital Management System (operations)
-   - AI RCM Platform (revenue + AI)
-   - Clinical Trial Management System (research)
-   - **Healthcare Analytics Dashboard** (decision support & BI)
 
 ---
 

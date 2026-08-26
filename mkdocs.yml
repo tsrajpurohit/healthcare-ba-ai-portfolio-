@@ -47,7 +47,7 @@ theme:
     - navigation.tabs          # top bar sections
     - navigation.tabs.sticky   # tabs stay visible on scroll
     - navigation.sections
-    - navigation.expand
+    #- navigation.expand
     - navigation.instant
     - navigation.tracking
     - navigation.top

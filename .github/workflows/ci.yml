@@ -1,0 +1,46 @@
+# Combined CI – runs lint + structure checks on every PR/push
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  markdown-lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install and run markdownlint
+        run: |
+          npm install -g markdownlint-cli
+          markdownlint "**/*.md" \
+            --ignore node_modules \
+            --ignore .git \
+            --disable MD013 MD033 MD041 || true
+
+  structure-check:
+    name: Structure Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify README
+        run: test -f README.md && echo "README.md OK"
+
+  # Uncomment if you add link checking to every CI run
+  # link-check:
+  #   name: Link Check
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: lycheeverse/lychee-action@v2
+  #       with:
+  #         args: --verbose --accept 200,206,429 --exclude-mail '**/*.md'
+  #         fail: false
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

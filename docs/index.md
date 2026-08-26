@@ -17,9 +17,9 @@ I turn healthcare business problems into structured, testable solutions — brid
 Trained as a **Master of Pharmacy (Pharmacology)** with real-world experience in Business Development and Regulatory Affairs, I'm now applying that clinical and regulatory grounding to healthcare BA and HealthTech roles — where domain fluency actually matters.
 
 <div class="hero-actions" markdown>
-[:material-linkedin: LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button .md-button--primary }
-[:material-file-pdf-box: View Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
-[:material-github: GitHub Portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
+[🔗 LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button .md-button--primary }
+[📄 View Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
+[💻 GitHub Portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
 </div>
 
 </div>
@@ -37,32 +37,32 @@ Trained as a **Master of Pharmacy (Pharmacology)** with real-world experience in
 <div class="value-grid" markdown>
 
 <div class="value-card" markdown>
-#### :material-clipboard-text-outline: Business Analysis
+#### 📋 Business Analysis
 Requirements elicitation, BRD/FRD, stakeholder analysis, process modeling, user stories, UAT, RTM.
 </div>
 
 <div class="value-card" markdown>
-#### :material-hospital-box-outline: Healthcare Technology
+#### 🏥 Healthcare Technology
 Clinical workflows, revenue cycle management, hospital operations, healthcare analytics.
 </div>
 
 <div class="value-card" markdown>
-#### :material-robot-outline: AI Product
+#### 🤖 AI Product
 AI opportunity analysis, use-case prioritization, business rules, human-in-the-loop design, explainability.
 </div>
 
 <div class="value-card" markdown>
-#### :material-run-fast: Agile / Product
+#### ⚡ Agile / Product
 User stories, acceptance criteria, backlog grooming, Jira, sprint support, product requirements.
 </div>
 
 <div class="value-card" markdown>
-#### :material-database-outline: Data & Integration
+#### 🗄️ Data & Integration
 SQL/MySQL, Power BI, REST API concepts, Postman.
 </div>
 
 <div class="value-card" markdown>
-#### :material-sitemap-outline: UX / Process Design
+#### 🧭 UX / Process Design
 BPMN, UML, Figma, Whimsical, workflow and user-journey modeling.
 </div>
 
@@ -75,7 +75,7 @@ BPMN, UML, Figma, Whimsical, workflow and user-journey modeling.
 <div class="project-grid" markdown>
 
 <div class="project-card" markdown>
-### :material-hospital-building: Hospital Management System
+### 🏥 Hospital Management System
 <span class="tag">Business Analysis Case Study</span>
 
 A full workflow analysis of hospital operations — registration, appointments, patient management, and billing.
@@ -86,7 +86,7 @@ A full workflow analysis of hospital operations — registration, appointments, 
 </div>
 
 <div class="project-card" markdown>
-### :material-robot: AI Healthcare Revenue Cycle Management
+### 🤖 AI Healthcare Revenue Cycle Management
 <span class="tag">AI Product Case Study</span>
 
 An AI-enabled RCM concept improving claims and denial workflows through automation and decision support.
@@ -97,7 +97,7 @@ An AI-enabled RCM concept improving claims and denial workflows through automati
 </div>
 
 <div class="project-card" markdown>
-### :material-flask-outline: Clinical Trial Management System
+### 🧪 Clinical Trial Management System
 <span class="tag">Business Analysis Case Study</span>
 
 A CTMS covering trial setup, sites, subjects, visits, documentation, and compliance workflows.
@@ -108,7 +108,7 @@ A CTMS covering trial setup, sites, subjects, visits, documentation, and complia
 </div>
 
 <div class="project-card" markdown>
-### :material-chart-bar: Healthcare Analytics Dashboard
+### 📊 Healthcare Analytics Dashboard
 <span class="tag">Product Case Study</span>
 
 Converting operational requirements into KPI-driven dashboards for operational and executive reporting.
@@ -119,7 +119,7 @@ Converting operational requirements into KPI-driven dashboards for operational a
 </div>
 
 <div class="project-card" markdown>
-### :material-pill: AI Pharmacovigilance — VigilAI
+### 💊 AI Pharmacovigilance — VigilAI
 <span class="tag">AI Healthcare Case Study</span>
 
 An AI-enabled pharmacovigilance concept linking my pharmacology background to healthcare AI and BA practice.
@@ -278,9 +278,9 @@ Rajasthan University of Health Sciences, Jaipur
 <div class="cta-band" markdown>
 Open to Healthcare Business Analyst, Business Systems Analyst, and AI Product Analyst opportunities.
 
-[:material-file-pdf-box: Download Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
-[:material-linkedin: Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
-[:material-github: View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
+[📄 Download Résumé](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
+[🔗 Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
+[💻 View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
 </div>
 
 !!! note "Portfolio Transparency"

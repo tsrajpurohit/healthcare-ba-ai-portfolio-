@@ -64,6 +64,19 @@ theme:
 plugins:
   - search
   - mermaid2
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - redirects:
+      redirect_maps:
+        old-page.md: new-page.md
+  - awesome-pages
+  - print-site
 
 markdown_extensions:
   - admonition

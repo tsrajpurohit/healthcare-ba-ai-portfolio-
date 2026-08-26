@@ -8,10 +8,15 @@ site_author: Tej Singh
 # After first successful Pages deploy, set this to your real URL:
 # site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
 
-repo_name: tsrajpurohit/healthcare-ba-ai-portfolio-
-repo_url: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
+#repo_name: tsrajpurohit/healthcare-ba-ai-portfolio-
+#repo_url: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
 edit_uri: edit/main/docs/
-
+social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/
+    
 theme:
   name: material
   language: en

@@ -1,48 +1,66 @@
-# MkDocs configuration for BA / AI Portfolio repositories
-# Docs: https://www.mkdocs.org/user-guide/configuration/
+# MkDocs – Healthcare BA & AI Portfolio
+# https://www.mkdocs.org/user-guide/configuration/
 
 site_name: Healthcare BA & AI Portfolio
 site_description: Business Analysis and AI Product portfolio case studies in Healthcare & Life Sciences
 site_author: Tej Singh
 
-# Update after enabling GitHub Pages
-# site_url: https://<username>.github.io/<repo-name>/
+# After first successful Pages deploy, set this to your real URL:
+# site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
 
-repo_name: tsrajpurohit/your-portfolio-repo
-repo_url: https://github.com/your-username/your-portfolio-repo
+repo_name: tsrajpurohit/healthcare-ba-ai-portfolio-
+repo_url: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
 edit_uri: edit/main/docs/
 
 theme:
   name: material
+  language: en
+  # Optional: add files under docs/assets/
+  # logo: assets/logo.png
+  # favicon: assets/favicon.ico
+
   palette:
-    - scheme: default
+    # Light
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
-      accent: indigo
+      accent: teal
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
+    # Dark
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
-      accent: indigo
+      accent: teal
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.tabs.link
     - toc.follow
+
   icon:
     repo: fontawesome/brands/github
 
 plugins:
   - search
-  - mermaid2   # Renders ```mermaid code blocks (install mkdocs-mermaid2-plugin)
+  - mermaid2
 
 markdown_extensions:
   - admonition
@@ -71,6 +89,17 @@ extra:
       link: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/
+  generator: false   # hide "Made with Material for MkDocs"
+
+extra_css:
+  - stylesheets/extra.css
+
+# ---------------------------------------------------------------------------
+# KEEP YOUR EXISTING nav: SECTION BELOW (do not delete it)
+# ---------------------------------------------------------------------------
+# nav:
+#   - Home: index.md
+#   - ...
 
 # Navigation – adjust per repo or use a hub repo that links all five projects
 # Navigation – updated with full RCM folder structure

@@ -170,6 +170,87 @@ User Stories & Acceptance Criteria<br>
 ↓<br>
 Product Backlog / Jira<br>
 ↓<br>
+
+## 🧩 BA Skills
+
+**Business Analysis**  
+Requirements Elicitation · Requirements Analysis · Stakeholder Management · BRD · FRD · Functional Requirements · Non-Functional Requirements · Business Rules · Gap Analysis · Root Cause Analysis · Impact Analysis · UAT · RTM
+
+**Agile & Product**  
+Agile · Scrum · User Stories · Acceptance Criteria · Product Backlog · Backlog Refinement · Sprint Planning · Jira · Product Requirements
+
+**Process & Modeling**  
+BPMN · UML · AS-IS / TO-BE Analysis · Process Mapping · Workflow Design · User Journey Mapping · Wireframing · Prototyping
+
+**Technical & Data**  
+REST API Concepts · API Testing · Postman · SQL · MySQL · Power BI · Data Analysis · Data Visualization
+
+**Healthcare**  
+Pharmaceuticals · Regulatory Affairs · Healthcare Workflows · Clinical Research · Pharmacovigilance · Healthcare Analytics · Healthcare AI
+
+---
+
+## 🛠️ Tools
+Jira · Confluence · Postman · MySQL · SQL · Power BI · Excel · Figma · Whimsical · Draw.io · GitHub · MkDocs
+
+---
+
+## 📁 What You Will Find in This Portfolio
+Each case study follows a structured Business Analysis approach and may include:
+
+* Project Charter
+* Business Case
+* Stakeholder Register
+* RACI
+* Requirement Elicitation
+* BRD
+* FRD
+* AS-IS / TO-BE Processes
+* Gap Analysis
+* User Stories
+* Acceptance Criteria
+* Product Backlog
+* Jira Artifacts
+* UAT
+* RTM
+* Risk & Issue Analysis
+* AI Opportunity Analysis
+* Product / Dashboard Requirements
+
+---
+
+## 🎓 Education
+
+* **Master of Pharmacy (M.Pharm) – Pharmacology**  
+  Lachoo Memorial College of Science & Technology  
+  Rajasthan University of Health Sciences, Jaipur  
+  *March 2014 – July 2015*
+
+* **Bachelor's Degree – Pharmacy**  
+  Rajasthan University of Health Sciences, Jaipur  
+  *September 2010 – July 2013*
+
+---
+
+## 📄 Resume
+My resume provides a concise overview of my professional experience, Business Analysis capabilities, healthcare domain knowledge, and portfolio work.
+
+[Download Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
+
+---
+
+## 🤝 Connect
+If you are looking for a Healthcare Business Analyst, Business Systems Analyst, Healthcare Product Analyst, or AI Business Analyst, I'd be happy to connect.
+
+* **LinkedIn**: [Tej Singh Rajpurohit](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/)
+* **GitHub**: [Healthcare BA & AI Portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-)
+
+---
+
+!!! note "Portfolio Disclaimer"
+    All healthcare technology projects in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.
+
+  
 UAT & Validation<br>
 ↓<br>
 RTM<br>

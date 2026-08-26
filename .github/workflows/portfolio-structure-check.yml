@@ -1,0 +1,50 @@
+# Validates that expected portfolio folders/files exist
+name: Portfolio Structure Check
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  structure:
+    name: Check required structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify README exists
+        run: |
+          if [ ! -f README.md ]; then
+            echo "::error::README.md is required at repository root"
+            exit 1
+          fi
+          echo "README.md found"
+
+      - name: List repository structure
+        run: |
+          echo "### Repository structure"
+          find . -type f -not -path './.git/*' | sort | head -100
+
+      - name: Check for common portfolio folders (informational)
+        run: |
+          echo "Checking for common BA portfolio folders..."
+          for dir in \
+            "01-Project-Overview" \
+            "01-Project-Initiation" \
+            "02-Stakeholder-Analysis" \
+            "03-Process-Models" \
+            "04-BRD" \
+            "05-FRD" \
+            "06-User-Stories-Backlog" \
+            "07-UAT-Scenarios" \
+            "assets"
+          do
+            if [ -d "$dir" ]; then
+              echo "✓ Found: $dir"
+            else
+              echo "· Not found (optional): $dir"
+            fi
+          done

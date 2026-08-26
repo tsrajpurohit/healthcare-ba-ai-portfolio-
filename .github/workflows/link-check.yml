@@ -1,0 +1,35 @@
+# Checks for broken links in Markdown files
+name: Link Check
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '**.md'
+  pull_request:
+    branches: [main, master]
+  schedule:
+    # Run weekly to catch external link rot
+    - cron: '0 8 * * 1'
+
+jobs:
+  linkcheck:
+    name: Check Markdown links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,206,429
+            --exclude-mail
+            '**/*.md'
+          fail: false
+          # Set fail: true if you want broken links to fail the workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

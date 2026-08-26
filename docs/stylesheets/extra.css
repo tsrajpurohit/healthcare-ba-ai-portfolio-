@@ -35,3 +35,31 @@
 .portfolio-card:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
+.md-grid {
+  max-width: 68rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.portfolio-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--md-default-bg-color);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border-color: var(--md-accent-fg-color);
+}
+
+.portfolio-card h3 {
+  margin-top: 0.2rem;
+}

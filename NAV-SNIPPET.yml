@@ -1,0 +1,24 @@
+# Replace the top of your nav: section with this structure.
+# Keep all your existing HMS / RCM / CTMS / Analytics / PV nested pages underneath.
+
+nav:
+  - Home: index.md
+  - About:
+      - About Me: about.md
+      - BA Approach: ba-approach.md
+      - Portfolio Overview: overview.md
+  - AI Healthcare RCM:
+      - Overview: rcm/index.md
+      # ... keep your existing RCM children (1. Project Overview, 2. Stakeholders, ...)
+  - Hospital Management System:
+      - Overview: hms/index.md
+      # ... existing HMS children
+  - Clinical Trial Management:
+      - Overview: ctms/index.md
+      # ... existing CTMS children
+  - Healthcare Analytics Dashboard:
+      - Overview: analytics/index.md
+      # ... existing analytics children
+  - AI Pharmacovigilance (VigilAI):
+      - Overview: pv/index.md
+      # ... existing PV children

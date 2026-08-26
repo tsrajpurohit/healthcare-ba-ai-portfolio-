@@ -2,10 +2,12 @@
 
 **Tej Singh Rajpurohit**  
 Healthcare Business Analyst · Healthcare Technology · AI Product · Pharma Domain
-[View Resume (PDF)](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
+-
+[View Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button }
 [LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
 [GitHub Repository](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button }
 [How I approach BA](ba-approach.md){ .md-button }
+
 ## Positioning
 
 Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and real experience in pharmaceutical **Business Development** and **Regulatory Affairs**, transitioning into **Healthcare Business Analysis and Healthcare Technology**.

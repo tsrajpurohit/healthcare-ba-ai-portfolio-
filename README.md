@@ -1,5 +1,5 @@
 # MkDocs Portfolio Setup
-
+[![CI](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-/actions/workflows/ci.yml/badge.svg)](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-/actions/workflows/ci.yml)
 Publish your Healthcare BA & AI portfolio case studies as a polished documentation site using **MkDocs Material** and **GitHub Pages**.
 
 ## Quick start

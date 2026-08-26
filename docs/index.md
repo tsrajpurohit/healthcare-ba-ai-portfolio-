@@ -190,5 +190,5 @@ Figma · Whimsical · Draw.io · GitHub · MkDocs
 
 [Download Resume](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
 [Connect on LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
-[View GitHub](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-){ .md-button }
+[View GitHub](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button }
 [About Me](about.md){ .md-button }

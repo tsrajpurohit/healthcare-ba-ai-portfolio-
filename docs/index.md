@@ -170,6 +170,12 @@ User Stories & Acceptance Criteria<br>
         ↓<br>
 Product Backlog / Jira<br>
         ↓<br>
+UAT & Validation<br>
+       ↓<br>
+RTM<br>
+       ↓<br>
+Feedback & Continuous Improvement
+</div>
 
 ## 🧩 BA Skills
 
@@ -251,9 +257,4 @@ If you are looking for a Healthcare Business Analyst, Business Systems Analyst, 
     All healthcare technology projects in this portfolio are simulated Business Analysis case studies created for professional learning and portfolio demonstration. They are not presented as commercial client engagements or professional employment projects.
 
   
-UAT & Validation<br>
-↓<br>
-RTM<br>
-↓<br>
-Feedback & Continuous Improvement
-</div>
+

@@ -625,7 +625,9 @@
 /* =========================================================
    13. OPEN DROPDOWN
    ========================================================= */
-
+.tsr-projects-button {
+  pointer-events: auto !important;
+}
 .md-tabs__item.tsr-projects-dropdown.tsr-projects-open
 .tsr-projects-menu {
 

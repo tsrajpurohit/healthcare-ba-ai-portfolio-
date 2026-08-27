@@ -564,14 +564,98 @@
 
 
 /* =========================================================
-   12. PROJECT DROPDOWN PANEL
+   PROJECTS DROPDOWN
    ========================================================= */
 
-.md-tabs__item.tsr-projects-dropdown
+/* ---------- Wrapper ---------- */
+
+.md-tabs__item.tsr-projects-dropdown {
+  position: relative !important;
+  display: flex !important;
+  align-items: stretch !important;
+  overflow: visible !important;
+  height: auto !important;
+}
+
+
+/* ---------- Button ---------- */
+
+.tsr-projects-button {
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 0.35rem !important;
+
+  min-height: 3rem !important;
+
+  padding: 0 0.85rem !important;
+  margin: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+
+  background: transparent !important;
+
+  color: inherit !important;
+
+  font-family: inherit !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+
+  line-height: 1 !important;
+
+  cursor: pointer !important;
+
+  appearance: none !important;
+  -webkit-appearance: none !important;
+
+  pointer-events: auto !important;
+
+  position: relative !important;
+
+  z-index: 10001 !important;
+}
+
+
+/* ---------- Button hover ---------- */
+
+.tsr-projects-button:hover {
+  background:
+    rgba(255, 255, 255, 0.08) !important;
+}
+
+
+/* ---------- Chevron ---------- */
+
+.tsr-projects-chevron {
+  display: inline-block !important;
+
+  font-size: 0.7rem !important;
+
+  line-height: 1 !important;
+
+  transition:
+    transform 0.2s ease !important;
+}
+
+
+/* ---------- Chevron open ---------- */
+
+.tsr-projects-dropdown.tsr-projects-open
+.tsr-projects-chevron {
+  transform:
+    rotate(180deg) !important;
+}
+
+
+/* =========================================================
+   DROPDOWN MENU
+   ========================================================= */
+
 .tsr-projects-menu {
-
-  display: block !important;
-
   position: absolute !important;
 
   top:
@@ -618,19 +702,16 @@
     transform 0.18s ease,
     visibility 0.18s ease !important;
 
-  z-index: 10000 !important;
+  z-index: 99999 !important;
 }
 
 
 /* =========================================================
-   13. OPEN DROPDOWN
+   OPEN MENU
    ========================================================= */
-.tsr-projects-button {
-  pointer-events: auto !important;
-}
-.md-tabs__item.tsr-projects-dropdown.tsr-projects-open
-.tsr-projects-menu {
 
+.tsr-projects-dropdown.tsr-projects-open
+.tsr-projects-menu {
   opacity: 1 !important;
 
   visibility: visible !important;
@@ -644,17 +725,15 @@
 
 
 /* =========================================================
-   14. PROJECT MENU LINKS
+   PROJECT LINKS
    ========================================================= */
 
-.tsr-projects-menu
 .tsr-project-link {
-
   display: flex !important;
 
   align-items: center !important;
 
-  gap: 0.75rem;
+  gap: 0.75rem !important;
 
   width: 100% !important;
 
@@ -674,147 +753,112 @@
   background:
     transparent !important;
 
-  font-size: 0.78rem;
+  text-decoration:
+    none !important;
 
-  font-weight: 500;
+  font-size:
+    0.78rem !important;
 
-  text-decoration: none !important;
+  font-weight:
+    500 !important;
 
-  cursor: pointer !important;
+  cursor:
+    pointer !important;
 
   transition:
     background-color 0.15s ease,
     color 0.15s ease,
-    transform 0.15s ease;
+    transform 0.15s ease !important;
 }
 
 
-/* Project hover */
+/* ---------- Link hover ---------- */
 
-.tsr-projects-menu
 .tsr-project-link:hover {
-
   background:
     var(--tsr-accent-soft) !important;
 
   color:
     var(--tsr-accent-dark) !important;
 
-  text-decoration: none !important;
+  text-decoration:
+    none !important;
 
   transform:
-    translateX(2px);
+    translateX(2px) !important;
 }
 
 
-/* =========================================================
-   15. PROJECT ICON
-   ========================================================= */
+/* ---------- Icons ---------- */
 
 .tsr-project-icon {
+  display: inline-flex !important;
 
-  display: inline-flex;
+  align-items: center !important;
 
-  align-items: center;
+  justify-content: center !important;
 
-  justify-content: center;
+  width: 1.8rem !important;
 
-  flex-shrink: 0;
+  height: 1.8rem !important;
 
-  width: 1.8rem;
-  height: 1.8rem;
+  flex-shrink: 0 !important;
 
-  border-radius: 7px;
+  border-radius: 7px !important;
 
   background:
-    var(--tsr-accent-soft);
+    var(--tsr-accent-soft) !important;
 
-  font-size: 0.95rem;
+  font-size: 0.95rem !important;
 }
 
 
-/* =========================================================
-   16. PROJECT NAME
-   ========================================================= */
+/* ---------- Project name ---------- */
 
 .tsr-project-name {
-  line-height: 1.25;
+  line-height: 1.25 !important;
 }
 
 
 /* =========================================================
-   17. DARK MODE
+   PREVENT HEADER CLIPPING
+   ========================================================= */
+
+.md-header {
+  overflow: visible !important;
+}
+
+.md-tabs {
+  overflow: visible !important;
+}
+
+.md-tabs__inner {
+  overflow: visible !important;
+}
+
+.md-tabs__list {
+  overflow: visible !important;
+}
+
+
+/* =========================================================
+   DARK MODE
    ========================================================= */
 
 [data-md-color-scheme="slate"]
 .tsr-projects-menu {
-
-  background:
-    var(--md-default-bg-color) !important;
-
-  border-color:
-    var(--md-default-fg-color--lightest) !important;
-
   box-shadow:
     0 12px 30px
-    rgba(0, 0, 0, 0.45) !important;
+    rgba(0, 0, 0, 0.50) !important;
 }
 
 
 /* =========================================================
-   18. DESKTOP
-   ========================================================= */
-
-@media screen and (min-width: 76.25em) {
-
-  .tsr-projects-button {
-    font-size: 0.78rem !important;
-  }
-
-  .tsr-projects-menu {
-    min-width: 330px !important;
-  }
-
-}
-
-
-/* =========================================================
-   19. TABLET
-   ========================================================= */
-
-@media screen and (max-width: 76.24em) {
-
-  .tsr-projects-menu {
-
-    width: 300px !important;
-
-    max-width:
-      calc(100vw - 1.5rem) !important;
-  }
-
-}
-
-
-/* =========================================================
-   20. MOBILE
+   MOBILE
    ========================================================= */
 
 @media screen and (max-width: 600px) {
 
-  .md-tabs__item.tsr-projects-dropdown
-  .tsr-projects-button {
-
-    min-height: 2.8rem;
-
-    padding:
-      0 0.65rem !important;
-
-    font-size:
-      0.72rem !important;
-  }
-
-
-  .md-tabs__item.tsr-projects-dropdown
   .tsr-projects-menu {
 
     position: fixed !important;
@@ -822,7 +866,6 @@
     top: 4rem !important;
 
     left: 0.75rem !important;
-
     right: 0.75rem !important;
 
     width: auto !important;
@@ -834,7 +877,7 @@
   }
 
 
-  .md-tabs__item.tsr-projects-dropdown.tsr-projects-open
+  .tsr-projects-dropdown.tsr-projects-open
   .tsr-projects-menu {
 
     transform:
@@ -842,7 +885,6 @@
   }
 
 
-  .tsr-projects-menu
   .tsr-project-link {
 
     padding:
@@ -850,32 +892,6 @@
 
     font-size:
       0.76rem !important;
-  }
-
-}
-
-
-/* =========================================================
-   21. SMALL MOBILE
-   ========================================================= */
-
-@media screen and (max-width: 400px) {
-
-  .tsr-projects-menu
-  .tsr-project-link {
-
-    gap: 0.6rem;
-
-    padding:
-      0.65rem !important;
-  }
-
-  .tsr-project-icon {
-
-    width: 1.7rem;
-    height: 1.7rem;
-
-    font-size: 0.9rem;
   }
 
 }

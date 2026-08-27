@@ -46,20 +46,19 @@ theme:
     code: Roboto Mono
 
   features:
-    - navigation.indexes
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.instant
-    - navigation.tracking
-    - navigation.top
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.code.copy
-    - toc.follow
+  - navigation.indexes
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.instant
+  - navigation.tracking
+  - navigation.top
+  - navigation.footer
+  - search.suggest
+  - search.highlight
+  - search.share
+  - content.code.copy
+  - toc.follow
 
   icon:
     repo: fontawesome/brands/github

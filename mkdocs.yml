@@ -121,10 +121,11 @@ nav:
   - Home: index.md
 
   - About:
+      - About Case Study: projects.md
       - About Me: about.md
       #- Portfolio Overview: overview.md
       - About BA Approach: ba-approach.md
-      - About Case Study: projects.md
+      
   - Hospital Management System:
       - Overview: hms/index.md
       - 1. Project Overview:

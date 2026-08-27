@@ -11,11 +11,26 @@ Healthcare Business Analyst · Healthcare Technology · AI Product · Pharma Dom
 
 ## Positioning
 
-Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and real experience in pharmaceutical **Business Development** and **Regulatory Affairs**, transitioning into **Healthcare Business Analysis and Healthcare Technology**.
+Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and real-world experience in **Business Development** and **Regulatory Affairs**.
 
-This portfolio demonstrates how I analyze healthcare problems, gather requirements, model processes, define solutions, and translate them into Agile delivery artifacts—not merely a set of templates.
+Transitioning into **Healthcare Business Analysis and Healthcare Technology**—combining pharmaceutical domain knowledge with Business Analysis, Agile, product thinking, data, and technical skills.
 
-**Target roles:** Healthcare Business Analyst · Business Systems Analyst · Healthcare Product Analyst · AI Business Analyst
+I build structured requirements and solution documentation across the healthcare product lifecycle: from business problem and stakeholder analysis through process models, BRD/FRD, user stories, backlog, UAT, and traceability.
+
+### Target roles
+
+**Healthcare Business Analyst · Business Systems Analyst · Healthcare Product Analyst · AI Business Analyst**
+
+---
+
+| Area | What I contribute |
+|------|-------------------|
+| **Business Analysis** | Requirements elicitation, BRD/FRD, stakeholder analysis, process modeling, user stories, UAT, RTM |
+| **Healthcare Technology** | Healthcare workflows, clinical processes, RCM, hospital operations, healthcare analytics |
+| **AI Product** | AI opportunity analysis, use-case prioritization, business rules, human-in-the-loop, explainability |
+| **Agile / Product** | User stories, acceptance criteria, backlog, Jira, sprint support, product requirements |
+| **Data & Integration** | SQL/MySQL, Power BI, REST API concepts, Postman |
+| **UX / Process Design** | BPMN, UML, Figma, Whimsical, workflow and user-journey modeling |
 
 ---
 
@@ -66,12 +81,39 @@ This portfolio demonstrates how I analyze healthcare problems, gather requiremen
 
 ---
 
-## How to read this portfolio
+## My Business Analysis approach
 
-1. **[Home](index.md)** — positioning, featured projects, skills  
-2. **[BA Approach](ba-approach.md)** — full lifecycle  
-3. **Project overview** pages — Problem → Role → Deliverables → Outcome  
-4. **Detailed artifacts** — only when you want depth (BRD, stories, UAT, RTM, …)  
+I translate a business problem into a structured, testable solution:
+
+| Step | Focus |
+|------|--------|
+| **01 — Understand** | Business problem · stakeholders · objectives · context |
+| **02 — Analyze** | Requirements · AS-IS · pain points · gaps · business rules |
+| **03 — Design** | TO-BE process · BRD / FRD · journeys · functional requirements |
+| **04 — Deliver** | User stories · acceptance criteria · Jira backlog · sprint support |
+| **05 — Validate** | UAT · RTM · issue analysis · business validation |
+| **06 — Improve** | Feedback · process improvement · requirement refinement |
+
+Full lifecycle diagram and principles: **[How I approach a business problem](ba-approach.md)**
+
+---
+
+## Skills & tools
+
+**Business Analysis**  
+Requirements elicitation & analysis · Stakeholder management · BRD · FRD · NFR · Gap analysis · Root cause & impact analysis · UAT · RTM  
+
+**Agile & product**  
+Agile · Scrum · User stories · Acceptance criteria · Product backlog · Backlog refinement · Sprint planning · Jira  
+
+**Process & modeling**  
+BPMN · UML · AS-IS / TO-BE · Process mapping · Workflow design · User journeys · Wireframing  
+
+**Technical & data**  
+REST API concepts · Postman · SQL · MySQL · Power BI · Data analysis & visualization  
+
+**Design & collaboration**  
+Figma · Whimsical · Draw.io · GitHub · MkDocs  
 
 ---
 
@@ -84,5 +126,5 @@ This portfolio demonstrates how I analyze healthcare problems, gather requiremen
 ## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/)  
-- [GitHub portfolio](https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-)  
+- [GitHub Repo](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies)  
 - [Resume (PDF)](assets/Tej-Singh-Rajpurohit-Resume.pdf)  

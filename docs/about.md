@@ -122,7 +122,7 @@ I translate a business problem into a structured, testable solution:
 | **Business Analysis** | Requirements elicitation & analysis · Stakeholder management · BRD · FRD · NFR · Gap analysis · Root cause & impact analysis · UAT · RTM |
 | **Agile & Product** | Agile · Scrum · User stories · Acceptance criteria · Product backlog · Backlog refinement · Sprint planning · Jira |
 | **Process & Modeling** | BPMN · UML · AS-IS / TO-BE · Process mapping · Workflow design · User journeys · Wireframing |
-| **Technical ** | REST API concepts · Postman · SQL · MySQL |
+| **Technical** | REST API concepts · Postman · SQL · MySQL |
 | **Design & Collaboration** | Figma · Whimsical · Draw.io · GitHub · MkDocs |
 | **Data & Visualization** | Power BI · Excel |
 

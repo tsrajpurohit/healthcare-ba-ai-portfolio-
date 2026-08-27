@@ -9,13 +9,15 @@ site_author: Tej Singh
 # site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
 
 site_url: https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/
+
 repo_name: Healthcare-BA-Case-studies
 repo_url: https://github.com/tsrajpurohit/Healthcare-BA-Case-studies/
 edit_uri: edit/main/docs/
-    
+
 theme:
   name: material
   language: en
+
   # Optional: add files under docs/assets/
   # logo: assets/logo.png
   # favicon: assets/favicon.ico
@@ -29,6 +31,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
     # Dark
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -43,9 +46,9 @@ theme:
     code: Roboto Mono
 
   features:
-    - navigation.indexes   # optional: section Overview as tab landing page
-    - navigation.tabs          # top bar sections
-    - navigation.tabs.sticky   # tabs stay visible on scroll
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.instant
@@ -66,19 +69,26 @@ theme:
 
 plugins:
   - search
+
   - mermaid2
+
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
+
   - glightbox
+
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
+
   - redirects:
       redirect_maps:
-        #old-page.md: new-page.md
+        # old-page.md: new-page.md
+
   - awesome-pages
+
   - print-site
 
 markdown_extensions:
@@ -87,206 +97,301 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+
   - toc:
       permalink: true
+
   - pymdownx.details
+
   - pymdownx.highlight:
       anchor_linenums: true
+
   - pymdownx.inlinehilite
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
   - pymdownx.tabbed:
       alternate_style: true
+
   - tables
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/tsrajpurohit/healthcare-ba-ai-portfolio-
+
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/
-  generator: false   # hide "Made with Material for MkDocs"
+
+  generator: false
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
+
+  # ============================================================
+  # MAIN NAVIGATION
+  # ============================================================
+
   - Home: index.md
 
   - About:
       - About Me: about.md
       - Portfolio Overview: overview.md
       - BA Approach: ba-approach.md
-      - Projects overview: projects.md
-  - Hospital Management System:
-      - Overview: hms/index.md
-      - 1. Project Overview:
-          - Business Case: hms/01-Project-Overview/Business-Case.md
-          - Project Charter: hms/01-Project-Overview/Project-Charter.md
-          - Scope Statement: hms/01-Project-Overview/Scope-Statement.md
-      - 2. Stakeholder Analysis:
-          - Power-Interest Grid: hms/02-Stakeholder-Analysis/Power-Interest-Grid.md
-          - RACI Matrix: hms/02-Stakeholder-Analysis/RACI-Matrix.md
-          - Stakeholder Register: hms/02-Stakeholder-Analysis/Stakeholder-Register.md
-      - 3. Process Models:
-          - AS-IS Process Models: hms/03-Process-Models/AS-IS-Process-Models.md
-          - Gap Analysis: hms/03-Process-Models/Gap-Analysis.md
-          - TO-BE Process Models: hms/03-Process-Models/TO-BE-Process-Models.md
-      - 4. BRD:
-          - Business Requirements Document: hms/04-BRD/Business-Requirements-Document.md
-      - 5. FRD:
-          - Functional Requirements Document: hms/05-FRD/Functional-Requirements-Document.md
-      - 6. User Stories & Backlog:
-          - Acceptance Criteria: hms/06-User-Stories-Backlog/Acceptance-Criteria.md
-          - Sample Jira Backlog: hms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
-          - User Stories: hms/06-User-Stories-Backlog/User-Stories.md
-      - 7. UAT Scenarios:
-          - UAT Test Scenarios: hms/07-UAT-Scenarios/UAT-Test-Scenarios.md
-      - 8. Dashboards & Metrics:
-          - Dashboard Mockup Description: hms/08-Dashboards-Metrics/Dashboard-Mockup-Description.md
-          - KPI Dashboard Definition: hms/08-Dashboards-Metrics/KPI-Dashboard-Definition.md
-          - Sample Metrics Data: hms/08-Dashboards-Metrics/Sample-Metrics-Data.csv
-      - 9. Traceability & Risks:
-          - Assumptions & Constraints: hms/09-Traceability-Risks/Assumptions-Constraints.md
-          - Requirements Traceability Matrix: hms/09-Traceability-Risks/Requirements-Traceability-Matrix.md
-          - Risk Register: hms/09-Traceability-Risks/Risk-Register.md
-          
-  - AI Healthcare RCM:
-      - Overview: rcm/index.md
-      - 1. Project Overview:
-          - Project Charter: rcm/01-Project-Overview/Project-Charter.md
-          - Business Case: rcm/01-Project-Overview/Business-Case.md
-          - Scope Statement: rcm/01-Project-Overview/Scope-Statement.md
-      - 2. Stakeholder Analysis:
-          - Stakeholder Register: rcm/02-Stakeholder-Analysis/Stakeholder-Register.md
-          - Power-Interest Grid: rcm/02-Stakeholder-Analysis/Power-Interest-Grid.md
-          - RACI Matrix: rcm/02-Stakeholder-Analysis/RACI-Matrix.md
-      - 3. Process Models:
-          - AS-IS Workflows: rcm/03-Process-Models/AS-IS-RCM-Workflows.md
-          - TO-BE AI Workflows: rcm/03-Process-Models/TO-BE-AI-Enabled-Workflows.md
-          - Gap Analysis: rcm/03-Process-Models/Gap-Analysis.md
-      - 4. AI Opportunity Analysis:
-          - Automation Opportunity Map: rcm/04-AI-Opportunity-Analysis/Automation-Opportunity-Map.md
-          - AI Use Case Prioritization: rcm/04-AI-Opportunity-Analysis/AI-Use-Case-Prioritization.md
-          - Business Rules & AI Logic: rcm/04-AI-Opportunity-Analysis/Business-Rules-AI-Logic.md
-      - 5. BRD:
-          - Business Requirements Document: rcm/05-BRD/Business-Requirements-Document.md
-      - 6. FRD & AI Requirements:
-          - Functional AI Requirements: rcm/06-FRD-AI-Requirements/Functional-AI-Requirements.md
-      - 7. User Stories & Backlog:
-          - User Stories: rcm/07-User-Stories-Backlog/User-Stories.md
-          - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
-          - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
-      - 8. UAT Scenarios:
-          - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
-      - 9. Dashboards & Metrics:
-          - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
-          - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
-          - Dashboard Mockup Description: rcm/09-Dashboards-Metrics/Dashboard-Mockup-Description.md
-      - 10. Traceability & Risks:
-          - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md
-          - Risk Register: rcm/10-Traceability-Risks/Risk-Register.md
-          - Assumptions & Constraints: rcm/10-Traceability-Risks/Assumptions-Constraints.md
-          
-  - Clinical Trial Management:
-      - Overview: ctms/index.md
-      - 1. Project Overview:
-          - Business Case: ctms/01-Project-Overview/Business-Case.md
-          - Project Charter: ctms/01-Project-Overview/Project-Charter.md
-          - Scope Statement: ctms/01-Project-Overview/Scope-Statement.md
-      - 2. Stakeholder Analysis:
-          - Power-Interest Grid: ctms/02-Stakeholder-Analysis/Power-Interest-Grid.md
-          - RACI Matrix: ctms/02-Stakeholder-Analysis/RACI-Matrix.md
-          - Stakeholder Register: ctms/02-Stakeholder-Analysis/Stakeholder-Register.md
-      - 3. Process Models:
-          - AS-IS Process Models: ctms/03-Process-Models/AS-IS-Process-Models.md
-          - Gap Analysis: ctms/03-Process-Models/Gap-Analysis.md
-          - TO-BE Process Models: ctms/03-Process-Models/TO-BE-Process-Models.md
-      - 4. BRD:
-          - Business Requirements Document: ctms/04-BRD/Business-Requirements-Document.md
-      - 5. FRD & NFR:
-          - Functional Requirements: ctms/05-FRD-NFR/Functional-Requirements.md
-          - Non-Functional Requirements: ctms/05-FRD-NFR/Non-Functional-Requirements.md
-      - 6. User Stories & Backlog:
-          - Acceptance Criteria: ctms/06-User-Stories-Backlog/Acceptance-Criteria.md
-          - Sample Jira Backlog: ctms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
-          - User Stories: ctms/06-User-Stories-Backlog/User-Stories.md
-      - 7. UAT Scenarios:
-          - UAT Test Scenarios: ctms/07-UAT-Scenarios/UAT-Test-Scenarios.md
-      - 8. Traceability & Risks:
-          - Assumptions & Constraints: ctms/08-Traceability-Risks/Assumptions-Constraints.md
-          - Requirements Traceability Matrix: ctms/08-Traceability-Risks/Requirements-Traceability-Matrix.md
-          - Risk Register: ctms/08-Traceability-Risks/Risk-Register.md
-          
-  - Healthcare Analytics Dashboard:
-      - Overview: analytics/index.md
-      - 1. Project Overview:
-          - Business Case: analytics/01-Project-Overview/Business-Case.md
-          - Project Charter: analytics/01-Project-Overview/Project-Charter.md
-          - Scope Statement: analytics/01-Project-Overview/Scope-Statement.md
-      - 2. Stakeholder Analysis:
-          - Power-Interest Grid: analytics/02-Stakeholder-Analysis/Power-Interest-Grid.md
-          - RACI Matrix: analytics/02-Stakeholder-Analysis/RACI-Matrix.md
-          - Stakeholder Register: analytics/02-Stakeholder-Analysis/Stakeholder-Register.md
-      - 3. KPI Framework:
-          - KPI Dictionary: analytics/03-KPI-Framework/KPI-Dictionary.md
-          - KPI Prioritization: analytics/03-KPI-Framework/KPI-Prioritization.md
-          - Metric Calculation Rules: analytics/03-KPI-Framework/Metric-Calculation-Rules.md
-      - 4. Requirements:
-          - Business Requirements: analytics/04-Requirements/Business-Requirements.md
-          - Dashboard Requirements: analytics/04-Requirements/Dashboard-Requirements.md
-          - Non-Functional Requirements: analytics/04-Requirements/Non-Functional-Requirements.md
-      - 5. User Stories & Backlog:
-          - Acceptance Criteria: analytics/05-User-Stories-Backlog/Acceptance-Criteria.md
-          - Sample Jira Backlog: analytics/05-User-Stories-Backlog/Sample-Jira-Backlog.csv
-          - User Stories: analytics/05-User-Stories-Backlog/User-Stories.md
-      - 6. UAT Validation:
-          - Validation Scenarios: analytics/06-UAT-Validation/Validation-Scenarios.md
-      - 7. Traceability & Risks:
-          - Assumptions & Constraints: analytics/07-Traceability-Risks/Assumptions-Constraints.md
-          - Requirements Traceability Matrix: analytics/07-Traceability-Risks/Requirements-Traceability-Matrix.md
-          - Risk Register: analytics/07-Traceability-Risks/Risk-Register.md
-      - 8. Sample Data & Power BI:
-          - Power BI Implementation Notes: analytics/08-Sample-Data-PowerBI/PowerBI-Implementation-Notes.md
-          - Sample KPI Data: analytics/08-Sample-Data-PowerBI/Sample-KPI-Data.csv
-          
-  - AI Pharmacovigilance (VigilAI):
-      - Overview: pv/index.md
-      - 1. Project Initiation:
-          - Business Case: pv/01-Project-Initiation/Business-Case.md
-          - Business Request Analysis: pv/01-Project-Initiation/Business-Request-Analysis.md
-          - Project Charter: pv/01-Project-Initiation/Project-Charter.md
-          - Scope Statement: pv/01-Project-Initiation/Scope-Statement.md
-      - 2. Stakeholder Analysis:
-          - Power-Interest Grid: pv/02-Stakeholder-Analysis/Power-Interest-Grid.md
-          - RACI Matrix: pv/02-Stakeholder-Analysis/RACI-Matrix.md
-          - Stakeholder Register: pv/02-Stakeholder-Analysis/Stakeholder-Register.md
-      - 3. Process Models:
-          - AS-IS Process Models: pv/03-Process-Models/AS-IS-Process-Models.md
-          - Gap Analysis: pv/03-Process-Models/Gap-Analysis.md
-          - TO-BE Process Models: pv/03-Process-Models/TO-BE-Process-Models.md
-      - 4. AI Opportunity Analysis:
-          - AI Use Case Prioritization: pv/04-AI-Opportunity-Analysis/AI-Use-Case-Prioritization.md
-          - Automation Opportunity Map: pv/04-AI-Opportunity-Analysis/Automation-Opportunity-Map.md
-          - Business Rules & AI Logic: pv/04-AI-Opportunity-Analysis/Business-Rules-AI-Logic.md
-      - 5. BRD:
-          - Business Requirements Document: pv/05-BRD/Business-Requirements-Document.md
-      - 6. FRD & AI Requirements:
-          - Functional AI Requirements: pv/06-FRD-AI-Requirements/Functional-AI-Requirements.md
-      - 7. User Stories & Backlog:
-          - Acceptance Criteria: pv/07-User-Stories-Backlog/Acceptance-Criteria.md
-          - Sample Jira Backlog: pv/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
-          - User Stories: pv/07-User-Stories-Backlog/User-Stories.md
-      - 8. UAT Scenarios:
-          - UAT Test Scenarios: pv/08-UAT-Scenarios/UAT-Test-Scenarios.md
-      - 9. Dashboards & Metrics:
-          - KPI Dashboard Definition: pv/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
-      - 10. Traceability & Risks:
-          - Assumptions & Constraints: pv/10-Traceability-Risks/Assumptions-Constraints.md
-          - Requirements Traceability Matrix: pv/10-Traceability-Risks/Requirements-Traceability-Matrix.md
-          - Risk Register: pv/10-Traceability-Risks/Risk-Register.md
 
   - Resume: resume.md
+
+
+  # ============================================================
+  # PROJECTS DROPDOWN
+  # ============================================================
+
+  - Projects:
+
+      # ========================================================
+      # 1. HOSPITAL MANAGEMENT SYSTEM
+      # ========================================================
+
+      - Hospital Management System:
+
+          - Overview: hms/index.md
+
+          - 1. Project Overview:
+              - Business Case: hms/01-Project-Overview/Business-Case.md
+              - Project Charter: hms/01-Project-Overview/Project-Charter.md
+              - Scope Statement: hms/01-Project-Overview/Scope-Statement.md
+
+          - 2. Stakeholder Analysis:
+              - Power-Interest Grid: hms/02-Stakeholder-Analysis/Power-Interest-Grid.md
+              - RACI Matrix: hms/02-Stakeholder-Analysis/RACI-Matrix.md
+              - Stakeholder Register: hms/02-Stakeholder-Analysis/Stakeholder-Register.md
+
+          - 3. Process Models:
+              - AS-IS Process Models: hms/03-Process-Models/AS-IS-Process-Models.md
+              - Gap Analysis: hms/03-Process-Models/Gap-Analysis.md
+              - TO-BE Process Models: hms/03-Process-Models/TO-BE-Process-Models.md
+
+          - 4. BRD:
+              - Business Requirements Document: hms/04-BRD/Business-Requirements-Document.md
+
+          - 5. FRD:
+              - Functional Requirements Document: hms/05-FRD/Functional-Requirements-Document.md
+
+          - 6. User Stories & Backlog:
+              - Acceptance Criteria: hms/06-User-Stories-Backlog/Acceptance-Criteria.md
+              - Sample Jira Backlog: hms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
+              - User Stories: hms/06-User-Stories-Backlog/User-Stories.md
+
+          - 7. UAT Scenarios:
+              - UAT Test Scenarios: hms/07-UAT-Scenarios/UAT-Test-Scenarios.md
+
+          - 8. Dashboards & Metrics:
+              - Dashboard Mockup Description: hms/08-Dashboards-Metrics/Dashboard-Mockup-Description.md
+              - KPI Dashboard Definition: hms/08-Dashboards-Metrics/KPI-Dashboard-Definition.md
+              - Sample Metrics Data: hms/08-Dashboards-Metrics/Sample-Metrics-Data.csv
+
+          - 9. Traceability & Risks:
+              - Assumptions & Constraints: hms/09-Traceability-Risks/Assumptions-Constraints.md
+              - Requirements Traceability Matrix: hms/09-Traceability-Risks/Requirements-Traceability-Matrix.md
+              - Risk Register: hms/09-Traceability-Risks/Risk-Register.md
+
+
+      # ========================================================
+      # 2. AI HEALTHCARE RCM
+      # ========================================================
+
+      - AI Healthcare RCM:
+
+          - Overview: rcm/index.md
+
+          - 1. Project Overview:
+              - Project Charter: rcm/01-Project-Overview/Project-Charter.md
+              - Business Case: rcm/01-Project-Overview/Business-Case.md
+              - Scope Statement: rcm/01-Project-Overview/Scope-Statement.md
+
+          - 2. Stakeholder Analysis:
+              - Stakeholder Register: rcm/02-Stakeholder-Analysis/Stakeholder-Register.md
+              - Power-Interest Grid: rcm/02-Stakeholder-Analysis/Power-Interest-Grid.md
+              - RACI Matrix: rcm/02-Stakeholder-Analysis/RACI-Matrix.md
+
+          - 3. Process Models:
+              - AS-IS Workflows: rcm/03-Process-Models/AS-IS-RCM-Workflows.md
+              - TO-BE AI Workflows: rcm/03-Process-Models/TO-BE-AI-Enabled-Workflows.md
+              - Gap Analysis: rcm/03-Process-Models/Gap-Analysis.md
+
+          - 4. AI Opportunity Analysis:
+              - Automation Opportunity Map: rcm/04-AI-Opportunity-Analysis/Automation-Opportunity-Map.md
+              - AI Use Case Prioritization: rcm/04-AI-Opportunity-Analysis/AI-Use-Case-Prioritization.md
+              - Business Rules & AI Logic: rcm/04-AI-Opportunity-Analysis/Business-Rules-AI-Logic.md
+
+          - 5. BRD:
+              - Business Requirements Document: rcm/05-BRD/Business-Requirements-Document.md
+
+          - 6. FRD & AI Requirements:
+              - Functional AI Requirements: rcm/06-FRD-AI-Requirements/Functional-AI-Requirements.md
+
+          - 7. User Stories & Backlog:
+              - User Stories: rcm/07-User-Stories-Backlog/User-Stories.md
+              - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
+              - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
+
+          - 8. UAT Scenarios:
+              - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
+
+          - 9. Dashboards & Metrics:
+              - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
+              - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
+              - Dashboard Mockup Description: rcm/09-Dashboards-Metrics/Dashboard-Mockup-Description.md
+
+          - 10. Traceability & Risks:
+              - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md
+              - Risk Register: rcm/10-Traceability-Risks/Risk-Register.md
+              - Assumptions & Constraints: rcm/10-Traceability-Risks/Assumptions-Constraints.md
+
+
+      # ========================================================
+      # 3. CLINICAL TRIAL MANAGEMENT
+      # ========================================================
+
+      - Clinical Trial Management:
+
+          - Overview: ctms/index.md
+
+          - 1. Project Overview:
+              - Business Case: ctms/01-Project-Overview/Business-Case.md
+              - Project Charter: ctms/01-Project-Overview/Project-Charter.md
+              - Scope Statement: ctms/01-Project-Overview/Scope-Statement.md
+
+          - 2. Stakeholder Analysis:
+              - Power-Interest Grid: ctms/02-Stakeholder-Analysis/Power-Interest-Grid.md
+              - RACI Matrix: ctms/02-Stakeholder-Analysis/RACI-Matrix.md
+              - Stakeholder Register: ctms/02-Stakeholder-Analysis/Stakeholder-Register.md
+
+          - 3. Process Models:
+              - AS-IS Process Models: ctms/03-Process-Models/AS-IS-Process-Models.md
+              - Gap Analysis: ctms/03-Process-Models/Gap-Analysis.md
+              - TO-BE Process Models: ctms/03-Process-Models/TO-BE-Process-Models.md
+
+          - 4. BRD:
+              - Business Requirements Document: ctms/04-BRD/Business-Requirements-Document.md
+
+          - 5. FRD & NFR:
+              - Functional Requirements: ctms/05-FRD-NFR/Functional-Requirements.md
+              - Non-Functional Requirements: ctms/05-FRD-NFR/Non-Functional-Requirements.md
+
+          - 6. User Stories & Backlog:
+              - Acceptance Criteria: ctms/06-User-Stories-Backlog/Acceptance-Criteria.md
+              - Sample Jira Backlog: ctms/06-User-Stories-Backlog/Sample-Jira-Backlog.csv
+              - User Stories: ctms/06-User-Stories-Backlog/User-Stories.md
+
+          - 7. UAT Scenarios:
+              - UAT Test Scenarios: ctms/07-UAT-Scenarios/UAT-Test-Scenarios.md
+
+          - 8. Traceability & Risks:
+              - Assumptions & Constraints: ctms/08-Traceability-Risks/Assumptions-Constraints.md
+              - Requirements Traceability Matrix: ctms/08-Traceability-Risks/Requirements-Traceability-Matrix.md
+              - Risk Register: ctms/08-Traceability-Risks/Risk-Register.md
+
+
+      # ========================================================
+      # 4. HEALTHCARE ANALYTICS DASHBOARD
+      # ========================================================
+
+      - Healthcare Analytics Dashboard:
+
+          - Overview: analytics/index.md
+
+          - 1. Project Overview:
+              - Business Case: analytics/01-Project-Overview/Business-Case.md
+              - Project Charter: analytics/01-Project-Overview/Project-Charter.md
+              - Scope Statement: analytics/01-Project-Overview/Scope-Statement.md
+
+          - 2. Stakeholder Analysis:
+              - Power-Interest Grid: analytics/02-Stakeholder-Analysis/Power-Interest-Grid.md
+              - RACI Matrix: analytics/02-Stakeholder-Analysis/RACI-Matrix.md
+              - Stakeholder Register: analytics/02-Stakeholder-Analysis/Stakeholder-Register.md
+
+          - 3. KPI Framework:
+              - KPI Dictionary: analytics/03-KPI-Framework/KPI-Dictionary.md
+              - KPI Prioritization: analytics/03-KPI-Framework/KPI-Prioritization.md
+              - Metric Calculation Rules: analytics/03-KPI-Framework/Metric-Calculation-Rules.md
+
+          - 4. Requirements:
+              - Business Requirements: analytics/04-Requirements/Business-Requirements.md
+              - Dashboard Requirements: analytics/04-Requirements/Dashboard-Requirements.md
+              - Non-Functional Requirements: analytics/04-Requirements/Non-Functional-Requirements.md
+
+          - 5. User Stories & Backlog:
+              - Acceptance Criteria: analytics/05-User-Stories-Backlog/Acceptance-Criteria.md
+              - Sample Jira Backlog: analytics/05-User-Stories-Backlog/Sample-Jira-Backlog.csv
+              - User Stories: analytics/05-User-Stories-Backlog/User-Stories.md
+
+          - 6. UAT Validation:
+              - Validation Scenarios: analytics/06-UAT-Validation/Validation-Scenarios.md
+
+          - 7. Traceability & Risks:
+              - Assumptions & Constraints: analytics/07-Traceability-Risks/Assumptions-Constraints.md
+              - Requirements Traceability Matrix: analytics/07-Traceability-Risks/Requirements-Traceability-Matrix.md
+              - Risk Register: analytics/07-Traceability-Risks/Risk-Register.md
+
+          - 8. Sample Data & Power BI:
+              - Power BI Implementation Notes: analytics/08-Sample-Data-PowerBI/PowerBI-Implementation-Notes.md
+              - Sample KPI Data: analytics/08-Sample-Data-PowerBI/Sample-KPI-Data.csv
+
+
+      # ========================================================
+      # 5. AI PHARMACOVIGILANCE — VIGILAI
+      # ========================================================
+
+      - AI Pharmacovigilance (VigilAI):
+
+          - Overview: pv/index.md
+
+          - 1. Project Initiation:
+              - Business Case: pv/01-Project-Initiation/Business-Case.md
+              - Business Request Analysis: pv/01-Project-Initiation/Business-Request-Analysis.md
+              - Project Charter: pv/01-Project-Initiation/Project-Charter.md
+              - Scope Statement: pv/01-Project-Initiation/Scope-Statement.md
+
+          - 2. Stakeholder Analysis:
+              - Power-Interest Grid: pv/02-Stakeholder-Analysis/Power-Interest-Grid.md
+              - RACI Matrix: pv/02-Stakeholder-Analysis/RACI-Matrix.md
+              - Stakeholder Register: pv/02-Stakeholder-Analysis/Stakeholder-Register.md
+
+          - 3. Process Models:
+              - AS-IS Process Models: pv/03-Process-Models/AS-IS-Process-Models.md
+              - Gap Analysis: pv/03-Process-Models/Gap-Analysis.md
+              - TO-BE Process Models: pv/03-Process-Models/TO-BE-Process-Models.md
+
+          - 4. AI Opportunity Analysis:
+              - AI Use Case Prioritization: pv/04-AI-Opportunity-Analysis/AI-Use-Case-Prioritization.md
+              - Automation Opportunity Map: pv/04-AI-Opportunity-Analysis/Automation-Opportunity-Map.md
+              - Business Rules & AI Logic: pv/04-AI-Opportunity-Analysis/Business-Rules-AI-Logic.md
+
+          - 5. BRD:
+              - Business Requirements Document: pv/05-BRD/Business-Requirements-Document.md
+
+          - 6. FRD & AI Requirements:
+              - Functional AI Requirements: pv/06-FRD-AI-Requirements/Functional-AI-Requirements.md
+
+          - 7. User Stories & Backlog:
+              - Acceptance Criteria: pv/07-User-Stories-Backlog/Acceptance-Criteria.md
+              - Sample Jira Backlog: pv/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
+              - User Stories: pv/07-User-Stories-Backlog/User-Stories.md
+
+          - 8. UAT Scenarios:
+              - UAT Test Scenarios: pv/08-UAT-Scenarios/UAT-Test-Scenarios.md
+
+          - 9. Dashboards & Metrics:
+              - KPI Dashboard Definition: pv/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
+
+          - 10. Traceability & Risks:
+              - Assumptions & Constraints: pv/10-Traceability-Risks/Assumptions-Constraints.md
+              - Requirements Traceability Matrix: pv/10-Traceability-Risks/Requirements-Traceability-Matrix.md
+              - Risk Register: pv/10-Traceability-Risks/Risk-Register.md

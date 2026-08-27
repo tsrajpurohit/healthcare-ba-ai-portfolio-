@@ -264,3 +264,110 @@
     font-size: 1.8rem;
   }
 }
+
+
+/* =========================================================
+   TOP NAVIGATION — PROJECTS DROPDOWN
+   ========================================================= */
+
+/* Keep top-level navigation compact */
+.md-tabs__list {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+/* Normal top navigation links */
+.md-tabs__link {
+  font-size: 0.78rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+/* Slightly tighter tab spacing */
+.md-tabs__item {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+
+/* =========================================================
+   PROJECTS DROPDOWN
+   ========================================================= */
+
+/* Dropdown container */
+.md-tabs .md-nav {
+  min-width: 250px;
+}
+
+/* Dropdown links */
+.md-tabs .md-nav__link {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  padding: 0.55rem 0.8rem;
+}
+
+/* Project names */
+.md-tabs .md-nav__item > .md-nav__link {
+  font-weight: 500;
+}
+
+/* Hover */
+.md-tabs .md-nav__link:hover {
+  color: var(--tsr-accent);
+}
+
+
+/* =========================================================
+   PROJECTS TAB EMPHASIS
+   ========================================================= */
+
+/* Projects is the last top-level navigation item */
+.md-tabs__item:last-child > .md-tabs__link {
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+@media screen and (min-width: 76.25em) {
+
+  .md-tabs__link {
+    font-size: 0.78rem;
+  }
+
+  .md-tabs__item {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media screen and (max-width: 76.24em) {
+
+  .md-tabs__link {
+    font-size: 0.75rem;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+
+  .md-tabs__link {
+    font-size: 0.72rem;
+  }
+
+}

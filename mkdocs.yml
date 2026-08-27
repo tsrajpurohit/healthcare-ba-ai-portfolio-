@@ -122,7 +122,7 @@ nav:
 
   - Home:
       - Home: index.md
-      - About Case Study: projects.md
+      #- About Case Study: projects.md
       - About Me: about.md
       #- Portfolio Overview: overview.md
       - About BA Approach: ba-approach.md

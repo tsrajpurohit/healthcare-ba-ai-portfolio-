@@ -109,29 +109,14 @@
 
 I translate a business problem into a structured, testable solution:
 
-=== "01 — Understand"
-
-    Business problem · stakeholders · objectives · context
-
-=== "02 — Analyze"
-
-    Requirements · AS-IS · pain points · gaps · business rules
-
-=== "03 — Design"
-
-    TO-BE process · BRD / FRD · journeys · functional requirements
-
-=== "04 — Deliver"
-
-    User stories · acceptance criteria · Jira backlog · sprint support
-
-=== "05 — Validate"
-
-    UAT · RTM · issue analysis · business validation
-
-=== "06 — Improve"
-
-    Feedback · process improvement · requirement refinement
+| Step | Focus |
+|---|---|
+| **01 — Understand** | Business problem · stakeholders · objectives · context |
+| **02 — Analyze** | Requirements · AS-IS · pain points · gaps · business rules |
+| **03 — Design** | TO-BE process · BRD / FRD · journeys · functional requirements |
+| **04 — Deliver** | User stories · acceptance criteria · Jira backlog · sprint support |
+| **05 — Validate** | UAT · RTM · issue analysis · business validation |
+| **06 — Improve** | Feedback · process improvement · requirement refinement |
 
 :material-map-outline: Full lifecycle diagram and principles: **[How I approach a business problem](ba-approach.md)**
 
@@ -139,25 +124,13 @@ I translate a business problem into a structured, testable solution:
 
 ## Skills & Tools
 
-=== "Business Analysis"
-
-    Requirements elicitation & analysis · Stakeholder management · BRD · FRD · NFR · Gap analysis · Root cause & impact analysis · UAT · RTM
-
-=== "Agile & Product"
-
-    Agile · Scrum · User stories · Acceptance criteria · Product backlog · Backlog refinement · Sprint planning · Jira
-
-=== "Process & Modeling"
-
-    BPMN · UML · AS-IS / TO-BE · Process mapping · Workflow design · User journeys · Wireframing
-
-=== "Technical & Data"
-
-    REST API concepts · Postman · SQL · MySQL · Power BI · Data analysis & visualization
-
-=== "Design & Collaboration"
-
-    Figma · Whimsical · Draw.io · GitHub · MkDocs
+| Category | Skills & Tools |
+|---|---|
+| **Business Analysis** | Requirements elicitation & analysis · Stakeholder management · BRD · FRD · NFR · Gap analysis · Root cause & impact analysis · UAT · RTM |
+| **Agile & Product** | Agile · Scrum · User stories · Acceptance criteria · Product backlog · Backlog refinement · Sprint planning · Jira |
+| **Process & Modeling** | BPMN · UML · AS-IS / TO-BE · Process mapping · Workflow design · User journeys · Wireframing |
+| **Technical & Data** | REST API concepts · Postman · SQL · MySQL · Power BI · Data analysis & visualization |
+| **Design & Collaboration** | Figma · Whimsical · Draw.io · GitHub · MkDocs |
 
 ---
 

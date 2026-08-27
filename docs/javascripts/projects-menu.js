@@ -9,100 +9,182 @@
   const projects = [
     {
       name: "Hospital Management System",
-      shortName: "Hospital Management",
       icon: "🏥",
       path: "hms/"
     },
     {
       name: "AI Healthcare RCM",
-      shortName: "AI RCM",
       icon: "🤖",
       path: "rcm/"
     },
     {
       name: "Clinical Trial Management",
-      shortName: "Clinical Trials",
       icon: "🧪",
       path: "ctms/"
     },
     {
       name: "Healthcare Analytics Dashboard",
-      shortName: "Healthcare Analytics",
       icon: "📊",
       path: "analytics/"
     },
     {
       name: "AI Pharmacovigilance (VigilAI)",
-      shortName: "VigilAI",
       icon: "🛡️",
       path: "pv/"
     }
   ];
 
+  /* ---------------------------------------------------------
+     Get MkDocs site base URL
+     --------------------------------------------------------- */
+
   function getSiteBase() {
-    const path = window.location.pathname;
+    const base = document.querySelector("base");
 
-    const marker = "/healthcare-ba-ai-portfolio-/";
+    if (base && base.href) {
+      return base.href.replace(/\/$/, "") + "/";
+    }
 
-    if (path.includes(marker)) {
-      return path.split(marker)[0] + marker;
+    const siteUrl = document.querySelector(
+      'meta[name="generator"]'
+    );
+
+    const pathname = window.location.pathname;
+
+    /*
+     * GitHub Pages repository deployment
+     */
+    if (pathname.includes("/healthcare-ba-ai-portfolio-/")) {
+      return "/healthcare-ba-ai-portfolio-/";
     }
 
     return "/";
   }
 
+
+  /* ---------------------------------------------------------
+     Close dropdown
+     --------------------------------------------------------- */
+
+  function closeProjectsMenu(wrapper) {
+
+    if (!wrapper) {
+      wrapper = document.querySelector(
+        ".tsr-projects-dropdown"
+      );
+    }
+
+    if (!wrapper) {
+      return;
+    }
+
+    wrapper.classList.remove(
+      "tsr-projects-open"
+    );
+
+    const button = wrapper.querySelector(
+      ".tsr-projects-button"
+    );
+
+    if (button) {
+      button.setAttribute(
+        "aria-expanded",
+        "false"
+      );
+    }
+  }
+
+
+  /* ---------------------------------------------------------
+     Create dropdown
+     --------------------------------------------------------- */
+
   function createProjectsMenu() {
 
-    const tabsList = document.querySelector(".md-tabs__list");
+    const tabsList = document.querySelector(
+      ".md-tabs__list"
+    );
 
     if (!tabsList) {
       return;
     }
 
     /*
-     * Don't create it twice.
+     * Prevent duplicates.
      */
-    if (document.querySelector(".tsr-projects-dropdown")) {
+    if (
+      tabsList.querySelector(
+        ".tsr-projects-dropdown"
+      )
+    ) {
       return;
     }
 
-    /*
-     * Find the existing Projects tab.
-     */
+
+    /* -------------------------------------------------------
+       Find original Projects tab
+       ------------------------------------------------------- */
+
     const tabItems = Array.from(
-      tabsList.querySelectorAll(".md-tabs__item")
+      tabsList.querySelectorAll(
+        ".md-tabs__item"
+      )
     );
 
-    const projectsTab = tabItems.find(function (item) {
+    const projectsTab = tabItems.find(
+      function (item) {
 
-      const link = item.querySelector(".md-tabs__link");
+        const link = item.querySelector(
+          ".md-tabs__link"
+        );
 
-      return (
-        link &&
-        link.textContent.trim().toLowerCase() === "projects"
-      );
-    });
+        return (
+          link &&
+          link.textContent
+            .trim()
+            .toLowerCase() === "projects"
+        );
 
+      }
+    );
+
+
+    /*
+     * Projects tab doesn't exist.
+     */
     if (!projectsTab) {
+      console.warn(
+        "Projects dropdown: Projects tab not found."
+      );
+
       return;
     }
 
-    /*
-     * Create the dropdown wrapper.
-     */
-    const wrapper = document.createElement("li");
+
+    /* -------------------------------------------------------
+       Wrapper
+       ------------------------------------------------------- */
+
+    const wrapper = document.createElement(
+      "li"
+    );
 
     wrapper.className =
       "md-tabs__item tsr-projects-dropdown";
 
-    /*
-     * Create dropdown button.
-     */
-    const button = document.createElement("button");
+
+    /* -------------------------------------------------------
+       Button
+       ------------------------------------------------------- */
+
+    const button = document.createElement(
+      "button"
+    );
 
     button.type = "button";
 
-    button.className = "tsr-projects-button";
+    button.className =
+      "md-tabs__link tsr-projects-button";
 
     button.setAttribute(
       "aria-expanded",
@@ -116,183 +198,257 @@
 
     button.innerHTML = `
       <span>Projects</span>
-      <span class="tsr-projects-chevron">▾</span>
+      <span
+        class="tsr-projects-chevron"
+        aria-hidden="true"
+      >▾</span>
     `;
 
-    /*
-     * Create menu.
-     */
-    const menu = document.createElement("div");
 
-    menu.className = "tsr-projects-menu";
+    /* -------------------------------------------------------
+       Dropdown menu
+       ------------------------------------------------------- */
+
+    const menu = document.createElement(
+      "div"
+    );
+
+    menu.className =
+      "tsr-projects-menu";
 
     menu.setAttribute(
       "role",
       "menu"
     );
 
+
+    /* -------------------------------------------------------
+       Site base
+       ------------------------------------------------------- */
+
     const base = getSiteBase();
 
-    projects.forEach(function (project) {
 
-      const link = document.createElement("a");
+    /* -------------------------------------------------------
+       Create project links
+       ------------------------------------------------------- */
 
-      link.className = "tsr-project-link";
+    projects.forEach(
+      function (project) {
 
-      link.href = base + project.path;
+        const link = document.createElement(
+          "a"
+        );
 
-      link.setAttribute(
-        "role",
-        "menuitem"
-      );
+        link.className =
+          "tsr-project-link";
 
-      link.innerHTML = `
-        <span class="tsr-project-icon">
-          ${project.icon}
-        </span>
+        link.href =
+          base + project.path;
 
-        <span class="tsr-project-name">
-          ${project.name}
-        </span>
-      `;
+        link.setAttribute(
+          "role",
+          "menuitem"
+        );
 
-      menu.appendChild(link);
-    });
+        link.innerHTML = `
+          <span
+            class="tsr-project-icon"
+            aria-hidden="true"
+          >
+            ${project.icon}
+          </span>
+
+          <span class="tsr-project-name">
+            ${project.name}
+          </span>
+        `;
+
+        menu.appendChild(link);
+
+      }
+    );
+
+
+    /* -------------------------------------------------------
+       Assemble
+       ------------------------------------------------------- */
 
     wrapper.appendChild(button);
     wrapper.appendChild(menu);
 
-    /*
-     * Replace Material's original Projects tab.
-     */
-    projectsTab.replaceWith(wrapper);
 
-    /*
-     * Toggle dropdown.
-     */
-    button.addEventListener("click", function (event) {
+    /* -------------------------------------------------------
+       Replace original Projects tab
+       ------------------------------------------------------- */
 
-      event.preventDefault();
-      event.stopPropagation();
+    projectsTab.replaceWith(
+      wrapper
+    );
 
-      const isOpen =
-        wrapper.classList.contains("tsr-projects-open");
 
-      closeProjectsMenu();
+    /* -------------------------------------------------------
+       Toggle
+       ------------------------------------------------------- */
 
-      if (!isOpen) {
+    button.addEventListener(
+      "click",
+      function (event) {
 
-        wrapper.classList.add(
-          "tsr-projects-open"
-        );
+        event.preventDefault();
+        event.stopPropagation();
 
-        button.setAttribute(
-          "aria-expanded",
-          "true"
-        );
+        const isOpen =
+          wrapper.classList.contains(
+            "tsr-projects-open"
+          );
+
+        /*
+         * Close any other open dropdown.
+         */
+        document
+          .querySelectorAll(
+            ".tsr-projects-dropdown"
+          )
+          .forEach(
+            function (item) {
+              closeProjectsMenu(item);
+            }
+          );
+
+
+        /*
+         * Open this dropdown.
+         */
+        if (!isOpen) {
+
+          wrapper.classList.add(
+            "tsr-projects-open"
+          );
+
+          button.setAttribute(
+            "aria-expanded",
+            "true"
+          );
+
+        }
+
       }
-    });
+    );
 
-    /*
-     * Close after selecting a project.
-     */
-    menu.querySelectorAll("a").forEach(function (link) {
 
-      link.addEventListener("click", function () {
+    /* -------------------------------------------------------
+       Close after clicking project
+       ------------------------------------------------------- */
 
-        closeProjectsMenu();
+    menu
+      .querySelectorAll("a")
+      .forEach(
+        function (link) {
 
-      });
+          link.addEventListener(
+            "click",
+            function () {
 
-    });
+              closeProjectsMenu(
+                wrapper
+              );
 
-    /*
-     * Close when clicking elsewhere.
-     */
+            }
+          );
+
+        }
+      );
+
+
+    /* -------------------------------------------------------
+       Outside click
+       ------------------------------------------------------- */
+
     document.addEventListener(
       "click",
       function (event) {
 
-        if (!wrapper.contains(event.target)) {
-          closeProjectsMenu();
+        if (
+          !wrapper.contains(
+            event.target
+          )
+        ) {
+
+          closeProjectsMenu(
+            wrapper
+          );
+
         }
 
       }
     );
 
-    /*
-     * Close with Escape.
-     */
+
+    /* -------------------------------------------------------
+       Escape
+       ------------------------------------------------------- */
+
     document.addEventListener(
       "keydown",
       function (event) {
 
-        if (event.key === "Escape") {
-          closeProjectsMenu();
+        if (
+          event.key === "Escape"
+        ) {
+
+          closeProjectsMenu(
+            wrapper
+          );
+
         }
 
       }
     );
+
   }
 
-  function closeProjectsMenu() {
 
-    const wrapper =
-      document.querySelector(
-        ".tsr-projects-dropdown"
-      );
+  /* ---------------------------------------------------------
+     Initialize
+     --------------------------------------------------------- */
 
-    if (!wrapper) {
-      return;
-    }
+  function initProjectsDropdown() {
 
-    wrapper.classList.remove(
-      "tsr-projects-open"
+    /*
+     * Small delay allows Material's navigation
+     * to finish rendering.
+     */
+
+    setTimeout(
+      createProjectsMenu,
+      100
     );
 
-    const button =
-      wrapper.querySelector(
-        ".tsr-projects-button"
-      );
-
-    if (button) {
-
-      button.setAttribute(
-        "aria-expanded",
-        "false"
-      );
-
-    }
   }
 
-  /*
-   * Initial page load.
-   */
-  function init() {
-    createProjectsMenu();
-  }
 
-  /*
-   * Material for MkDocs uses instant navigation.
-   *
-   * Re-run after every navigation event.
-   */
-  if (typeof document$ !== "undefined") {
+  /* ---------------------------------------------------------
+     Material instant navigation
+     * --------------------------------------------------------- */
 
-    document$.subscribe(function () {
+  if (
+    typeof document$ !== "undefined"
+  ) {
 
-      setTimeout(
-        createProjectsMenu,
-        50
-      );
+    document$.subscribe(
+      function () {
 
-    });
+        initProjectsDropdown();
+
+      }
+    );
 
   } else {
 
     document.addEventListener(
       "DOMContentLoaded",
-      init
+      initProjectsDropdown
     );
 
   }

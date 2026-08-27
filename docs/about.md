@@ -38,7 +38,7 @@
 ---
 
 ## Professional Experience
-
+!!! abstract ""
 <div class="grid cards" markdown>
 
 -   ### :material-briefcase: Assistant Manager — Business Development
@@ -72,7 +72,7 @@
 ---
 
 ## Education
-
+!!! abstract ""
 <div class="grid cards" markdown>
 
 -   ### :material-school: Master of Pharmacy — Pharmacology

@@ -1,13 +1,19 @@
 /* =========================================================
-   Tej Singh Rajpurohit — Portfolio Custom Styles
+   Tej Singh Rajpurohit — Healthcare BA & AI Portfolio
+   Custom Styles
    Location: docs/stylesheets/extra.css
-   Reference in mkdocs.yml:
-     extra_css:
-       - stylesheets/extra.css
-   Requires (already in your mkdocs.yml): attr_list, md_in_html, admonition
+
+   MkDocs Material:
+   - navigation.tabs
+   - navigation.sections
+   - navigation.instant
    ========================================================= */
 
-/* ---------- Brand & layout ---------- */
+
+/* =========================================================
+   1. BRAND & GLOBAL LAYOUT
+   ========================================================= */
+
 :root {
   --md-primary-fg-color: #1a237e;
   --md-accent-fg-color: #00897b;
@@ -15,6 +21,7 @@
   --tsr-accent: #0e7c86;
   --tsr-accent-dark: #095c63;
   --tsr-accent-soft: #e6f3f3;
+
   --tsr-radius: 14px;
 }
 
@@ -22,48 +29,76 @@
   --tsr-accent-soft: rgba(14, 124, 134, 0.15);
 }
 
+
 /* Wider reading column */
+
 .md-grid {
   max-width: 68rem;
 }
 
-/* ---------- Hero ---------- */
+
+/* =========================================================
+   2. HERO
+   ========================================================= */
+
 .hero {
   padding: 3rem 2rem;
   margin: 0 0 2rem;
+
   border-radius: var(--tsr-radius);
-  background: linear-gradient(135deg, var(--tsr-accent) 0%, var(--tsr-accent-dark) 100%);
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--tsr-accent) 0%,
+      var(--tsr-accent-dark) 100%
+    );
+
   color: #fff;
 }
 
 .hero h1 {
   color: #fff;
+
   margin-top: 0.25rem;
+
   font-size: 2.4rem;
 }
 
 .hero p {
   color: rgba(255, 255, 255, 0.92);
+
   font-size: 1.05rem;
+
   max-width: 46rem;
 }
 
 .hero .eyebrow {
   display: inline-block;
+
   font-size: 0.78rem;
   font-weight: 700;
+
   letter-spacing: 0.06em;
+
   text-transform: uppercase;
+
   color: #fff;
+
   background: rgba(255, 255, 255, 0.18);
+
   padding: 0.3rem 0.7rem;
+
   border-radius: 999px;
 }
 
 .hero-actions {
   margin-top: 1.5rem;
+
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 0.6rem;
 }
 
@@ -73,7 +108,9 @@
 
 .hero-actions .md-button--primary {
   background: #fff;
+
   color: var(--tsr-accent-dark);
+
   border-color: #fff;
 }
 
@@ -87,65 +124,114 @@
 
 .target-roles {
   text-align: center;
+
   padding: 0.9rem 1rem;
+
   border-radius: 10px;
+
   background: var(--tsr-accent-soft);
+
   font-size: 0.95rem;
 }
 
-/* ---------- Value / project grid ---------- */
+
+/* =========================================================
+   3. VALUE / PROJECT GRID
+   ========================================================= */
+
 .value-grid,
 .project-grid,
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(240px, 1fr)
+    );
+
   gap: 1rem;
+
   margin: 1.5rem 0;
 }
 
 .value-card,
 .project-card,
 .portfolio-card {
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border:
+    1px solid
+    var(--md-default-fg-color--lightest);
+
   border-radius: var(--tsr-radius);
+
   padding: 1.25rem 1.4rem;
-  background: var(--md-default-bg-color);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+  background:
+    var(--md-default-bg-color);
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 }
 
 .value-card:hover,
 .project-card:hover,
 .portfolio-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-  border-color: var(--tsr-accent);
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 10px 24px
+    rgba(0, 0, 0, 0.08);
+
+  border-color:
+    var(--tsr-accent);
 }
 
 .value-card h4,
 .project-card h3,
 .portfolio-card h3 {
   margin-top: 0.2rem;
+
   margin-bottom: 0.5rem;
 }
 
 .project-card .tag {
   display: inline-block;
+
   font-size: 0.7rem;
+
   font-weight: 700;
+
   letter-spacing: 0.03em;
+
   text-transform: uppercase;
-  color: var(--tsr-accent-dark);
-  background: var(--tsr-accent-soft);
-  padding: 0.2rem 0.55rem;
+
+  color:
+    var(--tsr-accent-dark);
+
+  background:
+    var(--tsr-accent-soft);
+
+  padding:
+    0.2rem 0.55rem;
+
   border-radius: 999px;
+
   margin-bottom: 0.6rem;
 }
 
 .project-card .card-link {
   display: inline-block;
+
   margin-top: 0.6rem;
+
   font-weight: 600;
-  color: var(--tsr-accent);
+
+  color:
+    var(--tsr-accent);
+
   text-decoration: none;
 }
 
@@ -153,75 +239,138 @@
   text-decoration: underline;
 }
 
-/* ---------- Process flow ---------- */
+
+/* =========================================================
+   4. PROCESS FLOW
+   ========================================================= */
+
 .process-flow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(160px, 1fr)
+    );
+
   gap: 0.9rem;
+
   margin: 1.5rem 0;
 }
 
 .process-step {
   position: relative;
-  border-radius: var(--tsr-radius);
-  padding: 1.4rem 1rem 1rem;
-  background: var(--md-code-bg-color);
+
+  border-radius:
+    var(--tsr-radius);
+
+  padding:
+    1.4rem 1rem 1rem;
+
+  background:
+    var(--md-code-bg-color);
+
   text-align: center;
 }
 
 .process-step .step-num {
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
+
   width: 2.1rem;
   height: 2.1rem;
+
   border-radius: 50%;
-  background: var(--tsr-accent);
+
+  background:
+    var(--tsr-accent);
+
   color: #fff;
+
   font-weight: 700;
+
   font-size: 0.85rem;
+
   margin-bottom: 0.6rem;
 }
 
-/* ---------- Skill pills ---------- */
+
+/* =========================================================
+   5. SKILL PILLS
+   ========================================================= */
+
 .pill-group {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 0.4rem;
-  margin: 0.4rem 0 1.1rem;
+
+  margin:
+    0.4rem 0 1.1rem;
 }
 
 .pill-group code {
-  background: var(--tsr-accent-soft);
-  color: var(--tsr-accent-dark);
+  background:
+    var(--tsr-accent-soft);
+
+  color:
+    var(--tsr-accent-dark);
+
   border-radius: 999px;
-  padding: 0.25rem 0.7rem;
+
+  padding:
+    0.25rem 0.7rem;
+
   font-size: 0.78rem;
-  font-family: var(--md-text-font-family);
+
+  font-family:
+    var(--md-text-font-family);
+
   border: none;
 }
 
-/* ---------- Timeline ---------- */
+
+/* =========================================================
+   6. TIMELINE
+   ========================================================= */
+
 .timeline {
-  border-left: 2px solid var(--tsr-accent-soft);
+  border-left:
+    2px solid
+    var(--tsr-accent-soft);
+
   padding-left: 1.4rem;
-  margin: 1.2rem 0 1.2rem 0.4rem;
+
+  margin:
+    1.2rem 0
+    1.2rem 0.4rem;
 }
 
 .timeline-item {
   position: relative;
+
   padding-bottom: 1.6rem;
 }
 
 .timeline-item::before {
   content: "";
+
   position: absolute;
+
   left: -1.55rem;
+
   top: 0.25rem;
+
   width: 0.7rem;
   height: 0.7rem;
+
   border-radius: 50%;
-  background: var(--tsr-accent);
+
+  background:
+    var(--tsr-accent);
 }
 
 .timeline-item:last-child {
@@ -230,135 +379,192 @@
 
 .timeline-date {
   display: inline-block;
+
   font-size: 0.78rem;
+
   font-weight: 700;
+
   letter-spacing: 0.03em;
-  color: var(--tsr-accent-dark);
+
+  color:
+    var(--tsr-accent-dark);
+
   text-transform: uppercase;
+
   margin-bottom: 0.2rem;
 }
 
 .timeline-item h4 {
-  margin: 0.15rem 0 0.3rem;
+  margin:
+    0.15rem 0 0.3rem;
 }
 
-/* ---------- CTA band ---------- */
+
+/* =========================================================
+   7. CTA BAND
+   ========================================================= */
+
 .cta-band {
   text-align: center;
+
   padding: 2rem 1.5rem;
-  border-radius: var(--tsr-radius);
-  background: var(--tsr-accent-soft);
-  margin: 1.5rem 0 2rem;
+
+  border-radius:
+    var(--tsr-radius);
+
+  background:
+    var(--tsr-accent-soft);
+
+  margin:
+    1.5rem 0 2rem;
 }
 
 .cta-band .md-button {
   margin: 0.3rem;
 }
 
-/* ---------- Responsive ---------- */
-@media (max-width: 600px) {
-  .hero {
-    padding: 2rem 1.25rem;
-  }
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-}
-
-
-
 
 /* =========================================================
-   FINAL PROJECT DROPDOWN FIX
+   8. MATERIAL HEADER / TABS
    ========================================================= */
 
-/* Projects wrapper */
-.md-tabs__item.tsr-projects-dropdown {
-  position: relative !important;
-  display: flex !important;
-  align-items: stretch !important;
+/*
+ * Allow our custom Projects dropdown
+ * to extend outside the tab bar.
+ */
+
+.md-header,
+.md-tabs,
+.md-tabs__inner,
+.md-tabs__list {
   overflow: visible !important;
 }
 
 
-/* Projects button */
+/* =========================================================
+   9. PROJECTS TAB
+   ========================================================= */
+
+.md-tabs__item.tsr-projects-dropdown {
+  position: relative !important;
+
+  display: flex !important;
+
+  align-items: stretch !important;
+
+  overflow: visible !important;
+}
+
+
+/* =========================================================
+   10. PROJECTS BUTTON
+   ========================================================= */
+
 .md-tabs__item.tsr-projects-dropdown
 .tsr-projects-button {
 
   display: inline-flex !important;
 
   align-items: center !important;
+
   justify-content: center !important;
 
   gap: 0.35rem;
 
   width: auto !important;
+
+  min-width: 0 !important;
+
   height: auto !important;
 
   min-height: 3rem;
 
-  padding: 0 0.8rem !important;
+  padding:
+    0 0.8rem !important;
 
   margin: 0 !important;
 
   border: 0 !important;
+
+  border-radius: 0 !important;
+
   outline: none !important;
 
-  background: transparent !important;
+  background:
+    transparent !important;
 
   color: inherit !important;
 
-  cursor: pointer !important;
-
   font-family: inherit !important;
+
   font-size: 0.75rem !important;
+
   font-weight: 500 !important;
+
+  line-height: inherit !important;
 
   text-decoration: none !important;
 
+  cursor: pointer !important;
+
   appearance: none !important;
+
   -webkit-appearance: none !important;
 
   position: relative !important;
 
   z-index: 10001 !important;
+
+  box-shadow: none !important;
 }
 
 
 /* Button hover */
+
 .md-tabs__item.tsr-projects-dropdown
 .tsr-projects-button:hover {
 
-  background: rgba(255, 255, 255, 0.08) !important;
+  background:
+    rgba(255, 255, 255, 0.08) !important;
 
 }
 
 
-/* Chevron */
-.tsr-projects-chevron {
+/* Button focus */
 
+.md-tabs__item.tsr-projects-dropdown
+.tsr-projects-button:focus {
+
+  outline: none !important;
+
+}
+
+
+/* =========================================================
+   11. CHEVRON
+   ========================================================= */
+
+.tsr-projects-chevron {
   display: inline-block;
 
   font-size: 0.7rem;
 
   line-height: 1;
 
-  transition: transform 0.2s ease;
-
+  transition:
+    transform 0.2s ease;
 }
 
-
-/* Rotate chevron */
 .tsr-projects-dropdown.tsr-projects-open
 .tsr-projects-chevron {
 
-  transform: rotate(180deg);
-
+  transform:
+    rotate(180deg);
 }
 
 
 /* =========================================================
-   DROPDOWN PANEL
+   12. PROJECT DROPDOWN PANEL
    ========================================================= */
 
 .md-tabs__item.tsr-projects-dropdown
@@ -368,7 +574,8 @@
 
   position: absolute !important;
 
-  top: calc(100% + 0.25rem) !important;
+  top:
+    calc(100% + 0.25rem) !important;
 
   left: 50% !important;
 
@@ -376,19 +583,25 @@
 
   max-width: 90vw !important;
 
+  box-sizing: border-box !important;
+
   padding: 0.45rem !important;
 
   margin: 0 !important;
 
-  background: var(--md-default-bg-color) !important;
+  background:
+    var(--md-default-bg-color) !important;
 
-  border: 1px solid
+  border:
+    1px solid
     var(--md-default-fg-color--lightest) !important;
 
-  border-radius: 10px !important;
+  border-radius:
+    10px !important;
 
   box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.2) !important;
+    0 12px 30px
+    rgba(0, 0, 0, 0.20) !important;
 
   opacity: 0 !important;
 
@@ -406,12 +619,11 @@
     visibility 0.18s ease !important;
 
   z-index: 10000 !important;
-
 }
 
 
 /* =========================================================
-   OPEN STATE
+   13. OPEN DROPDOWN
    ========================================================= */
 
 .md-tabs__item.tsr-projects-dropdown.tsr-projects-open
@@ -426,12 +638,11 @@
   transform:
     translateX(-50%)
     translateY(0) !important;
-
 }
 
 
 /* =========================================================
-   PROJECT LINKS
+   14. PROJECT MENU LINKS
    ========================================================= */
 
 .tsr-projects-menu
@@ -441,54 +652,165 @@
 
   align-items: center !important;
 
+  gap: 0.75rem;
+
   width: 100% !important;
 
   box-sizing: border-box !important;
 
-  padding: 0.7rem 0.75rem !important;
+  padding:
+    0.7rem 0.75rem !important;
 
   margin: 0 !important;
 
-  border-radius: 7px !important;
+  border-radius:
+    7px !important;
 
-  color: var(--md-default-fg-color) !important;
+  color:
+    var(--md-default-fg-color) !important;
+
+  background:
+    transparent !important;
+
+  font-size: 0.78rem;
+
+  font-weight: 500;
 
   text-decoration: none !important;
 
   cursor: pointer !important;
 
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease;
 }
 
+
+/* Project hover */
 
 .tsr-projects-menu
 .tsr-project-link:hover {
 
-  background: var(--tsr-accent-soft) !important;
+  background:
+    var(--tsr-accent-soft) !important;
 
-  color: var(--tsr-accent-dark) !important;
+  color:
+    var(--tsr-accent-dark) !important;
 
+  text-decoration: none !important;
+
+  transform:
+    translateX(2px);
 }
 
 
 /* =========================================================
-   PREVENT MATERIAL TAB CLIPPING
+   15. PROJECT ICON
    ========================================================= */
 
-.md-header,
-.md-tabs,
-.md-tabs__inner,
-.md-tabs__list {
+.tsr-project-icon {
 
-  overflow: visible !important;
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  width: 1.8rem;
+  height: 1.8rem;
+
+  border-radius: 7px;
+
+  background:
+    var(--tsr-accent-soft);
+
+  font-size: 0.95rem;
+}
+
+
+/* =========================================================
+   16. PROJECT NAME
+   ========================================================= */
+
+.tsr-project-name {
+  line-height: 1.25;
+}
+
+
+/* =========================================================
+   17. DARK MODE
+   ========================================================= */
+
+[data-md-color-scheme="slate"]
+.tsr-projects-menu {
+
+  background:
+    var(--md-default-bg-color) !important;
+
+  border-color:
+    var(--md-default-fg-color--lightest) !important;
+
+  box-shadow:
+    0 12px 30px
+    rgba(0, 0, 0, 0.45) !important;
+}
+
+
+/* =========================================================
+   18. DESKTOP
+   ========================================================= */
+
+@media screen and (min-width: 76.25em) {
+
+  .tsr-projects-button {
+    font-size: 0.78rem !important;
+  }
+
+  .tsr-projects-menu {
+    min-width: 330px !important;
+  }
 
 }
 
 
 /* =========================================================
-   MOBILE
+   19. TABLET
+   ========================================================= */
+
+@media screen and (max-width: 76.24em) {
+
+  .tsr-projects-menu {
+
+    width: 300px !important;
+
+    max-width:
+      calc(100vw - 1.5rem) !important;
+  }
+
+}
+
+
+/* =========================================================
+   20. MOBILE
    ========================================================= */
 
 @media screen and (max-width: 600px) {
+
+  .md-tabs__item.tsr-projects-dropdown
+  .tsr-projects-button {
+
+    min-height: 2.8rem;
+
+    padding:
+      0 0.65rem !important;
+
+    font-size:
+      0.72rem !important;
+  }
+
 
   .md-tabs__item.tsr-projects-dropdown
   .tsr-projects-menu {
@@ -507,7 +829,6 @@
 
     transform:
       translateY(-8px) !important;
-
   }
 
 
@@ -516,7 +837,43 @@
 
     transform:
       translateY(0) !important;
+  }
 
+
+  .tsr-projects-menu
+  .tsr-project-link {
+
+    padding:
+      0.75rem !important;
+
+    font-size:
+      0.76rem !important;
+  }
+
+}
+
+
+/* =========================================================
+   21. SMALL MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 400px) {
+
+  .tsr-projects-menu
+  .tsr-project-link {
+
+    gap: 0.6rem;
+
+    padding:
+      0.65rem !important;
+  }
+
+  .tsr-project-icon {
+
+    width: 1.7rem;
+    height: 1.7rem;
+
+    font-size: 0.9rem;
   }
 
 }

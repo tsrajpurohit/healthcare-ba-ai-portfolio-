@@ -116,7 +116,8 @@ extra_css:
 nav:
   - Home: index.md
 
-  - About Me: about.md
+  - About:
+      - About Me: about.md
       - Portfolio Overview: overview.md
       - BA Approach: ba-approach.md
       - Projects overview: projects.md

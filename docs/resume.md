@@ -8,9 +8,9 @@ hide:
 
 **Healthcare Business Analyst | Healthcare Technology | AI Product Analyst**
 
-Ahmedabad, India · +91-9001430601 · Tsrajpurohit322@gmail.com  
-[LinkedIn](https://linkedin.com/in/tej-singh-rajpurohit-39071694) ·
-[Download PDF](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
+:material-map-marker-outline: Ahmedabad, India &nbsp;·&nbsp; :material-phone-outline: +91-9001430601 &nbsp;·&nbsp; :material-email-outline: Tsrajpurohit322@gmail.com &nbsp;·&nbsp; [:material-linkedin: LinkedIn](https://linkedin.com/in/tej-singh-rajpurohit-39071694)
+
+[:material-file-pdf-box: Download PDF](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button .md-button--primary }
 
 ---
 
@@ -34,7 +34,7 @@ Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and
 
 ## Professional Experience
 
-### Assistant Manager – Business Development  
+### :material-briefcase: Assistant Manager – Business Development  
 **Espee Drugs & Finechem Co.** — Ahmedabad, India  
 *July 2019 – September 2020*
 
@@ -44,7 +44,7 @@ Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and
 - Analyzed technical and documentation requirements and communicated relevant information between stakeholders.
 - Supported resolution of cross-functional issues related to product development, quality, and regulatory requirements.
 
-### Junior Executive – Regulatory Affairs  
+### :material-briefcase-outline: Junior Executive – Regulatory Affairs  
 **Lyka Labs Limited** — Ankleshwar, Gujarat  
 *November 2018 – June 2019*
 
@@ -57,18 +57,18 @@ Healthcare domain professional with a **Master of Pharmacy in Pharmacology** and
 
 ## Healthcare Technology Portfolio
 
-**[Portfolio website](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/)** · Business Analysis portfolio case studies / simulations — *not commercial employment projects*.
+**[:material-web: Portfolio website](https://tsrajpurohit.github.io/healthcare-ba-ai-portfolio-/)** · Business Analysis portfolio case studies / simulations — *not commercial employment projects*.
 
-### Hospital Management System | Business Analysis Case Study
+### :material-hospital-box-outline: Hospital Management System | Business Analysis Case Study
 Analyzed hospital workflows and elicited functional requirements for patient registration, scheduling, appointments, and billing. Created stakeholder analysis, BRD/FRD, AS-IS/TO-BE models, user stories, acceptance criteria, Jira backlog items, and UAT scenarios.
 
-### Clinical Trial Management System | Business Analysis Case Study
+### :material-flask-outline: Clinical Trial Management System | Business Analysis Case Study
 Analyzed clinical trial workflows and stakeholder requirements covering trial setup, patient enrollment, site activities, documentation, and protocol compliance. Developed process models, requirements, user stories, acceptance criteria, and UAT scenarios.
 
-### AI Healthcare Revenue Cycle Management Platform | AI Product / BA Case Study
+### :material-cash-sync: AI Healthcare Revenue Cycle Management Platform | AI Product / BA Case Study
 Analyzed healthcare RCM workflows and identified AI automation opportunities. Defined requirements and business rules for claim validation, document processing, denial management, and revenue analytics, supported by workflows, user stories, and acceptance criteria.
 
-### Healthcare Analytics Dashboard | Business Analysis / Product Case Study
+### :material-chart-box-outline: Healthcare Analytics Dashboard | Business Analysis / Product Case Study
 Defined healthcare analytics and reporting requirements, including KPI definitions, dashboard requirements, user stories, acceptance criteria, and validation scenarios for operational decision-making.
 
 ---

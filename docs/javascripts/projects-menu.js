@@ -34,45 +34,34 @@
     }
   ];
 
-  /* ---------------------------------------------------------
-     Get MkDocs site base URL
-     --------------------------------------------------------- */
+
+  /* =========================================================
+     SITE BASE
+     ========================================================= */
 
   function getSiteBase() {
-    const base = document.querySelector("base");
-
-    if (base && base.href) {
-      return base.href.replace(/\/$/, "") + "/";
-    }
-
-    const siteUrl = document.querySelector(
-      'meta[name="generator"]'
-    );
 
     const pathname = window.location.pathname;
 
-    /*
-     * GitHub Pages repository deployment
-     */
-    if (pathname.includes("/healthcare-ba-ai-portfolio-/")) {
-      return "/healthcare-ba-ai-portfolio-/";
+    const marker =
+      "/healthcare-ba-ai-portfolio-/";
+
+    if (pathname.includes(marker)) {
+      return (
+        pathname.split(marker)[0] +
+        marker
+      );
     }
 
     return "/";
   }
 
 
-  /* ---------------------------------------------------------
-     Close dropdown
-     --------------------------------------------------------- */
+  /* =========================================================
+     CLOSE MENU
+     ========================================================= */
 
-  function closeProjectsMenu(wrapper) {
-
-    if (!wrapper) {
-      wrapper = document.querySelector(
-        ".tsr-projects-dropdown"
-      );
-    }
+  function closeMenu(wrapper) {
 
     if (!wrapper) {
       return;
@@ -82,9 +71,10 @@
       "tsr-projects-open"
     );
 
-    const button = wrapper.querySelector(
-      ".tsr-projects-button"
-    );
+    const button =
+      wrapper.querySelector(
+        ".tsr-projects-button"
+      );
 
     if (button) {
       button.setAttribute(
@@ -95,23 +85,24 @@
   }
 
 
-  /* ---------------------------------------------------------
-     Create dropdown
-     --------------------------------------------------------- */
+  /* =========================================================
+     CREATE MENU
+     ========================================================= */
 
   function createProjectsMenu() {
 
-    const tabsList = document.querySelector(
-      ".md-tabs__list"
-    );
+    const tabsList =
+      document.querySelector(
+        ".md-tabs__list"
+      );
 
     if (!tabsList) {
       return;
     }
 
-    /*
-     * Prevent duplicates.
-     */
+
+    /* Prevent duplicate */
+
     if (
       tabsList.querySelector(
         ".tsr-projects-dropdown"
@@ -121,70 +112,72 @@
     }
 
 
-    /* -------------------------------------------------------
-       Find original Projects tab
-       ------------------------------------------------------- */
+    /* Find Projects tab */
 
-    const tabItems = Array.from(
-      tabsList.querySelectorAll(
-        ".md-tabs__item"
-      )
-    );
+    const tabItems =
+      Array.from(
+        tabsList.querySelectorAll(
+          ".md-tabs__item"
+        )
+      );
 
-    const projectsTab = tabItems.find(
-      function (item) {
+    const projectsTab =
+      tabItems.find(
+        function (item) {
 
-        const link = item.querySelector(
-          ".md-tabs__link"
-        );
+          const link =
+            item.querySelector(
+              ".md-tabs__link"
+            );
 
-        return (
-          link &&
-          link.textContent
-            .trim()
-            .toLowerCase() === "projects"
-        );
+          return (
+            link &&
+            link.textContent
+              .trim()
+              .toLowerCase() ===
+              "projects"
+          );
 
-      }
-    );
+        }
+      );
 
 
-    /*
-     * Projects tab doesn't exist.
-     */
     if (!projectsTab) {
+
       console.warn(
-        "Projects dropdown: Projects tab not found."
+        "TSR Projects: Projects tab not found."
       );
 
       return;
     }
 
 
-    /* -------------------------------------------------------
-       Wrapper
-       ------------------------------------------------------- */
+    /* =======================================================
+       WRAPPER
+       ======================================================= */
 
-    const wrapper = document.createElement(
-      "li"
-    );
+    const wrapper =
+      document.createElement("li");
 
     wrapper.className =
       "md-tabs__item tsr-projects-dropdown";
 
 
-    /* -------------------------------------------------------
-       Button
-       ------------------------------------------------------- */
+    /* =======================================================
+       BUTTON
 
-    const button = document.createElement(
-      "button"
-    );
+       IMPORTANT:
+       Do NOT add md-tabs__link here.
+       Material must not treat this as a navigation link.
+       ======================================================= */
+
+    const button =
+      document.createElement("button");
 
     button.type = "button";
 
     button.className =
-      "md-tabs__link tsr-projects-button";
+      "tsr-projects-button";
 
     button.setAttribute(
       "aria-expanded",
@@ -205,13 +198,12 @@
     `;
 
 
-    /* -------------------------------------------------------
-       Dropdown menu
-       ------------------------------------------------------- */
+    /* =======================================================
+       MENU
+       ======================================================= */
 
-    const menu = document.createElement(
-      "div"
-    );
+    const menu =
+      document.createElement("div");
 
     menu.className =
       "tsr-projects-menu";
@@ -222,23 +214,19 @@
     );
 
 
-    /* -------------------------------------------------------
-       Site base
-       ------------------------------------------------------- */
-
-    const base = getSiteBase();
+    const base =
+      getSiteBase();
 
 
-    /* -------------------------------------------------------
-       Create project links
-       ------------------------------------------------------- */
+    /* =======================================================
+       PROJECT LINKS
+       ======================================================= */
 
     projects.forEach(
       function (project) {
 
-        const link = document.createElement(
-          "a"
-        );
+        const link =
+          document.createElement("a");
 
         link.className =
           "tsr-project-link";
@@ -270,32 +258,27 @@
     );
 
 
-    /* -------------------------------------------------------
-       Assemble
-       ------------------------------------------------------- */
+    /* =======================================================
+       BUILD
+       ======================================================= */
 
     wrapper.appendChild(button);
+
     wrapper.appendChild(menu);
 
-
-    /* -------------------------------------------------------
-       Replace original Projects tab
-       ------------------------------------------------------- */
-
-    projectsTab.replaceWith(
-      wrapper
-    );
+    projectsTab.replaceWith(wrapper);
 
 
-    /* -------------------------------------------------------
-       Toggle
-       ------------------------------------------------------- */
+    /* =======================================================
+       BUTTON CLICK
+       ======================================================= */
 
     button.addEventListener(
       "click",
       function (event) {
 
         event.preventDefault();
+
         event.stopPropagation();
 
         const isOpen =
@@ -303,23 +286,14 @@
             "tsr-projects-open"
           );
 
-        /*
-         * Close any other open dropdown.
-         */
-        document
-          .querySelectorAll(
-            ".tsr-projects-dropdown"
-          )
-          .forEach(
-            function (item) {
-              closeProjectsMenu(item);
-            }
-          );
+
+        /* Close */
+
+        closeMenu(wrapper);
 
 
-        /*
-         * Open this dropdown.
-         */
+        /* Open */
+
         if (!isOpen) {
 
           wrapper.classList.add(
@@ -333,16 +307,19 @@
 
         }
 
-      }
+      },
+      true
     );
 
 
-    /* -------------------------------------------------------
-       Close after clicking project
-       ------------------------------------------------------- */
+    /* =======================================================
+       MENU LINK CLICK
+       ======================================================= */
 
     menu
-      .querySelectorAll("a")
+      .querySelectorAll(
+        ".tsr-project-link"
+      )
       .forEach(
         function (link) {
 
@@ -350,9 +327,7 @@
             "click",
             function () {
 
-              closeProjectsMenu(
-                wrapper
-              );
+              closeMenu(wrapper);
 
             }
           );
@@ -361,9 +336,9 @@
       );
 
 
-    /* -------------------------------------------------------
-       Outside click
-       ------------------------------------------------------- */
+    /* =======================================================
+       OUTSIDE CLICK
+       ======================================================= */
 
     document.addEventListener(
       "click",
@@ -375,19 +350,18 @@
           )
         ) {
 
-          closeProjectsMenu(
-            wrapper
-          );
+          closeMenu(wrapper);
 
         }
 
-      }
+      },
+      true
     );
 
 
-    /* -------------------------------------------------------
-       Escape
-       ------------------------------------------------------- */
+    /* =======================================================
+       ESCAPE
+       ======================================================= */
 
     document.addEventListener(
       "keydown",
@@ -397,9 +371,7 @@
           event.key === "Escape"
         ) {
 
-          closeProjectsMenu(
-            wrapper
-          );
+          closeMenu(wrapper);
 
         }
 
@@ -409,16 +381,11 @@
   }
 
 
-  /* ---------------------------------------------------------
-     Initialize
-     --------------------------------------------------------- */
+  /* =========================================================
+     INITIALIZATION
+     ========================================================= */
 
-  function initProjectsDropdown() {
-
-    /*
-     * Small delay allows Material's navigation
-     * to finish rendering.
-     */
+  function init() {
 
     setTimeout(
       createProjectsMenu,
@@ -428,18 +395,22 @@
   }
 
 
-  /* ---------------------------------------------------------
-     Material instant navigation
-     * --------------------------------------------------------- */
+  /* =========================================================
+     MATERIAL INSTANT NAVIGATION
+     ========================================================= */
 
   if (
-    typeof document$ !== "undefined"
+    typeof document$ !==
+    "undefined"
   ) {
 
     document$.subscribe(
       function () {
 
-        initProjectsDropdown();
+        setTimeout(
+          createProjectsMenu,
+          100
+        );
 
       }
     );
@@ -448,7 +419,7 @@
 
     document.addEventListener(
       "DOMContentLoaded",
-      initProjectsDropdown
+      init
     );
 
   }

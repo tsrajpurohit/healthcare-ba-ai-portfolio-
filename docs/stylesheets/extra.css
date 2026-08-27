@@ -269,130 +269,254 @@
 
 
 /* =========================================================
-   PROJECTS DROPDOWN — MATERIAL OVERRIDE
+   FINAL PROJECT DROPDOWN FIX
    ========================================================= */
 
-/*
- * Make sure the Material tab container does not
- * clip the custom dropdown.
- */
-.md-tabs {
-  overflow: visible !important;
-}
-
-.md-tabs__list {
-  overflow: visible !important;
-}
-
-
-/*
- * Make Projects the positioning context.
- */
-.tsr-projects-dropdown {
+/* Projects wrapper */
+.md-tabs__item.tsr-projects-dropdown {
   position: relative !important;
+  display: flex !important;
+  align-items: stretch !important;
   overflow: visible !important;
 }
 
 
-/*
- * Make the custom button behave exactly like
- * a Material navigation tab.
- */
+/* Projects button */
+.md-tabs__item.tsr-projects-dropdown
 .tsr-projects-button {
-  appearance: none;
-  -webkit-appearance: none;
 
-  border: 0;
+  display: inline-flex !important;
 
-  margin: 0;
+  align-items: center !important;
+  justify-content: center !important;
 
-  font-family: inherit;
+  gap: 0.35rem;
 
-  line-height: inherit;
+  width: auto !important;
+  height: auto !important;
 
-  cursor: pointer;
+  min-height: 3rem;
 
-  color: inherit;
+  padding: 0 0.8rem !important;
 
-  background: transparent;
+  margin: 0 !important;
 
-  text-decoration: none;
+  border: 0 !important;
+  outline: none !important;
+
+  background: transparent !important;
+
+  color: inherit !important;
+
+  cursor: pointer !important;
+
+  font-family: inherit !important;
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+
+  text-decoration: none !important;
+
+  appearance: none !important;
+  -webkit-appearance: none !important;
+
+  position: relative !important;
+
+  z-index: 10001 !important;
 }
 
 
-/*
- * Dropdown must appear above the page.
- */
+/* Button hover */
+.md-tabs__item.tsr-projects-dropdown
+.tsr-projects-button:hover {
+
+  background: rgba(255, 255, 255, 0.08) !important;
+
+}
+
+
+/* Chevron */
+.tsr-projects-chevron {
+
+  display: inline-block;
+
+  font-size: 0.7rem;
+
+  line-height: 1;
+
+  transition: transform 0.2s ease;
+
+}
+
+
+/* Rotate chevron */
+.tsr-projects-dropdown.tsr-projects-open
+.tsr-projects-chevron {
+
+  transform: rotate(180deg);
+
+}
+
+
+/* =========================================================
+   DROPDOWN PANEL
+   ========================================================= */
+
+.md-tabs__item.tsr-projects-dropdown
 .tsr-projects-menu {
-  z-index: 9999 !important;
+
+  display: block !important;
+
+  position: absolute !important;
+
+  top: calc(100% + 0.25rem) !important;
+
+  left: 50% !important;
+
+  width: 330px !important;
+
+  max-width: 90vw !important;
+
+  padding: 0.45rem !important;
+
+  margin: 0 !important;
+
+  background: var(--md-default-bg-color) !important;
+
+  border: 1px solid
+    var(--md-default-fg-color--lightest) !important;
+
+  border-radius: 10px !important;
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.2) !important;
+
+  opacity: 0 !important;
+
+  visibility: hidden !important;
+
+  pointer-events: none !important;
+
+  transform:
+    translateX(-50%)
+    translateY(-8px) !important;
+
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease,
+    visibility 0.18s ease !important;
+
+  z-index: 10000 !important;
+
 }
 
 
-/*
- * Make sure the header itself doesn't clip it.
- */
+/* =========================================================
+   OPEN STATE
+   ========================================================= */
+
+.md-tabs__item.tsr-projects-dropdown.tsr-projects-open
+.tsr-projects-menu {
+
+  opacity: 1 !important;
+
+  visibility: visible !important;
+
+  pointer-events: auto !important;
+
+  transform:
+    translateX(-50%)
+    translateY(0) !important;
+
+}
+
+
+/* =========================================================
+   PROJECT LINKS
+   ========================================================= */
+
+.tsr-projects-menu
+.tsr-project-link {
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  width: 100% !important;
+
+  box-sizing: border-box !important;
+
+  padding: 0.7rem 0.75rem !important;
+
+  margin: 0 !important;
+
+  border-radius: 7px !important;
+
+  color: var(--md-default-fg-color) !important;
+
+  text-decoration: none !important;
+
+  cursor: pointer !important;
+
+}
+
+
+.tsr-projects-menu
+.tsr-project-link:hover {
+
+  background: var(--tsr-accent-soft) !important;
+
+  color: var(--tsr-accent-dark) !important;
+
+}
+
+
+/* =========================================================
+   PREVENT MATERIAL TAB CLIPPING
+   ========================================================= */
+
 .md-header,
-.md-tabs {
+.md-tabs,
+.md-tabs__inner,
+.md-tabs__list {
+
   overflow: visible !important;
-}
-
-
-/* =========================================================
-   PROJECT DROPDOWN — DESKTOP
-   ========================================================= */
-
-@media screen and (min-width: 76.25em) {
-
-  .tsr-projects-menu {
-    min-width: 320px;
-    max-width: 360px;
-
-    left: 50%;
-
-    transform:
-      translateX(-50%)
-      translateY(-8px);
-  }
-
-  .tsr-projects-open
-  .tsr-projects-menu {
-
-    transform:
-      translateX(-50%)
-      translateY(0);
-  }
 
 }
 
 
 /* =========================================================
-   PROJECT DROPDOWN — MOBILE
+   MOBILE
    ========================================================= */
 
-@media screen and (max-width: 76.24em) {
+@media screen and (max-width: 600px) {
 
+  .md-tabs__item.tsr-projects-dropdown
   .tsr-projects-menu {
 
-    position: fixed;
+    position: fixed !important;
 
-    top: 4rem;
+    top: 4rem !important;
 
-    left: 0.75rem;
-    right: 0.75rem;
+    left: 0.75rem !important;
 
-    width: auto;
+    right: 0.75rem !important;
 
-    max-width: none;
+    width: auto !important;
+
+    max-width: none !important;
 
     transform:
-      translateY(-8px);
+      translateY(-8px) !important;
+
   }
 
-  .tsr-projects-open
+
+  .md-tabs__item.tsr-projects-dropdown.tsr-projects-open
   .tsr-projects-menu {
 
     transform:
-      translateY(0);
+      translateY(0) !important;
+
   }
 
 }

@@ -1,12 +1,12 @@
 /* =========================================================
-   Healthcare BA & AI Portfolio
-   Projects Dropdown Navigation
+   TSR PORTFOLIO
+   CUSTOM PROJECTS DROPDOWN
    ========================================================= */
 
 (function () {
   "use strict";
 
-  const projects = [
+  const PROJECTS = [
     {
       name: "Hospital Management System",
       icon: "🏥",
@@ -36,15 +36,27 @@
 
 
   /* =========================================================
-     SITE BASE
+     GET SITE ROOT
      ========================================================= */
 
-  function getSiteBase() {
+  function getSiteRoot() {
 
-    const pathname = window.location.pathname;
+    const siteUrl =
+      document
+        .querySelector('meta[name="site-url"]')
+        ?.getAttribute("content");
+
+    if (siteUrl) {
+      return siteUrl.endsWith("/")
+        ? siteUrl
+        : siteUrl + "/";
+    }
 
     const marker =
       "/healthcare-ba-ai-portfolio-/";
+
+    const pathname =
+      window.location.pathname;
 
     if (pathname.includes(marker)) {
       return (
@@ -58,14 +70,12 @@
 
 
   /* =========================================================
-     CLOSE MENU
+     CLOSE
      ========================================================= */
 
-  function closeMenu(wrapper) {
+  function closeDropdown(wrapper) {
 
-    if (!wrapper) {
-      return;
-    }
+    if (!wrapper) return;
 
     wrapper.classList.remove(
       "tsr-projects-open"
@@ -86,10 +96,36 @@
 
 
   /* =========================================================
-     CREATE MENU
+     OPEN
      ========================================================= */
 
-  function createProjectsMenu() {
+  function openDropdown(wrapper) {
+
+    if (!wrapper) return;
+
+    wrapper.classList.add(
+      "tsr-projects-open"
+    );
+
+    const button =
+      wrapper.querySelector(
+        ".tsr-projects-button"
+      );
+
+    if (button) {
+      button.setAttribute(
+        "aria-expanded",
+        "true"
+      );
+    }
+  }
+
+
+  /* =========================================================
+     CREATE DROPDOWN
+     ========================================================= */
+
+  function createProjectsDropdown() {
 
     const tabsList =
       document.querySelector(
@@ -101,7 +137,9 @@
     }
 
 
-    /* Prevent duplicate */
+    /*
+     * Already created?
+     */
 
     if (
       tabsList.querySelector(
@@ -112,17 +150,19 @@
     }
 
 
-    /* Find Projects tab */
+    /*
+     * Find original Projects tab
+     */
 
-    const tabItems =
+    const originalItems =
       Array.from(
         tabsList.querySelectorAll(
-          ".md-tabs__item"
+          ":scope > .md-tabs__item"
         )
       );
 
-    const projectsTab =
-      tabItems.find(
+    const originalProjects =
+      originalItems.find(
         function (item) {
 
           const link =
@@ -137,15 +177,14 @@
               .toLowerCase() ===
               "projects"
           );
-
         }
       );
 
 
-    if (!projectsTab) {
+    if (!originalProjects) {
 
       console.warn(
-        "TSR Projects: Projects tab not found."
+        "TSR: Projects navigation item not found."
       );
 
       return;
@@ -165,10 +204,6 @@
 
     /* =======================================================
        BUTTON
-
-       IMPORTANT:
-       Do NOT add md-tabs__link here.
-       Material must not treat this as a navigation link.
        ======================================================= */
 
     const button =
@@ -176,8 +211,18 @@
 
     button.type = "button";
 
+    /*
+     * IMPORTANT:
+     * This must NOT contain md-tabs__link.
+     */
+
     button.className =
       "tsr-projects-button";
+
+    button.setAttribute(
+      "aria-haspopup",
+      "true"
+    );
 
     button.setAttribute(
       "aria-expanded",
@@ -185,16 +230,21 @@
     );
 
     button.setAttribute(
-      "aria-haspopup",
-      "true"
+      "aria-label",
+      "Open Projects menu"
     );
 
     button.innerHTML = `
-      <span>Projects</span>
+      <span class="tsr-projects-label">
+        Projects
+      </span>
+
       <span
         class="tsr-projects-chevron"
         aria-hidden="true"
-      >▾</span>
+      >
+        ▾
+      </span>
     `;
 
 
@@ -213,16 +263,21 @@
       "menu"
     );
 
+    menu.setAttribute(
+      "aria-hidden",
+      "true"
+    );
 
-    const base =
-      getSiteBase();
+
+    const siteRoot =
+      getSiteRoot();
 
 
     /* =======================================================
        PROJECT LINKS
        ======================================================= */
 
-    projects.forEach(
+    PROJECTS.forEach(
       function (project) {
 
         const link =
@@ -232,7 +287,7 @@
           "tsr-project-link";
 
         link.href =
-          base + project.path;
+          siteRoot + project.path;
 
         link.setAttribute(
           "role",
@@ -253,67 +308,89 @@
         `;
 
         menu.appendChild(link);
-
       }
     );
 
 
     /* =======================================================
-       BUILD
+       ASSEMBLE
        ======================================================= */
 
     wrapper.appendChild(button);
 
     wrapper.appendChild(menu);
 
-    projectsTab.replaceWith(wrapper);
+
+    /*
+     * Replace ONLY the top navigation Projects tab.
+     */
+
+    originalProjects.replaceWith(
+      wrapper
+    );
 
 
     /* =======================================================
        BUTTON CLICK
        ======================================================= */
 
-    button.addEventListener(
-      "click",
+    button.onclick =
       function (event) {
 
         event.preventDefault();
 
         event.stopPropagation();
 
-        const isOpen =
+        const currentlyOpen =
           wrapper.classList.contains(
             "tsr-projects-open"
           );
 
 
-        /* Close */
+        /*
+         * Close every other TSR dropdown
+         */
 
-        closeMenu(wrapper);
+        document
+          .querySelectorAll(
+            ".tsr-projects-dropdown"
+          )
+          .forEach(
+            function (item) {
 
+              if (item !== wrapper) {
+                closeDropdown(item);
+              }
 
-        /* Open */
-
-        if (!isOpen) {
-
-          wrapper.classList.add(
-            "tsr-projects-open"
+            }
           );
 
-          button.setAttribute(
-            "aria-expanded",
+
+        if (currentlyOpen) {
+
+          closeDropdown(wrapper);
+
+          menu.setAttribute(
+            "aria-hidden",
             "true"
+          );
+
+        } else {
+
+          openDropdown(wrapper);
+
+          menu.setAttribute(
+            "aria-hidden",
+            "false"
           );
 
         }
 
-      },
-      true
-    );
+      };
 
 
     /* =======================================================
-       MENU LINK CLICK
+       PROJECT CLICK
        ======================================================= */
 
     menu
@@ -327,7 +404,9 @@
             "click",
             function () {
 
-              closeMenu(wrapper);
+              closeDropdown(
+                wrapper
+              );
 
             }
           );
@@ -350,12 +429,18 @@
           )
         ) {
 
-          closeMenu(wrapper);
+          closeDropdown(
+            wrapper
+          );
+
+          menu.setAttribute(
+            "aria-hidden",
+            "true"
+          );
 
         }
 
-      },
-      true
+      }
     );
 
 
@@ -371,24 +456,35 @@
           event.key === "Escape"
         ) {
 
-          closeMenu(wrapper);
+          closeDropdown(
+            wrapper
+          );
+
+          menu.setAttribute(
+            "aria-hidden",
+            "true"
+          );
 
         }
 
       }
     );
 
+
+    console.log(
+      "TSR Projects dropdown initialized."
+    );
   }
 
 
   /* =========================================================
-     INITIALIZATION
+     INITIAL LOAD
      ========================================================= */
 
-  function init() {
+  function initialize() {
 
     setTimeout(
-      createProjectsMenu,
+      createProjectsDropdown,
       100
     );
 
@@ -396,7 +492,7 @@
 
 
   /* =========================================================
-     MATERIAL INSTANT NAVIGATION
+     MKDOCS MATERIAL INSTANT NAVIGATION
      ========================================================= */
 
   if (
@@ -408,7 +504,7 @@
       function () {
 
         setTimeout(
-          createProjectsMenu,
+          createProjectsDropdown,
           100
         );
 
@@ -417,10 +513,21 @@
 
   } else {
 
-    document.addEventListener(
-      "DOMContentLoaded",
-      init
-    );
+    if (
+      document.readyState ===
+      "loading"
+    ) {
+
+      document.addEventListener(
+        "DOMContentLoaded",
+        initialize
+      );
+
+    } else {
+
+      initialize();
+
+    }
 
   }
 

@@ -6,8 +6,6 @@
 
 [:material-file-account: Resume](resume.md){ .md-button .md-button--primary .md-button--small }
 [:material-linkedin: LinkedIn](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button .md-button--small }
-[:material-github: GitHub Repository](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button .md-button--small }
-[:material-map: How I Approach BA](ba-approach.md){ .md-button .md-button--small }
  
 ---
 
@@ -140,9 +138,5 @@ I translate a business problem into a structured, testable solution:
 <div class="grid cards" markdown>
 
 -   [:material-linkedin: **LinkedIn**](https://www.linkedin.com/in/tej-singh-rajpurohit-39071694/){ .md-button }
-
--   [:material-github: **GitHub Repo**](https://github.com/tsrajpurohit/Healthcare-BA-Case-studies){ .md-button }
-
--   [:material-file-pdf-box: **Resume (PDF)**](assets/Tej-Singh-Rajpurohit-Resume.pdf){ .md-button }
 
 </div>

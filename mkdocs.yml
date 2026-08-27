@@ -129,6 +129,9 @@ extra:
 
   generator: false
 
+extra_javascript:
+  - javascripts/projects-menu.js
+  
 extra_css:
   - stylesheets/extra.css
 

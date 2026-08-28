@@ -23,7 +23,7 @@
 ### Recommended Dashboard Pages
 
 1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption
-   [Executive RCM Pulse](rcm/assets/samples/executive_rcm_pulse.png)
+   [Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
 3. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
 4. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
 5. **Workqueue Effectiveness** – Recovery rate of AI-prioritized vs traditional queues

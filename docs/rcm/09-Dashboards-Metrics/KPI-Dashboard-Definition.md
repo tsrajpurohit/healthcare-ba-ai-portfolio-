@@ -35,14 +35,14 @@
   <figcaption>Executive RCM Pulse Dashboard Mockup</figcaption>
 </figure>
 
-1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption  
+1. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
 
-   ??? note "Click to view Executive RCM Pulse Dashboard"
-       ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
+   ??? note "Click to view AI Performance Dashboard"
+       ![AI Performance](../assets/samples/ai_performance.png)
 
 2. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts  
 
-   ??? note "Click to view AI Performance Dashboard"
+   ???+ note "Click to collapse AI Performance Dashboard"
        ![AI Performance](../assets/samples/ai_performance.png)
 
    <div class="grid cards" markdown>

@@ -23,40 +23,27 @@
 ### Recommended Dashboard Pages
 
 1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption
-   [Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
-3. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
-4. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
-5. **Workqueue Effectiveness** – Recovery rate of AI-prioritized vs traditional queues
-6. **Coding Assist Impact** – Suggestion acceptance, coding time trend, under/over coding indicators
-1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption  
 
 <figure markdown="span">
   ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png){ align=center }
-  <figcaption>Executive RCM Pulse Dashboard Mockup</figcaption>
+  <figcaption>Executive RCM Pulse Dashboard</figcaption>
 </figure>
 
-1. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
+2. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
 
-   ??? note "Click to view AI Performance Dashboard"
-       ![AI Performance](../assets/samples/ai_performance.png)
+<figure markdown="span">
+  ![AI Performance](../assets/samples/ai_performance.png){ align=center }
+  <figcaption>AI Performance Dashboard</figcaption>
+</figure>
 
-2. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts  
+3. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
 
-   ???+ note "Click to collapse AI Performance Dashboard"
-       ![AI Performance](../assets/samples/ai_performance.png)
+<figure markdown="span">
+  ![Denial Deep Dive](../assets/samples/denial_deep_dive.png){ align=center }
+  <figcaption>Denial Deep Dive Dashboard</figcaption>
+</figure>
 
-   <div class="grid cards" markdown>
-
--   **Executive RCM Pulse**
-    ---
-    ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
-
--   **AI Performance**
-    ---
-    ![AI Performance](../assets/samples/ai_performance.png)
-
-</div>
 ---
 
 ### Sample Data
-See `Sample-Metrics-Data.csv` for illustrative daily metrics that can be used to build demo dashboards in Power BI or Tableau.
+See [`Sample-Metrics-Data.csv`](Sample-Metrics-Data.csv) for illustrative daily metrics that can be used to build demo dashboards in Power BI or Tableau.

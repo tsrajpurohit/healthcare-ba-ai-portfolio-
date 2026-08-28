@@ -22,6 +22,42 @@
 
 ### Recommended Dashboard Pages
 
+=== ":material-monitor-dashboard: Executive RCM Pulse"
+    Clean Claim Rate · Denial Rate · Days in AR · Collection Trends · AI Adoption
+
+    ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
+
+=== ":material-robot: AI Performance"
+    Acceptance Rate · Precision/Recall Trends · Override Reasons · Drift Alerts
+
+    ![AI Performance](../assets/samples/ai_performance.png)
+
+=== ":material-alert-decagram-outline: Denial Deep Dive"
+    Denial Reasons · Overturn Rates by Category · AI vs. Manual Performance
+
+    ![Denial Deep Dive](../assets/samples/denial_deep_dive.png)
+---
+
+### Sample Data
+
+:material-file-delimited-outline: See [`Sample-Metrics-Data.csv`](Sample-Metrics-Data.csv) for illustrative metrics.
+
+
+
+<!--
+    ### Recommended Dashboard Pages
+
+!!! example "1 · Executive RCM Pulse"
+    Clean Claim Rate · Denial Rate · Days in AR · Collection Trends · AI Adoption
+
+    <figure markdown="span">
+      ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
+      <figcaption>Executive RCM Pulse Dashboard</figcaption>
+    </figure>
+-->
+
+
+<!--
 <div class="grid cards" markdown>
 
 -   #### :material-monitor-dashboard: Executive RCM Pulse
@@ -38,38 +74,4 @@
 
 </div>
 
-
----
-
-### Sample Data
-
-:material-file-delimited-outline: See [`Sample-Metrics-Data.csv`](Sample-Metrics-Data.csv) for illustrative metrics.
-
-### Recommended Dashboard Pages
-
-=== ":material-monitor-dashboard: Executive RCM Pulse"
-    Clean Claim Rate · Denial Rate · Days in AR · Collection Trends · AI Adoption
-
-    ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
-
-=== ":material-robot: AI Performance"
-    Acceptance Rate · Precision/Recall Trends · Override Reasons · Drift Alerts
-
-    ![AI Performance](../assets/samples/ai_performance.png)
-
-=== :material-alert-decagram-outline: Denial Deep Dive
-    Denial Reasons · Overturn Rates by Category · AI vs. Manual Performance
-
-    ![Denial Deep Dive](../assets/samples/denial_deep_dive.png)
-
-<!--
-    ### Recommended Dashboard Pages
-
-!!! example "1 · Executive RCM Pulse"
-    Clean Claim Rate · Denial Rate · Days in AR · Collection Trends · AI Adoption
-
-    <figure markdown="span">
-      ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
-      <figcaption>Executive RCM Pulse Dashboard</figcaption>
-    </figure>
 -->

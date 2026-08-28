@@ -23,10 +23,11 @@
 ### Recommended Dashboard Pages
 
 1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption
-2. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
-3. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
-4. **Workqueue Effectiveness** – Recovery rate of AI-prioritized vs traditional queues
-5. **Coding Assist Impact** – Suggestion acceptance, coding time trend, under/over coding indicators
+   [Executive RCM Pulse](rcm/assets/samples/executive_rcm_pulse.png)
+3. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts
+4. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
+5. **Workqueue Effectiveness** – Recovery rate of AI-prioritized vs traditional queues
+6. **Coding Assist Impact** – Suggestion acceptance, coding time trend, under/over coding indicators
 
 ---
 

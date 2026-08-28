@@ -28,7 +28,34 @@
 4. **Denial Deep Dive** – Denial reasons, Overturn rates by category, AI vs Manual performance
 5. **Workqueue Effectiveness** – Recovery rate of AI-prioritized vs traditional queues
 6. **Coding Assist Impact** – Suggestion acceptance, coding time trend, under/over coding indicators
+1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption  
 
+<figure markdown="span">
+  ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png){ align=center }
+  <figcaption>Executive RCM Pulse Dashboard Mockup</figcaption>
+</figure>
+
+1. **Executive RCM Pulse** – Clean Claim Rate, Denial Rate, Days in AR, Collection Trends, AI Adoption  
+
+   ??? note "Click to view Executive RCM Pulse Dashboard"
+       ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
+
+2. **AI Performance** – Acceptance rate, Precision/Recall trends, Override reasons distribution, Drift alerts  
+
+   ??? note "Click to view AI Performance Dashboard"
+       ![AI Performance](../assets/samples/ai_performance.png)
+
+   <div class="grid cards" markdown>
+
+-   **Executive RCM Pulse**
+    ---
+    ![Executive RCM Pulse](../assets/samples/executive_rcm_pulse.png)
+
+-   **AI Performance**
+    ---
+    ![AI Performance](../assets/samples/ai_performance.png)
+
+</div>
 ---
 
 ### Sample Data

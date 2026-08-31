@@ -67,14 +67,5 @@ Provide real-time and near-real-time visibility into the performance of Registra
 
 ---
 
-### 5. Sample Visualization Ideas (for Power BI / Tableau)
-- KPI cards with conditional coloring (Green / Amber / Red against target)
-- Line charts for trends (No-show rate, Registration time)
-- Bar charts for volume by hour / specialty
-- Pie / Donut for payment mode mix
-- Table with drill-through to patient / appointment details (role-based)
-
----
-
 ### 6. Benefits Tracking
 Post go-live, these KPIs will be used to measure actual benefits realization against the original Business Case targets.

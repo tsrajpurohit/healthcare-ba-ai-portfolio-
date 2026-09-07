@@ -30,7 +30,4 @@
 4. **Signal Pipeline** – New potential signals, prioritization distribution, review status  
 5. **AI Performance & Governance** – Acceptance rates, override reasons, model version, drift alerts  
 
----
-
-### Sample Data Note
-A representative sample metrics file can be added under `assets/samples/` or `09-Dashboards-Metrics/` for Power BI / Tableau demos showing improving cycle times and rising AI acceptance during a simulated pilot.
+---d rising AI acceptance during a simulated pilot.

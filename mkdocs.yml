@@ -101,7 +101,27 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-        
+
+  not_in_nav: |
+  - overview.md
+  - projects.md
+  - resume.md
+  - analytics/dashboards.md
+  - analytics/kpi.md
+  - ctms/processes.md
+  - ctms/requirements.md
+  - hms/processes.md
+  - hms/requirements.md
+  - hms/stakeholders.md
+  - hms/stories-uat.md
+  - hms/assets/README.md
+  - pv/ai-opportunity.md
+  - pv/day0.md
+  - pv/requirements.md
+  - rcm/Dashboard.md
+  - rcm/requirements.md
+  - rcm/assets/samples/sample.md
+  
   - pymdownx.tabbed:
       alternate_style: true
   - tables
@@ -118,8 +138,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  #- Home: index.md
-
+ 
   - Home:
       - Home: index.md
       - About Me: about.md

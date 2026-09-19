@@ -101,6 +101,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
 
 not_in_nav: |
   - overview.md
@@ -121,10 +124,6 @@ not_in_nav: |
   - rcm/Dashboard.md
   - rcm/requirements.md
   - rcm/assets/samples/sample.md
-  
-  - pymdownx.tabbed:
-      alternate_style: true
-  - tables
 
 extra:
   social:
@@ -138,14 +137,13 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
- 
   - Home:
       - Home: index.md
       - About Me: about.md
       - About BA Approach: ba-approach.md
       #- Portfolio Overview: overview.md
       #- About Case Study: projects.md
-       
+        
   - Hospital Management System:
       - Overview: hms/index.md
       - 1. Project Overview:
@@ -206,7 +204,7 @@ nav:
           - Acceptance Criteria: rcm/07-User-Stories-Backlog/Acceptance-Criteria.md
           - Sample Jira Backlog: rcm/07-User-Stories-Backlog/Sample-Jira-Backlog.csv
       - 8. UAT Scenarios:
-          - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
+          - Test Scenarios: rcm/08-UAT-Scenarios/Test-Scenarios.md
       - 9. Dashboards & Metrics:
           - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
           #- Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
@@ -313,5 +311,3 @@ nav:
           - Assumptions & Constraints: pv/10-Traceability-Risks/Assumptions-Constraints.md
           - Requirements Traceability Matrix: pv/10-Traceability-Risks/Requirements-Traceability-Matrix.md
           - Risk Register: pv/10-Traceability-Risks/Risk-Register.md
-
-  #- Resume: resume.md

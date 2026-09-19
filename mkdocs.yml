@@ -152,7 +152,7 @@ nav:
       - 7. UAT Scenarios:
           - UAT Test Scenarios: hms/07-UAT-Scenarios/UAT-Test-Scenarios.md
       - 8. Dashboards & Metrics:
-          - Dashboard Mockup Description: hms/08-Dashboards-Metrics/Dashboard-Mockup-Description.md
+          #- Dashboard Mockup Description: hms/08-Dashboards-Metrics/Dashboard-Mockup-Description.md
           - KPI Dashboard Definition: hms/08-Dashboards-Metrics/KPI-Dashboard-Definition.md
           - Sample Metrics Data: hms/08-Dashboards-Metrics/Sample-Metrics-Data.csv
       - 9. Traceability & Risks:
@@ -190,7 +190,7 @@ nav:
           - Test Scenarios: rcm/08-UAT-Scenarios/UAT-Test-Scenarios.md
       - 9. Dashboards & Metrics:
           - KPI Dashboard Definition: rcm/09-Dashboards-Metrics/KPI-Dashboard-Definition.md
-         # - Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
+          #- Sample Metrics Data: rcm/09-Dashboards-Metrics/Sample-Metrics-Data.csv
           #- Dashboard Mockup Description: rcm/09-Dashboards-Metrics/Dashboard-Mockup-Description.md
       - 10. Traceability & Risks:
           - Requirements Traceability Matrix: rcm/10-Traceability-Risks/Requirements-Traceability-Matrix.md

@@ -22,12 +22,3 @@
 
 ---
 
-### Recommended Dashboards
-
-1. **PV Operations Command Center** – Volumes, cycle times, backlog by priority, timeliness, AI adoption  
-2. **Case Processing Quality** – Rework rates, QC flag rates, coding consistency indicators  
-3. **Literature Pipeline** – Inflow, ranked queue size, decision mix, time-to-review  
-4. **Signal Pipeline** – New potential signals, prioritization distribution, review status  
-5. **AI Performance & Governance** – Acceptance rates, override reasons, model version, drift alerts  
-
----d rising AI acceptance during a simulated pilot.
